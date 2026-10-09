@@ -1,0 +1,81 @@
+[
+  {
+    "id": "corridor",
+    "title": "Explain the corridor system",
+    "prompt": "Explain the corridor system. Why does the interbank rate stay inside it?",
+    "quote": "If there is the verb 'explain', it is not sufficient to draw three lines. You must say something and explain why it is really a corridor.",
+    "where": "10_02 §8 (and 10_06 §1) · exam flag [1:21], [1:26]",
+    "keyPoints": [
+      "Names the three rates: marginal lending facility rate = ceiling, deposit facility rate = floor, MRO rate = policy rate in the middle",
+      "The overnight interbank rate oscillates around the MRO rate, because the central bank runs MROs continuously and supplies liquidity when it drifts",
+      "Ceiling: above it, a bank borrows from the central bank instead → interbank demand falls → rate falls back",
+      "Floor: below it, a bank with excess liquidity deposits at the central bank instead → interbank supply falls → rate rises back",
+      "Exception: in a severe crisis (2007–08) the rate can exceed the ceiling if the central bank does not open the window / supply liquidity",
+      "Signal: the level of the rates (up = more restrictive) and the width (narrow = less fluctuation tolerated)"
+    ]
+  },
+  {
+    "id": "forward",
+    "title": "Term structure: forward rates and the upward slope",
+    "prompt": "Explain the expectations theory of the term structure. How do you obtain the forward rates implicit in the yield curve, and why is the curve usually upward-sloping?",
+    "quote": "It is implicit in the yield curve the forward interest rate expected by the market. This is the typical question in the exam, because it is very easy to answer.",
+    "where": "10_06 §§7–11; 10_08 §1 · exam flag [1:02] and [0:04–0:05]",
+    "drill": "forward",
+    "keyPoints": [
+      "Expectations theory: the expected return of the strategies (roll over short vs hold long) is the same for any horizon; the long rate ≈ average of current and expected short rates",
+      "No-arbitrage argument: if (1+R)ⁿ > Π(1+rᵢ), borrow short and invest long → short rates rise, the long rate falls, until equality",
+      "Formula: 1 + rₙ = (1 + Rₙ)ⁿ / (1 + Rₙ₋₁)ⁿ⁻¹, and can apply it with numbers",
+      "The yield curve contains a structure of forward rates: it reflects market expectations",
+      "Limit: the curve is usually upward-sloping; pure expectations would need short rates expected to rise most of the time",
+      "What explains it: liquidity premium (Hicks: lenders prefer to lend short) and a risk element rising with maturity (Meiselman, Modigliani–Sutch: long prices vary more)",
+      "Inverted curves still happen (US 2005–07, 2019): read as expected crisis / short rates expected to be cut"
+    ]
+  },
+  {
+    "id": "matrices",
+    "title": "Balance sheet and transactions-flow matrices",
+    "prompt": "Describe the simple closed-economy stock-flow framework: what do the balance sheet and transactions-flow matrices show, and what are the key identities?",
+    "quote": "I can ask you something about this balance sheet matrix and transaction matrix, some of the identities that I have shown you. They are very simple things, but they are very important.",
+    "where": "10_08 §§3–5 · exam flag [0:57]. The matrices in the notes are reconstructed: check the slides!",
+    "keyPoints": [
+      "Stock vs flow; final stock = initial stock + revaluations + net acquisitions",
+      "Every financial asset is another sector's liability: financial rows sum to zero; only real capital K has no counterpart",
+      "Sectoral balances (S − I) = (G − T) + (X − M): derived from Y = C + I + G + (X − M); an ex post identity, not causal (crowding out depends on whether output can change)",
+      "Net private wealth = K + B + H: public debt is private wealth (denied under Ricardian equivalence)",
+      "Transactions matrix: receipts/sources +, expenditures/acquisitions −; rows and columns sum to zero",
+      "I = ΔL (all profits distributed); government: G + r·B₋₁ − T = ΔB + ΔH; household saving = ΔD + ΔB_h",
+      "Stocks feed back on flows (interest on debt, wealth effects, Tobin's desired proportions)"
+    ]
+  },
+  {
+    "id": "quantity",
+    "title": "Quantity theory: what ensures money market equilibrium?",
+    "prompt": "In the quantity theory of money, what variable ensures equilibrium in the money market? Explain the mechanism.",
+    "quote": "What is the variable that in the quantity theory of money ensures the equilibrium in the money market? It is the price level.",
+    "where": "10_08 §§7–9 · exam flag [1:22]",
+    "keyPoints": [
+      "Answer: the price level P",
+      "MV = PT is an accounting identity; it becomes a theory by assuming V (institutional factors) and T/Y (potential output) given and independent, and M exogenous",
+      "Why T is given: Say's law (classical) or full employment through wage flexibility and factor substitution (marginalists)",
+      "Cambridge version: M_d = k·P·Y with k = 1/V; the public holds balances in proportion to income (transactions demand)",
+      "Mechanism: M_s rises → excess money balances → spending on goods; output is given → P rises → money market equilibrium restored",
+      "Both versions work through P: in real terms the real supply falls back; in nominal terms nominal demand k·P·Y rises",
+      "Causality runs M → P; with endogenous money it reverses. Money is neutral (a veil), with the classical dichotomy"
+    ]
+  },
+  {
+    "id": "sidrauski",
+    "title": "Sidrauski: equilibrium conditions and their meaning",
+    "prompt": "Present the Sidrauski model: its equilibrium conditions and their economic meaning.",
+    "quote": "When we do the Sidrauski model, there are some equilibrium conditions that I would like you to know, because they have a precise economic meaning.",
+    "where": "10_06 §13, 10_08 §9 · theoretical part (final exam). NOT COVERED IN CLASS YET: add the conditions after the lecture.",
+    "pending": true,
+    "keyPoints": [
+      "Money enters the utility function, so money affects the real equilibrium: no classical dichotomy",
+      "Yet it yields neutrality, and even super-neutrality: the growth rate of money doesn't affect real steady-state variables",
+      "Its structure underlies DSGE models used at central banks (New Keynesian models add imperfections)",
+      "Needs dynamic optimisation; the lecturer explains solutions intuitively",
+      "[Add after class] the equilibrium conditions and what each one means economically"
+    ]
+  }
+]
