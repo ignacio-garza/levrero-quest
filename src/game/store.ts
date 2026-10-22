@@ -52,6 +52,17 @@ export function save(p: Progress): void {
   }
 }
 
+/** Parses a backup file; returns null if it isn't one of ours. */
+export function parseBackup(text: string): Progress | null {
+  try {
+    const data = JSON.parse(text)
+    if (!data || typeof data !== 'object' || typeof data.cards !== 'object') return null
+    return { ...emptyProgress(), ...data }
+  } catch {
+    return null
+  }
+}
+
 export function reset(): void {
   try {
     localStorage.removeItem(KEY)

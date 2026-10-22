@@ -125,6 +125,7 @@ export default function App() {
         onTopic={(id) => start({ kind: 'topic', id })}
         onEssays={() => setScreen({ name: 'essays' })}
         onToggleUnverified={() => update((p) => ({ ...p, hideUnverified: !p.hideUnverified }))}
+        onRestore={(p) => update(() => p)}
         onReset={() => {
           reset()
           update(() => load())

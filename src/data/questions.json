@@ -1,192 +1,3634 @@
 [
-  {"id":"money-01","topic":"money","session":"09_29","type":"mc","q":"Which function of money does the lecturer treat as central, logically prior to the others?","options":["Unit of account","Medium of exchange","Store of value","Means of final settlement"],"explain":"Debts and prices must be expressed in a unit of account before anything can discharge them (Keynes, Treatise)."},
-  {"id":"money-02","topic":"money","session":"09_29","type":"mc","q":"The Latin word 'pecunia' (money) comes from the word for…","options":["Cattle","Gold","Debt","Coin"],"explain":"In pastoral societies debts and credits were recorded and accepted in animals: money is tied to debt and credit from the start."},
-  {"id":"money-03","topic":"money","session":"09_29","type":"mc","q":"In which year did the dollar–gold link end?","options":["1971","1944","1987","2008"],"explain":"Because of US balance-of-payments problems; after that money has no reference to any commodity."},
-  {"id":"money-04","topic":"money","session":"09_29","type":"mc","q":"What does Peel's Bank Act (1844) illustrate, according to the lecturer?","options":["Tying note issue strictly to gold reserves did not work: people invent substitutes","That the gold standard guarantees stable prices","That central banks should finance the Treasury","That bank money is outside money"],"explain":"Strict quantity rules lose control of interest rates and trigger financial innovation ('if you need money, you invent something')."},
-  {"id":"money-05","topic":"money","session":"09_29","type":"mc","q":"With no commodity anchor, what guarantees money's value?","options":["The state, which defines the unit of account in which debts and taxes are discharged","Gold reserves at the central bank","Banks' willingness to accept it","Its cost of production"],"explain":"Whether expressed in a commodity or fiat is secondary: the state's definition of the unit of account is the essential element."},
-  {"id":"money-06","topic":"money","session":"09_29","type":"mc","q":"In Keynes's Treatise, 'money proper' is…","options":["The thing that answers to the description given by the money of account","The description or title (e.g. 'the pound sterling')","Any asset that stores value","Only private bank deposits"],"explain":"Money of account = description/title; money proper = the thing that answers to it. The state decides which thing does."},
-  {"id":"money-07","topic":"money","session":"09_29","type":"tf","q":"Bank money is fiduciary: it circulates only as long as people trust that the private debt will be honoured.","answer":true,"explain":"This distinguishes it from legal tender, which only the state can issue."},
-  {"id":"money-08","topic":"money","session":"09_29","type":"mc","q":"Which of these is inside money?","options":["Bank deposits","Central bank banknotes","Gold coins","Reserves at the central bank"],"explain":"A deposit is an asset for one private agent and a liability for another (the bank), so private net wealth is unchanged."},
-  {"id":"money-09","topic":"money","session":"09_29","type":"mc","q":"Outside money (state money) is…","options":["A liability of the state but a net asset for the private sector","A liability of banks and an asset of firms","Created entirely within the private sector","Money backed 100% by gold"],"explain":"With it you can discharge debts to other people and to the state itself."},
-  {"id":"money-10","topic":"money","session":"09_29","type":"tf","q":"Creating inside money changes the net wealth of the private sector as a whole.","answer":false,"explain":"Assets and liabilities are just reshuffled between private units. Keep apart the individual level and the system level."},
-  {"id":"money-11","topic":"money","session":"09_29","type":"match","q":"Match each author to their position on the quantity theory and money.","pairs":[["Fisher","Key representative of the quantity theory (marginalist)"],["Marx","Against the quantity theory (surplus approach)"],["Wicksell","Against it: money endogenous, interest rate set by real factors"],["Keynes (General Theory)","Interest rate is monetary, money treated as exogenous"]],"explain":"Both approaches contain authors on each side of the quantity theory."},
-  {"id":"money-12","topic":"money","session":"09_29","type":"mc","q":"For Wicksell, the (natural) rate of interest is determined by…","options":["Real factors: thrift and productivity","The central bank alone","Liquidity preference","The quantity of money"],"explain":"Money is endogenous in Wicksell, but the rate of interest is a real phenomenon."},
-  {"id":"money-13","topic":"money","session":"09_29","type":"tf","q":"Post-Keynesian and New Keynesian mean the same thing.","answer":false,"explain":"Post-Keynesians are the economists closest to Keynes (the Cambridge Circus: Kaldor, Joan Robinson…)."},
-  {"id":"money-14","topic":"money","session":"09_29","type":"mc","q":"Post-Keynesians (Kaldor, Lavoie…) hold that money is…","options":["Endogenous","Exogenous","A veil","Commodity-backed"],"explain":"Like Wicksell, and unlike Keynes in the General Theory, who treats money as exogenous."},
-  {"id":"money-15","topic":"money","session":"09_29","type":"mc","q":"At the most abstract level (value and distribution), the main divide in economic theory is between…","options":["The surplus (classical) and marginalist (neoclassical) approaches","Keynesians and monetarists","Micro and macro","Static and dynamic models"],"explain":"Even economists within the same approach can disagree on money."},
-  {"id":"money-16","topic":"money","session":"09_29","type":"match","q":"What is the 'price of money' for each approach?","pairs":[["Emphasis on medium of exchange (quantity theory; Friedman 1956)","1/P: how many goods one unit of money buys"],["Emphasis on store of value (Keynes, General Theory)","The interest rate: the opportunity cost of holding wealth as money"]],"explain":"The function you stress determines what you take the price of money to be."},
-  {"id":"money-16b","topic":"money","session":"09_29","type":"match","q":"What counts as 'money' for each approach?","pairs":[["Emphasis on medium of exchange (quantity theory; Friedman 1956)","Something specific that yields services as a means of payment; everything else is 'other assets'"],["Emphasis on store of value (Keynes, General Theory)","No sharp line: a spectrum of assets with different degrees of liquidity"]],"explain":"For the Keynesians, liquidity becomes the central notion rather than a sharp definition of money."},
-  {"id":"money-17","topic":"money","session":"09_29","type":"mc","q":"Liquidity of an asset is…","options":["How readily it can be used for payments or converted into other assets, and at what cost","Its nominal return","Its maturity only","Whether the central bank issued it"],"explain":"A short-term bond is more liquid than a long-term bond, and both more than a building."},
-  {"id":"money-18","topic":"money","session":"09_29","type":"mc","q":"What happened when central banks tried to control M1 in the early 1980s?","options":["M2 and M3 rose","Inflation fell immediately","Interest rates were stabilised","Bank money disappeared"],"explain":"Controlling a quantity triggers substitution and financial innovation (compare Peel's Act)."},
-  {"id":"money-19","topic":"money","session":"09_29","type":"mc","q":"Controlling the quantity of money by strict legal rules tends to…","options":["Lose control of interest rates and trigger financial innovation","Stabilise prices permanently","Remove the need for a unit of account","Eliminate bank money"],"explain":"The lecturer's reading of history: no strict commodity link is needed."},
-  {"id":"money-20","topic":"money","session":"09_29","type":"mc","q":"Why does the lecturer call central bank money a 'very peculiar' debt?","options":["The state gave the central bank the power to issue legal tender, so it cannot fail like a private bank","It is backed by gold","It pays interest","It does not appear on any balance sheet"],"explain":"Notes still appear as a liability, a legacy of when gold was the asset."},
-  {"id":"money-21","topic":"money","session":"09_29","type":"mc","q":"Keynes's term for central bank notes that first circulated alongside commodity money, with some link to reserves:","options":["Representative money","Fiduciary money","Token commodity","Outside credit"],"explain":"Commodity and representative money are the two forms of state money in Keynes."},
-  {"id":"money-22","topic":"money","session":"09_29","type":"mc","q":"Which is NOT one of the three functions of money?","options":["Means of deferred taxation","Unit of account","Medium of exchange","Store of value"],"explain":"The three functions are interlinked, but different approaches emphasise different ones."},
-
-  {"id":"origin-01","topic":"origin","session":"10_01","type":"mc","q":"In the lecturer's reconstruction, bank money originates from…","options":["Private, transferable acknowledgments of debt","Gold deposits","The central bank's balance sheet","Barter chains"],"explain":"As debt relations develop, acknowledgments of debt start to substitute for money."},
-  {"id":"origin-02","topic":"origin","session":"10_01","type":"mc","q":"Adam Smith's problem that money solves is…","options":["The double coincidence of wants","The lack of a unit of account","Tax payments to the sovereign","Debasement"],"explain":"In Smith/Menger, money emerges spontaneously to reduce transaction costs; no unit of account and no state."},
-  {"id":"origin-03","topic":"origin","session":"10_01","type":"tf","q":"In the Smith–Menger account of the origin of money, the state and the unit of account play a central role.","answer":false,"explain":"That is the credit/chartalist view (Keynes, Knapp, post-Keynesians)."},
-  {"id":"origin-04","topic":"origin","session":"10_01","type":"mc","q":"The earliest forms of writing emerged to record…","options":["Debts and credits (e.g. taxes due to the temple)","Poems and laws","Market prices","Coin weights"],"explain":"Money predates writing; writing was developed to record debt."},
-  {"id":"origin-05","topic":"origin","session":"10_01","type":"mc","q":"According to Polanyi, debts originally arose from…","options":["Social events such as marriage, killing, coming of age","Commercial transactions","Loans between banks","Taxes on trade"],"explain":"Economic transactions came later; early societies had gifts and debts."},
-  {"id":"origin-06","topic":"origin","session":"10_01","type":"mc","q":"Which German word is the standard example of the link between debt and guilt?","options":["Schuld","Geld","Kredit","Pflicht"],"explain":"In some languages the word for debt is etymologically linked to sin or guilt."},
-  {"id":"origin-07","topic":"origin","session":"10_01","type":"mc","q":"Standardised coinage was introduced in Egypt only under…","options":["The Ptolemies (late 4th century BC)","The Pharaoh Ramses II","The Romans","The Persians"],"explain":"Unit of account ≠ coins: the sovereign defines the unit without minting."},
-  {"id":"origin-08","topic":"origin","session":"10_01","type":"mc","q":"In China silver was first used as money in the form of…","options":["Ingots","Coins","Paper notes","Cowrie shells"],"explain":"Silver coinage came later."},
-  {"id":"origin-09","topic":"origin","session":"10_01","type":"mc","q":"In a medieval tally stick, the creditor kept the longer piece, called the…","options":["Stock","Bond","Note","Share"],"explain":"'Capital stock' and 'corporate stock' remind us of this. Tallies were transferable debt."},
-  {"id":"origin-10","topic":"origin","session":"10_01","type":"mc","q":"The English Exchequer used tally sticks to record loans and taxes until…","options":["The early 19th century","The 12th century","The 1700s","1914"],"explain":"Tallies circulated alongside coins."},
-  {"id":"origin-11","topic":"origin","session":"10_01","type":"mc","q":"The first coins were made of electrum. What does this suggest?","options":["High purchasing power: payment tokens or evidence of debt, not everyday trade","They were for everyday market purchases","They were purely decorative","They were issued by private banks"],"explain":"History highlights money's role as evidence of debt."},
-  {"id":"origin-12","topic":"origin","session":"10_01","type":"mc","q":"Knapp's 'The State Theory of Money' (1905) sees money as…","options":["Evidence of debt owed to the state, including taxes","A spontaneous market convention","A commodity with intrinsic value","A store of wealth only"],"explain":"That explains why the state defines the unit of account."},
-  {"id":"origin-13","topic":"origin","session":"10_01","type":"mc","q":"In Keynes's chartalism, 'writing the dictionary' means…","options":["Specifying how much of a thing makes one unit of money","Enforcing that gold is money","Minting coins","Printing banknotes"],"explain":"'Enforcing the dictionary' = enforcing that, say, gold is money. Together with minting, it completes state money."},
-  {"id":"origin-14","topic":"origin","session":"10_01","type":"match","q":"Match each economist to their view on the state's role in money.","pairs":[["Hayek","No state needed; private sector issues, no central bank"],["Keynes","Money too important to leave to the private sector"],["Friedman","State must define money and regulate its quantity"]],"explain":"Keynes and Friedman agree on this despite being theoretically far apart."},
-  {"id":"origin-15","topic":"origin","session":"10_01","type":"mc","q":"Seigniorage is…","options":["The profit from reducing metal content while keeping the coin's nominal value (earned by the state)","A tax on bank deposits","The interest on public debt","The cost of minting"],"explain":"Today only the state or central bank can issue the monetary base."},
-  {"id":"origin-16","topic":"origin","session":"10_01","type":"mc","q":"Why did the state take direct control of minting?","options":["Private minters tended to debase the coinage","Coins were too heavy","Paper money was invented","Merchants asked for it"],"explain":"Sequence: private minters paying a fee → debasement → state control → paper money → fiat."},
-  {"id":"origin-17","topic":"origin","session":"10_01","type":"tf","q":"The lecturer considers Bitcoin to be money.","answer":false,"explain":"A speculative instrument. Many stablecoins are too: the issued amount should relate to the monetary base or backing assets, which often isn't so."},
-  {"id":"origin-18","topic":"origin","session":"10_01","type":"mc","q":"Which is a reason the lecturer gives for the digital euro?","options":["To cut the profits of private payment platforms and give the ECB some control","To abolish bank deposits","To replace the unit of account","To finance Eurozone deficits"],"explain":"The holding limit exists so as not to crowd out the banking system, which finances investment and consumption."},
-  {"id":"origin-19","topic":"origin","session":"10_01","type":"mc","q":"The digital euro holding limit under discussion is about…","options":["€3,000","€300","€30,000","No limit"],"verified":false,"explain":"The lecturer said around €3,000, 'still under discussion'. Purpose: not to drain bank deposits."},
-  {"id":"origin-20","topic":"origin","session":"10_01","type":"mc","q":"Weimar Germany and Argentina show that…","options":["Money works as a medium of exchange only if the monetary standard is reasonably stable","Barter is more efficient than money","Gold standards cause inflation","Hyperinflation helps debtors permanently"],"explain":"With continuous strong losses of value people go back to barter or hold dollars."},
-  {"id":"origin-21","topic":"origin","session":"10_01","type":"mc","q":"With n goods, a numéraire reduces the relative prices you need to know from n(n−1)/2 to…","options":["n − 1","n","n/2","2n − 1"],"explain":"All prices are expressed in the numéraire."},
-  {"id":"origin-22","topic":"origin","session":"10_01","type":"tf","q":"Inflation favours debtors and deflation favours creditors.","answer":true,"explain":"That's why the choice of numéraire is not neutral."},
-  {"id":"origin-23","topic":"origin","session":"10_01","type":"mc","q":"Cheaper production of the numéraire (e.g. Potosí silver in the 16th century) makes…","options":["All prices rise, favouring debtors","All prices fall, favouring creditors","Relative prices change but not the price level","Nothing: the numéraire is neutral"],"explain":"The price level depends on the conditions of production of the numéraire relative to those of all other goods."},
-  {"id":"origin-24","topic":"origin","session":"10_01","type":"mc","q":"The interwar debate on the numéraire for international exchange rates proposed…","options":["A bundle of primary commodities","The dollar alone","Silver only","A world central bank"],"explain":"But which goods enter the bundle changes relative prices between countries: real effects."},
-  {"id":"origin-25","topic":"origin","session":"10_01","type":"mc","q":"If Italy left the euro for a new lira expected to depreciate, who would lose?","options":["Those with net foreign liabilities","Those with net foreign assets","Everybody equally","Nobody"],"explain":"Changing the unit of account redistributes."},
-  {"id":"origin-26","topic":"origin","session":"10_01","type":"mc","q":"Why hold wealth in money even though it pays no (or less) interest?","options":["It has the greatest liquidity and certainty of its nominal value","It keeps real value under inflation","It is risk-free in real terms","Banks require it"],"explain":"Not certainty of real value: inflation erodes it, as for other assets."},
-  {"id":"origin-27","topic":"origin","session":"10_01","type":"mc","q":"Which great Mediterranean traders began minting coins relatively late?","options":["The Phoenicians","The Greeks","The Romans","The Lydians"],"explain":"They didn't need coins, or even money, for their trade."},
-  {"id":"origin-28","topic":"origin","session":"10_01","type":"tf","q":"Money predates writing.","answer":true,"explain":"Writing emerged to record debts and credits (e.g. Egyptian temple taxes)."},
-  {"id":"origin-29","topic":"origin","session":"10_01","type":"mc","q":"Which marginalist economist, with Adam Smith, locates money's origin in the medium-of-exchange function?","options":["Menger","Wicksell","Hicks","Tobin"],"explain":"Different approaches, same view on origin."},
-  {"id":"origin-30","topic":"origin","session":"10_01","type":"mc","q":"In Argentina's high inflation (~120%), the lecturer says the wealthy hold their wealth in…","options":["Dollars","Gold","Pesos","Bonds"],"explain":"Others spend wages on goods as soon as they receive them."},
-
-  {"id":"liq-01","topic":"liquidity","session":"10_01","type":"match","q":"Match the monetary aggregate to its content.","pairs":[["M0","Monetary base"],["M1","Currency + overnight deposits"],["M2","M1 + deposits with agreed maturity up to 2 years"],["M3","M2 + repos, money market fund shares, short-term debt securities"]],"explain":"Each aggregate adds assets with lower liquidity."},
-  {"id":"liq-02","topic":"liquidity","session":"10_01","type":"mc","q":"A HIGH cross-elasticity of deposits with respect to the short-term interest rate implies…","options":["It's hard to draw the line: a spectrum of liquidity","Money is a well-defined thing","Money demand is zero","Base money is exogenous"],"explain":"Low elasticity → treat base money + deposits as 'money'."},
-  {"id":"liq-03","topic":"liquidity","session":"10_01","type":"mc","q":"Why did the Bank of England need M4 and M5?","options":["After targeting M1/M2 (monetarism), other aggregates grew through financial innovation","Because the euro was introduced","Because M3 was abolished","To count foreign reserves"],"explain":"Controlling base money and deposits triggered innovation and growth of other financial assets."},
-  {"id":"liq-04","topic":"liquidity","session":"10_01","type":"mc","q":"Why does the ECB not include short-term government bonds in M3, unlike the old Bank of Italy?","options":["Public bonds concern the public sector and say nothing about private-sector liquidity","They are illiquid","They pay too much interest","Treaties forbid it"],"explain":"Italian households held BOTs as close substitutes for deposits (high cross-elasticity)."},
-  {"id":"liq-05","topic":"liquidity","session":"10_02","type":"mc","q":"Which repos are excluded from M3?","options":["Repos between banks","Repos between a money market fund and a bank","Central bank repos with banks","All repos"],"explain":"Within the banking sector they cancel out when you consolidate its balance sheet."},
-  {"id":"liq-06","topic":"liquidity","session":"10_02","type":"mc","q":"Why are repos between a non-bank (e.g. money market fund) and a bank counted in M3?","options":["The fund's deposits fall (M2 falls) but total money hasn't changed: liquidity took another form","They create new base money","They are riskier","They pay higher interest"],"explain":"Counting them in M3 captures the shift."},
-  {"id":"liq-07","topic":"liquidity","session":"10_02","type":"mc","q":"Reusing the same collateral for several operations is called…","options":["Rehypothecation","Haircutting","Sterilisation","Securitisation"],"explain":"It raises system liquidity speculatively, adding risk, so central banks regulate it."},
-  {"id":"liq-08","topic":"liquidity","session":"10_02","type":"mc","q":"A haircut means that against a bond worth 100 the lender lends, say…","options":["80","100","120","20"],"explain":"The 20 margin protects against risk."},
-  {"id":"liq-09","topic":"liquidity","session":"10_02","type":"mc","q":"Why does the central bank's list of eligible collateral and haircuts matter?","options":["It signals monetary policy: e.g. removing Greek bonds starves Greek banks of central bank funding","It sets the corridor width","It determines the unit of account","It fixes bond prices"],"explain":"Collateral policy is a policy signal."},
-  {"id":"liq-10","topic":"liquidity","session":"10_01","type":"tf","q":"Neither Friedman nor Keynes ever precisely defined money.","answer":true,"explain":"It becomes important for policy: 'if you say you must control money, which aggregate?'"},
-  {"id":"liq-11","topic":"liquidity","session":"10_01","type":"mc","q":"A 'run towards liquidity' typically happens…","options":["In crises","In booms","When rates are negative","After a rise in M1"],"explain":"Everyone sells less liquid assets to buy more liquid ones; money demand becomes very strong."},
-  {"id":"liq-12","topic":"liquidity","session":"10_01","type":"mc","q":"The monetarist idea of money is something specific that yields…","options":["Services (indirect utility) because it lets you buy goods","Interest","Collateral value","Seigniorage"],"explain":"Lecturer's counterpoint: short-term bonds can be accepted in payment too; what matters is liquidity."},
-  {"id":"liq-13","topic":"liquidity","session":"10_01","type":"mc","q":"Why do central banks track several aggregates?","options":["It is hard to say what money is, and to control it","Statistical convention","EU law","To measure exchange rates"],"explain":"Strong substitutability between base money/deposits and short-term assets."},
-
-  {"id":"cb-01","topic":"cb","session":"10_02","type":"mc","q":"The first central banks (17th century) were…","options":["The Riksbank (Sweden) and the Bank of England","The Bank of France and Reichsbank","The Fed and Bank of Japan","Bank of Italy and Bundesbank"],"explain":"They arose as financial markets needed regulating."},
-  {"id":"cb-02","topic":"cb","session":"10_02","type":"mc","q":"Which 'forgotten' central bank function does the lecturer mention?","options":["Financing investment projects (e.g. Bank of France and infrastructure)","Setting wages","Collecting taxes","Regulating stock exchanges"],"explain":"Other historical functions: financing the state, regulating money and credit, lender of last resort, managing the exchange rate."},
-  {"id":"cb-03","topic":"cb","session":"10_02","type":"mc","q":"A currency appreciation tends to…","options":["Reduce imported inflation","Raise imported inflation","Raise net exports","Raise public debt"],"explain":"The exchange rate affects capital flows, net exports and the price level."},
-  {"id":"cb-04","topic":"cb","session":"10_02","type":"mc","q":"Which central banks also aim to keep the economy near full employment?","options":["The Fed and the Bank of Japan","The ECB only","The Bundesbank","The Riksbank in the 17th century"],"explain":"Price stability as the main goal is a modern view, not always historical."},
-  {"id":"cb-05","topic":"cb","session":"10_02","type":"tf","q":"Central bank goals (price stability, employment) can conflict.","answer":true,"explain":"Raising the rate to bring inflation down hurts output and employment."},
-  {"id":"cb-06","topic":"cb","session":"10_02","type":"mc","q":"Harrod's [?] view of the 'optimal' policy:","options":["Set the interest rate as low as possible","Target inflation relative to the natural rate","Control M1","Keep a fixed exchange rate"],"verified":false,"explain":"Minimises debt-servicing cost and leaves room for expansionary fiscal policy. Name uncertain: check slides."},
-  {"id":"cb-07","topic":"cb","session":"10_02","type":"mc","q":"Today's dominant view of optimal monetary policy:","options":["Target an inflation rate, setting the policy rate relative to the natural rate (sometimes by rules)","Always keep rates at zero","Peg the money supply","Finance the Treasury"],"explain":"A low rate is not necessarily best; price stability may require a higher one."},
-  {"id":"cb-08","topic":"cb","session":"10_02","type":"mc","q":"The monetary base is…","options":["MB = CU + RE","MB = M1 + RE","MB = CU + D","MB = RE − CU"],"explain":"CU = banknotes and coins in circulation (including cash held by banks); RE = banks' deposits at the central bank."},
-  {"id":"cb-09","topic":"cb","session":"10_02","type":"tf","q":"RE (reserves) in the monetary base are the public's deposits at commercial banks.","answer":false,"explain":"They are banks' deposits at the central bank."},
-  {"id":"cb-10","topic":"cb","session":"10_02","type":"mc","q":"Who demands base money?","options":["The public (cash) and banks (compulsory and discretionary reserves)","Only banks","Only the Treasury","Only foreigners"],"explain":"Banks hold discretionary reserves against risk or liquidity needs."},
-  {"id":"cb-11","topic":"cb","session":"10_02","type":"mc","q":"Which is the MAIN channel of base-money creation?","options":["Refinancing the banking sector","The Treasury channel","The foreign channel","Seigniorage on coins"],"explain":"Banks structurally need base money for reserve requirements; the central bank exploits that to steer aggregates and rates."},
-  {"id":"cb-12","topic":"cb","session":"10_02","type":"mc","q":"Article 123 TFEU prohibits…","options":["Overdrafts/credit to governments and direct (primary market) purchase of their debt","Secondary market purchases","Lending to banks","Foreign exchange intervention"],"explain":"The Treasury channel is closed in the euro area."},
-  {"id":"cb-13","topic":"cb","session":"10_02","type":"mc","q":"The Italian 'divorce' between the Bank of Italy and the Treasury was done by…","options":["A letter from Governor Ciampi to the Treasury Minister (Andreatta)","An act of Parliament","The Maastricht Treaty","A referendum"],"explain":"Early 1980s; not a decision of Parliament."},
-  {"id":"cb-14","topic":"cb","session":"10_02","type":"mc","q":"Ciampi's stated aim with the divorce:","options":["A change of monetary regime to bring inflation down","Joining the euro","Financing industry","Devaluing the lira"],"explain":"'Monetary dominance' over fiscal policy: monetary policy must not finance fiscal policy directly."},
-  {"id":"cb-15","topic":"cb","session":"10_02","type":"mc","q":"The euro is described as…","options":["A unit of account before having a state","A state without a unit of account","A commodity money","A fixed exchange rate"],"explain":"Perhaps the first case in history; this caused problems."},
-  {"id":"cb-16","topic":"cb","session":"10_02","type":"mc","q":"Draghi's 'whatever it takes' was in…","options":["2012","2008","2015","2020"],"explain":"With 3% in Germany and 15% in Italy 'no monetary union can survive'. Words alone narrowed spreads."},
-  {"id":"cb-17","topic":"cb","session":"10_02","type":"mc","q":"The 'capital key' rule says ECB holdings of each country's public debt should be proportional to…","options":["That country's national central bank's share of ECB capital","GDP of the country","The country's debt-to-GDP ratio","Its inflation rate"],"explain":"It was respected at least on average, which helped the European Court rule QE legitimate."},
-  {"id":"cb-18","topic":"cb","session":"10_02","type":"mc","q":"A balance-of-payments surplus (foreign channel) leads to…","options":["Base money created","Base money destroyed","No change","Higher reserve requirements"],"explain":"Foreigners exchange dollars for euros: reserves up, euros in circulation up. Deficit → destroyed."},
-  {"id":"cb-19","topic":"cb","session":"10_02","type":"mc","q":"ECB reserve requirements are around…","options":["1%, met on average over a maintenance period","10%, met daily","0%","5%, met weekly"],"explain":"Banks can use reserves day to day; the requirement applies to the most liquid deposits."},
-  {"id":"cb-20","topic":"cb","session":"10_02","type":"mc","q":"The MAIN reason to keep the reserve ratio low:","options":["The interbank market becomes a sensitive indicator of system liquidity","To reduce inflation","To raise seigniorage","To discourage lending"],"explain":"Other reasons: lower opportunity cost for banks, and flexibility."},
-  {"id":"cb-21","topic":"cb","session":"10_02","type":"tf","q":"If banks can count on the central bank for liquidity, they don't need large reserves; the question is the price, not availability.","answer":true,"explain":"The marginal lending facility is the old discount window."},
-  {"id":"cb-22","topic":"cb","session":"10_02","type":"tf","q":"A central bank can let a very big financial institution fail without systemic risk.","answer":false,"explain":"Banks are interconnected: one failure can bring down others. Smaller banks can fail; deposits are insured up to a limit."},
-  {"id":"cb-23","topic":"cb","session":"10_02","type":"mc","q":"QE purchases of government bonds by the ECB were made in the…","options":["Secondary market","Primary market","Foreign exchange market","Interbank market only"],"explain":"The justification was the ECB mandate to ensure the survival and stability of the euro."},
-  {"id":"cb-24","topic":"cb","session":"10_02","type":"mc","q":"On financing governments, the Fed…","options":["Doesn't finance individual states but supports federal bonds indirectly","Finances California and Texas directly","Is forbidden to buy any bonds","Only buys foreign bonds"],"explain":"It buys in the secondary market and gives banks liquidity to buy federal bonds."},
-  {"id":"cb-25","topic":"cb","session":"10_02","type":"mc","q":"During COVID, the Fed and the Bank of England…","options":["Again financed their treasuries","Stopped all purchases","Raised rates","Sold their bond holdings"],"explain":"The Bank of Japan doesn't follow the 'closed channel' rule either."},
-  {"id":"cb-26","topic":"cb","session":"10_02","type":"mc","q":"The old debate 'does the central bank set the money supply or the interest rate?' has a shared answer today:","options":["It sets the interest rate","It sets the money supply","It sets the exchange rate","Neither"],"explain":"This comes back with the endogeneity of money."},
-
-  {"id":"pol-01","topic":"policy","session":"10_02","type":"match","q":"Match each instrument to its description.","pairs":[["MRO","Temporary (reverse) operation: repo/collateralised loan"],["Outright operation","Buying/selling securities with no agreement to reverse: structural"],["Marginal lending facility","Standing facility: the old discount window, rate above MRO"],["Deposit facility","Standing facility: overnight deposits at a very low rate"]],"explain":"All operations are against collateral."},
-  {"id":"pol-02","topic":"policy","session":"10_02","type":"mc","q":"Open market operations are initiated by…, standing facilities by…","options":["The central bank / the counterparty bank","The counterparty bank / the central bank","The Treasury / the central bank","The ECB / the Commission"],"explain":"Standing facilities are at the counterparty's initiative."},
-  {"id":"pol-03","topic":"policy","session":"10_02","type":"mc","q":"Bagehot (Lombard Street, 1873): lend to a bank in trouble…","options":["But at a penalty rate","At zero rate","Only against gold","Never"],"explain":"A bank needing such liquidity probably took on high risk, but you still help it to protect the whole system."},
-  {"id":"pol-04","topic":"policy","session":"10_02","type":"mc","q":"Why does the lecturer call negative rates on excess reserves 'not a brilliant idea'?","options":["Reserves piled up not because banks misbehaved but because there was little loan demand with acceptable risk","They caused inflation","They violated the Treaty","They raised long rates"],"explain":"Reserves stay at the central bank or are used to buy government bonds."},
-  {"id":"pol-05","topic":"policy","session":"10_02","type":"mc","q":"In the corridor, the ceiling is the … rate and the floor is the … rate.","options":["Marginal lending facility / deposit facility","MRO / marginal lending","Deposit facility / MRO","Discount / repo"],"explain":"The MRO rate sits in the middle; the interbank overnight rate oscillates around it."},
-  {"id":"pol-06","topic":"policy","session":"10_02","type":"mc","q":"The corridor as a signal: all three rates going UP means…","options":["More restrictive policy","More expansionary policy","Wider corridor","Floor system"],"explain":"A narrow corridor means the central bank tolerates less fluctuation in the interbank rate."},
-  {"id":"pol-07","topic":"policy","session":"10_06","type":"mc","q":"What defines a floor system?","options":["The policy (MRO) rate coincides with the deposit rate","The policy rate equals the ceiling","Reserve requirements of 100%","No standing facilities"],"explain":"Banks are indifferent between lending reserves and holding them at the central bank."},
-  {"id":"pol-08","topic":"policy","session":"10_06","type":"mc","q":"The floor system was adopted by England from…, the US from…, the ECB from…","options":["2008 / 2009 / 2015","2015 / 2008 / 2009","2009 / 2008 / 2012","2008 / 2008 / 2008"],"explain":"The ECB moved more slowly (Trichet even raised rates in 2011); the Fed was the most innovative."},
-  {"id":"pol-09","topic":"policy","session":"10_06","type":"mc","q":"The advantage of a floor system for QE:","options":["The central bank can inject large liquidity without having to withdraw it or change the policy rate","It lowers reserve requirements","It raises the ceiling","It fixes the exchange rate"],"explain":"Excess reserves are simply held at the central bank."},
-  {"id":"pol-10","topic":"policy","session":"10_02","type":"mc","q":"Strategy at the zero lower bound:","options":["Set the nominal rate at zero and raise inflation expectations, so the real rate falls below a negative natural rate","Raise the nominal rate","Cut reserve requirements","Sell bonds"],"explain":"The worry in those years was deflation, not inflation."},
-  {"id":"pol-11","topic":"policy","session":"10_06","type":"mc","q":"In a fixed-rate tender, allotment is…, and the problem is…","options":["Pro rata / overbidding","Highest bid first / underbidding","Random / collusion","By collateral / fraud"],"explain":"A bank can borrow at, say, 3% and lend at 4% in the interbank market, so it asks for more than it needs."},
-  {"id":"pol-12","topic":"policy","session":"10_06","type":"mc","q":"In a variable-rate tender…","options":["Bids are filled from the highest rate down, above a minimum bid rate; the marginal rate is allotted pro rata","All banks pay the same rate","Allotment is by lottery","Rates are set by the Treasury"],"explain":"This discourages overbidding: cheap liquidity is no longer guaranteed."},
-  {"id":"pol-13","topic":"policy","session":"10_06","type":"mc","q":"The 'discount window stigma' is that…","options":["Banks in stress avoid it for fear of damaging their reputation","The window is too expensive","It's illegal in Europe","It only lends to governments"],"explain":"But if it really needs liquidity, a bank goes anyway: 'sometimes you prefer a bad reputation to failing'."},
-  {"id":"pol-14","topic":"policy","session":"10_06","type":"mc","q":"Fed practice at the discount window:","options":["First time above the usual rate, second time higher, eventually 'stop'","Always lends at the same rate","Never lends twice","Lends only to big banks"],"explain":"The central bank usually provides liquidity to avoid failures, especially of big banks."},
-  {"id":"pol-15","topic":"policy","session":"10_02","type":"mc","q":"Real short-term rates in the 1970s were…","options":["Negative for several years","Very high","Zero","Equal to nominal rates"],"explain":"Inflation was very high even though nominal rates weren't zero. Late 1970s: very restrictive monetary and fiscal policy."},
-  {"id":"pol-16","topic":"policy","session":"10_02","type":"tf","q":"In the 1980s the central banks ran a floor system.","answer":false,"explain":"The floor system came with QE after 2007–08."},
-  {"id":"pol-17","topic":"policy","session":"10_02","type":"mc","q":"On the 'conflict' view of inflation, the early-1980s restrictive policy worked by…","options":["Raising unemployment and weakening workers' bargaining power","Cutting the money supply directly","Raising productivity","Devaluing the currency"],"explain":"Together with labour market reforms in Italy, the US and the UK (Thatcher)."},
-  {"id":"pol-18","topic":"policy","session":"10_02","type":"mc","q":"Compared with the 1970s, in the recent imported-inflation episode in Italy…","options":["The cost fell on wages and real wages fell","Real wages grew fastest in history","Profits collapsed","Workers won full indexation"],"explain":"1970s: highest real wage growth despite oil and lira depreciation (strong bargaining power)."},
-  {"id":"pol-19","topic":"policy","session":"10_02","type":"mc","q":"The suggested short essay on inflation compares the 1970s and today through…","options":["Conflict inflation","The quantity theory","The Fisher effect","Cost of capital"],"explain":"Who bears the burden of a worsening of the terms of trade?"},
-
-  {"id":"rates-01","topic":"rates","session":"10_06","type":"mc","q":"'Short-term' vs 'short run': which is correct?","options":["Short-term = maturity of an asset; short run = period with given productive capacity","They mean the same","Short-term = period of analysis","Short run = maturity"],"explain":"A referee once caught the lecturer writing 'short-run interest rate' for 'short-term'."},
-  {"id":"rates-02","topic":"rates","session":"10_06","type":"mc","q":"Transmission chain of policy:","options":["Central bank → overnight interbank → savings deposits → short-term bonds → long-term bonds","Long bonds → short bonds → interbank → central bank","Central bank → long bonds → deposits","Treasury → central bank → banks"],"explain":"Linked by no-arbitrage conditions."},
-  {"id":"rates-03","topic":"rates","session":"10_06","type":"mc","q":"In crises, short and long rates…","options":["Can diverge, so the central bank intervenes in specific market segments","Always move together","Both fall to zero","Are fixed by law"],"explain":"The central bank's goal is a certain structure of rates (2% short with 20% long would conflict with its goals)."},
-  {"id":"rates-04","topic":"rates","session":"10_06","type":"mc","q":"Approximately, nominal rate i =","options":["r + expected inflation","r − expected inflation","r × expected inflation","r / expected inflation"],"explain":"(1+i) = (1+r)(1+π^e); r·π^e is negligible. E.g. nominal 5%, expected inflation 2% → real ≈ 3%."},
-  {"id":"rates-05","topic":"rates","session":"10_06","type":"mc","q":"A 'Fisher effect' can be spoken of only if…","options":["The real rate is determined by real factors (e.g. productivity)","The central bank targets inflation","Money is endogenous","Rates are negative"],"explain":"Causality then runs from real rate and inflation to the nominal rate (marginalist models)."},
-  {"id":"rates-06","topic":"rates","session":"10_06","type":"mc","q":"If the interest rate is a monetary phenomenon and the central bank keeps the nominal rate fixed, a rise in inflation…","options":["Lowers the real rate","Raises the nominal rate automatically","Leaves the real rate unchanged","Raises the real rate"],"explain":"Expected inflation can still matter if the central bank reacts, but as a policy choice, not a mechanical adjustment."},
-  {"id":"rates-07","topic":"rates","session":"10_06","type":"mc","q":"The three theories of the term structure are…","options":["Expectations, preferred habitat, liquidity premium","Expectations, Fisher, Wicksell","Marginalist, classical, Keynesian","Structural, reduced, mixed"],"explain":"The expectations theory is the basis for the other two."},
-  {"id":"rates-08","topic":"rates","session":"10_06","type":"mc","q":"The 'structural' approach to the yield curve (rates from supply and demand for each asset) is associated with…","options":["Tobin","Meiselman","Hicks","Friedman"],"explain":"Usually a reduced form (long rate as function of the short rate) is used instead."},
-  {"id":"rates-09","topic":"rates","session":"10_06","type":"mc","q":"The expectations theory says the expected return of the strategies must be the same…","options":["For any horizon","Only for short horizons","Only in equilibrium with forward markets","Only for risk-neutral banks"],"explain":"Long horizon: buy long or roll over short. Short horizon: buy short or buy long and sell before maturity."},
-  {"id":"rates-10","topic":"rates","session":"10_06","type":"mc","q":"If expected short rates are constant (no premium), the yield curve is…","options":["Flat","Upward-sloping","Inverted","Undefined"],"explain":"Expected to rise → R > r (upward); expected to fall → R < r (downward)."},
-  {"id":"rates-11","topic":"rates","session":"10_06","type":"mc","q":"What can pure expectations theory NOT explain?","options":["Why the yield curve is usually upward-sloping","Why the curve can be flat","Why long rates depend on short rates","Why inverted curves exist"],"explain":"It would need short rates to be expected to rise most of the time."},
-  {"id":"rates-12","topic":"rates","session":"10_06","type":"match","q":"Match the author to their contribution to the term structure.","pairs":[["Meiselman","Error-learning and a risk element rising with maturity"],["Modigliani and Sutch","Preferred habitat theory"],["Hicks","Liquidity premium (Value and Capital, 1939)"],["Tobin","Structural portfolio approach"]],"explain":"The risk element and the liquidity premium usually put together explain the upward slope."},
-  {"id":"rates-13","topic":"rates","session":"10_06","type":"mc","q":"In Meiselman's model the risk element z is…","options":["Positive and rising with maturity","Negative and constant","Zero","Positive but falling with maturity"],"explain":"Long-term asset prices are more variable → bigger capital-loss risk. Even with constant expected short rates, R > r."},
-  {"id":"rates-14","topic":"rates","session":"10_06","type":"mc","q":"Meiselman's 'error-learning' mechanism has expectations revised after…","options":["A forecast error on the current rate, applied to all future expected rates","Each central bank meeting","A change in the exchange rate","A change in reserve requirements"],"verified":false,"explain":"The lecturer finds it 'very strange', but it was the first explicit mechanism. Check the formula against the slides."},
-  {"id":"rates-15","topic":"rates","session":"10_06","type":"mc","q":"In preferred habitat, if the majority of investors is risk-averse, the curve is…","options":["Upward-sloping","Downward-sloping","Flat","Undefined"],"explain":"Moving out of your habitat requires a premium. With risk-lovers you could get the opposite."},
-  {"id":"rates-16","topic":"rates","session":"10_06","type":"mc","q":"Hicks's liquidity premium: borrowers prefer to borrow…, lenders prefer to lend…","options":["Long / short","Short / long","Long / long","Short / short"],"explain":"So lenders need a premium to lend long; otherwise they'd hold money or very short assets."},
-  {"id":"rates-17","topic":"rates","session":"10_06","type":"mc","q":"The US 10-year minus 3-month Treasury spread was negative (an inverted curve) around…","options":["2005–2007 and 2019","1971 and 1980","2012 and 2015","2020 only"],"explain":"Some economists read an inverted curve as the market expecting a crisis, with short rates expected to be cut."},
-  {"id":"rates-18","topic":"rates","session":"10_06","type":"mc","q":"For Keynes, the central bank can influence long rates by…","options":["Shaping expectations of future short rates (needing consistent policy)","Fixing the exchange rate","Raising reserve requirements","Financing the Treasury"],"explain":"The rate is highly conventional: any level accepted with conviction as durable will be durable."},
-  {"id":"rates-19","topic":"rates","session":"10_06","type":"mc","q":"For the marginalist (Wicksellian) view, the central bank can influence long rates…","options":["Only temporarily: the market rate adjusts to the natural rate (productivity and thrift)","Permanently","Never in the short run","Only through reserve requirements"],"explain":"Productivity is behind the demand for capital, thrift behind its supply."},
-  {"id":"rates-20","topic":"rates","session":"10_06","type":"mc","q":"Keynes's idea that the interest rate is conventional comes from which text?","options":["The General Theory, ch. 15","Treatise on Money, ch. 1","Value and Capital","Lombard Street"],"verified":false,"explain":"Quote reconstructed from the notes; check wording against the slides."},
-  {"id":"rates-21","topic":"rates","session":"10_06","type":"mc","q":"In some post-Keynesian strands, monetary authorities can set the real interest rate and thereby affect…","options":["The rate of profit (capital profitability)","The exchange rate only","The velocity of money","The monetary base only"],"explain":"Both Keynes and post-Keynesians share the idea; the adjustment mechanism differs (not via investment and output in the post-Keynesian case)."},
-  {"id":"rates-22","topic":"rates","session":"10_06","type":"mc","q":"Keynes (General Theory) suggested that the central bank might…","options":["Buy and sell gilt-edged bonds of all maturities at stated prices","Only set Bank Rate","Peg the exchange rate","Abolish reserves"],"verified":false,"explain":"So 'unconventional' policy is not new. Wording reconstructed: check slides."},
-  {"id":"rates-23","topic":"rates","session":"10_08","type":"mc","q":"The two routes by which the central bank steers the long rate:","options":["Expectations (consistent announcements) and risk (purchases in specific markets)","Taxes and spending","Reserves and the exchange rate","Haircuts and collateral"],"explain":"Matching the two components: average expected short rates, and the risk element."},
-  {"id":"rates-24","topic":"rates","session":"10_08","type":"mc","q":"When is route 2 (purchases acting on the risk element) needed?","options":["When the central bank cuts the short rate and promises an accommodative policy but the long rate rises anyway","In normal times","When inflation is above target","When the exchange rate depreciates"],"explain":"Expectations alone have failed: typically in a crisis."},
-  {"id":"rates-25","topic":"rates","session":"10_06","type":"mc","q":"A long-term bond is e.g. a…, short-term assets are e.g. …","options":["10-year bond / BOTs of 3–6 months","10-year bond / 5-year bonds","1-year bill / 10-year bond","Share / bond"],"explain":"Short-term: 3 months to a year, traditionally held by Italian households."},
-  {"id":"rates-26","topic":"rates","session":"10_06","type":"mc","q":"Meiselman's formulation for the real yield curve: R ≈ avg real expected short rates + avg expected inflation + …","options":["Z (risk element)","L (liquidity)","k","V"],"explain":"Even without believing in the Fisher effect, inflation can pass into nominal rates."},
-  {"id":"rates-27","topic":"rates","session":"10_06","type":"mc","q":"Under perfect certainty, the compounded long-rate return over n periods equals…","options":["(1+r₁)(1+r₂)…(1+r_n)","(1+r₁) + … + (1+r_n)","n·(1+r)","(1+r₁)^n"],"explain":"No-arbitrage: borrow short and invest long (or vice versa) until equality holds."},
-
-  {"id":"sfc-01","topic":"sfc","session":"10_08","type":"mc","q":"Stock vs flow:","options":["A flow occurs over a period; a stock is measured at a point in time","A stock occurs over a period; a flow at a point in time","Both are measured at a point in time","They are the same"],"explain":"Investment (flow) changes the capital stock."},
-  {"id":"sfc-02","topic":"sfc","session":"10_08","type":"mc","q":"Final stock =","options":["Initial stock + revaluations + net acquisitions","Initial stock − net acquisitions","Flows only","Initial stock × growth"],"explain":"Revaluations (price changes) are ignored in the simple model."},
-  {"id":"sfc-03","topic":"sfc","session":"10_08","type":"tf","q":"The sectoral balances identity is a causal relationship.","answer":false,"explain":"Ex post identity: whether G crowds out I or C depends on whether output can change."},
-  {"id":"sfc-04","topic":"sfc","session":"10_08","type":"mc","q":"Private + government + rest-of-world financial balances =","options":["0","1","GDP","Public debt"],"explain":"One sector's net lending is another's net borrowing."},
-  {"id":"sfc-05","topic":"sfc","session":"10_08","type":"mc","q":"If output can rise, a rise in G…","options":["Raises Y and hence S, with no necessary crowding out","Must reduce C or I","Lowers Y","Has no effect"],"explain":"If output is given at potential, G ↑ must reduce C or I."},
-  {"id":"sfc-06","topic":"sfc","session":"10_08","type":"mc","q":"Stock-flow consistent (SFC) models are mainly associated with…","options":["Post-Keynesians (Godley and Lavoie)","Monetarists","New classicals","Austrians"],"explain":"All stocks and flows are made explicit; a full model = accounting framework + behavioural equations."},
-  {"id":"sfc-07","topic":"sfc","session":"10_08","type":"mc","q":"In the simple closed-economy model, households hold deposits and bills only, no cash. So the monetary base is…","options":["Bank reserves (H)","Zero","Currency only","Government bills"],"explain":"Four sectors: households, firms, banks, consolidated public sector."},
-  {"id":"sfc-08","topic":"sfc","session":"10_08","type":"mc","q":"Retained (non-distributed) profits are…","options":["Firm saving, which can finance investment without bank loans","Bank profits","Household saving","Government revenue"],"explain":"Excluded from the simple model by assuming all profits are distributed."},
-  {"id":"sfc-09","topic":"sfc","session":"10_08","type":"mc","q":"In the balance sheet matrix, only … has no counterpart liability.","options":["Real capital K","Deposits","Loans","Reserves"],"explain":"Financial rows sum to zero; K is 'by definition the wealth of a nation'."},
-  {"id":"sfc-10","topic":"sfc","session":"10_08","type":"mc","q":"Who denies that public debt is part of private wealth?","options":["Ricardian equivalence (Barro 1974)","Keynes","Tobin","Friedman"],"explain":"Households anticipate future taxes to service the debt."},
-  {"id":"sfc-11","topic":"sfc","session":"10_08","type":"mc","q":"Sign convention in the transactions-flow matrix:","options":["Receipts and sources of funds +; expenditures and acquisitions of financial assets −","The reverse","All positive","Assets +, liabilities +"],"verified":false,"explain":"Convention as described in class; matrices were reconstructed. Check the slides."},
-  {"id":"sfc-12","topic":"sfc","session":"10_08","type":"mc","q":"A subscript −1 in the transactions matrix (e.g. r·B₋₁) refers to…","options":["The stock at the end of the previous period","Next period's flow","A negative interest rate","A change"],"verified":false,"explain":"Interest this period is paid on the stock held at the start."},
-  {"id":"sfc-13","topic":"sfc","session":"10_08","type":"mc","q":"Stocks feed back on flows because…","options":["Debts generate interest flows and wealth affects consumption and portfolio decisions","Flows never change","Interest is a stock","Wealth is ignored"],"explain":"Tobin: agents want certain proportions of assets in total wealth."},
-  {"id":"sfc-14","topic":"sfc","session":"10_08","type":"mc","q":"Net private saving must materialise as…","options":["Real capital (ΔK) or claims on the public sector (ΔB, ΔH)","Private claims","Foreign claims only","Cash"],"explain":"Private claims net out within the private sector."},
-  {"id":"sfc-15","topic":"sfc","session":"10_08","type":"mc","q":"A sector's financial balance over a period is positive when it is a net…","options":["Lender, increasing its financial assets","Borrower, increasing its liabilities","Exporter","Saver of real capital"],"explain":"Net borrowing (−) increases liabilities relative to assets."},
-
-  {"id":"qt-01","topic":"qt","session":"10_08","type":"mc","q":"The first clear statement of the quantity theory was by…","options":["Jean Bodin (16th century), after the Potosí silver","David Hume (18th century)","Irving Fisher (1911)","Milton Friedman (1956)"],"explain":"It is usually ascribed to Hume."},
-  {"id":"qt-02","topic":"qt","session":"10_08","type":"tf","q":"MV = PT is an accounting identity that all economists accept.","answer":true,"explain":"It becomes a theory only with assumptions on which variables are given and the direction of causality."},
-  {"id":"qt-03","topic":"qt","session":"10_08","type":"mc","q":"Which is NOT an assumption of the quantity theory?","options":["V depends on income","T (or Y) is given","V is given","M is exogenous"],"explain":"V and T independent; in Keynes's General Theory a change in income can change V."},
-  {"id":"qt-04","topic":"qt","session":"10_08","type":"mc","q":"In the quantity theory causality runs from… to …; with endogenous money it reverses.","options":["M to P","P to M","V to M","Y to M"],"explain":"A rise in the general price level requires a change in M; otherwise only relative prices change."},
-  {"id":"qt-05","topic":"qt","session":"10_08","type":"mc","q":"Why is V taken as given?","options":["Institutional factors (payment arrangements, vertical integration, synchronisation of receipts and payments)","The central bank fixes it","It's always 1","Interest rates fix it"],"explain":"The more vertically integrated production, the lower V."},
-  {"id":"qt-06","topic":"qt","session":"10_08","type":"match","q":"Why is output (T or Y) taken as given?","pairs":[["Classical (Ricardo)","Say's law: saving becomes investment, capacity used at the desired degree (not full employment)"],["Marginalists","Full employment through wage flexibility and factor substitution"]],"explain":"Compare Stirati 10_07."},
-  {"id":"qt-07","topic":"qt","session":"10_08","type":"mc","q":"In the Cambridge version M_d = kPY, k equals…","options":["1/V","V","P/Y","M/P"],"explain":"The public holds balances in proportion to income, to plan transactions (transactions demand, also in Keynes)."},
-  {"id":"qt-08","topic":"qt","session":"10_08","type":"mc","q":"The quantity theory implies money is…","options":["Neutral: a veil that doesn't affect real variables","Non-neutral in the long run","Endogenous","Only a store of value"],"explain":"Classical dichotomy: real sector determines quantities and relative prices; monetary sector the general price level."},
-  {"id":"qt-09","topic":"qt","session":"10_08","type":"mc","q":"Sidrauski's model features…","options":["Money in the utility function, no dichotomy, yet super-neutrality","Money as a veil with dichotomy","Overlapping generations","Cash-in-advance only"],"explain":"Super-neutrality: even the growth rate of money doesn't affect real steady-state variables. Equilibrium conditions: not covered yet."},
-  {"id":"qt-10","topic":"qt","session":"10_08","type":"mc","q":"Friedman's 1956 restatement is titled…","options":["The Quantity Theory of Money: A Restatement","A Monetary History of the US","Money and Prices","The Role of Monetary Policy"],"explain":"It treats money as an asset demanded for its services."},
-  {"id":"qt-11","topic":"qt","session":"10_08","type":"mc","q":"Friedman's main thesis on money demand:","options":["A stable function of real (permanent) income, with the interest rate not the main determinant","Very sensitive to the interest rate","Dependent on liquidity preference","Equal to M_s always"],"explain":"The econometric literature concludes that money demand is sensitive to the interest rate (not exam material)."},
-  {"id":"qt-12","topic":"qt","session":"10_08","type":"mc","q":"Which is NOT in Friedman's list of determinants of money demand?","options":["The central bank's reserve ratio","Total wealth (incl. human capital)","Share of non-human capital in total wealth","Returns on alternative assets and 1/P"],"explain":"Human capital is measured by capitalising labour income."},
-  {"id":"qt-13","topic":"qt","session":"10_08","type":"mc","q":"Permanent income comes from Friedman's analysis of … and implies … multiplier than Keynes supposed.","options":["Consumption / a smaller","Investment / a larger","Money demand / a larger","Exports / a smaller"],"explain":"Consumption depends on average income; a transitory rise in income need not raise consumption."},
-  {"id":"qt-14","topic":"qt","session":"10_08","type":"mc","q":"Friedman makes wealth operational by replacing it with…","options":["Permanent income, whose present value is wealth","Current income","Consumption","Capital stock"],"explain":"Permanent income = average income, excluding transitory components."},
-  {"id":"qt-15","topic":"qt","session":"10_02","type":"mc","q":"The intermediate exam (beginning of November) covers…","options":["Institutional part + money demand (Friedman, Tobin) + endogeneity/exogeneity of money supply","Everything including Sidrauski","Only the term structure","Only money supply"],"explain":"Study 'lecture 1.5' slides plus those being uploaded. The lecturer will email the exam structure."},
-  {"id":"qt-16","topic":"qt","session":"10_08","type":"mc","q":"Which is NOT required for the exam?","options":["Econometric estimates of money demand","Friedman's restatement","Tobin's portfolio approach","Endogeneity vs exogeneity debate"],"explain":"Also not required: slides 67–70 on unconventional monetary policy."},
-  {"id":"qt-17","topic":"qt","session":"10_08","type":"mc","q":"The lecturer's anecdote about the quantity theory:","options":["The money injected after 2007–08 produced no inflation, and the reply was 'there are lags'","Inflation followed immediately","Velocity doubled","Gold prices fell"],"explain":"'Lags of how long? One year, two, ten?'"},
-  {"id":"qt-18","topic":"qt","session":"10_08","type":"mc","q":"Next, the course will cover demand for money through…","options":["The quantity theory and liquidity preference (Friedman and Tobin)","Only Keynes","Only Friedman","Econometrics only"],"explain":"Tobin rationalised Keynes's liquidity preference in portfolio language."},
-  {"id":"qt-19","topic":"qt","session":"10_01","type":"mc","q":"Price of money: for quantity theory economists it is…, for Keynesians…","options":["1/P / the interest rate","The interest rate / 1/P","P / the interest rate","1/P / 1/P"],"explain":"Medium-of-exchange emphasis vs store-of-value emphasis."},
-
-  {"id":"gen-fisher","topic":"rates","session":"10_06","type":"gen","gen":"fisher"},
-  {"id":"gen-fisher-infl","topic":"rates","session":"10_06","type":"gen","gen":"fisherInflation"},
-  {"id":"gen-avg","topic":"rates","session":"10_06","type":"gen","gen":"avgShortRates"},
-  {"id":"gen-premium","topic":"rates","session":"10_06","type":"gen","gen":"liquidityPremium"},
-  {"id":"gen-velocity","topic":"qt","session":"10_08","type":"gen","gen":"velocity"},
-  {"id":"gen-cambridge","topic":"qt","session":"10_08","type":"gen","gen":"cambridgeDemand"},
-  {"id":"gen-newprice","topic":"qt","session":"10_08","type":"gen","gen":"newPriceLevel"},
-  {"id":"gen-numprices","topic":"origin","session":"10_01","type":"gen","gen":"numPrices"},
-  {"id":"gen-haircut","topic":"liquidity","session":"10_02","type":"gen","gen":"haircut"},
-  {"id":"gen-sectoral","topic":"sfc","session":"10_08","type":"gen","gen":"sectoral"}
+  {
+    "id": "money-01",
+    "topic": "money",
+    "session": "09_29",
+    "type": "mc",
+    "q": "Which function of money does the lecturer treat as central, logically prior to the others?",
+    "options": [
+      "Unit of account",
+      "Medium of exchange",
+      "Store of value",
+      "Means of final settlement"
+    ],
+    "explain": "Debts and prices must be expressed in a unit of account before anything can discharge them (Keynes, Treatise)."
+  },
+  {
+    "id": "money-02",
+    "topic": "money",
+    "session": "09_29",
+    "type": "mc",
+    "q": "The Latin word 'pecunia' (money) comes from the word for…",
+    "options": [
+      "Cattle",
+      "Gold",
+      "Debt",
+      "Coin"
+    ],
+    "explain": "In pastoral societies debts and credits were recorded and accepted in animals: money is tied to debt and credit from the start."
+  },
+  {
+    "id": "money-03",
+    "topic": "money",
+    "session": "09_29",
+    "type": "mc",
+    "q": "In which year did the dollar–gold link end?",
+    "options": [
+      "1971",
+      "1944",
+      "1987",
+      "2008"
+    ],
+    "explain": "Because of US balance-of-payments problems; after that money has no reference to any commodity."
+  },
+  {
+    "id": "money-04",
+    "topic": "money",
+    "session": "09_29",
+    "type": "mc",
+    "q": "What does Peel's Bank Act (1844) illustrate, according to the lecturer?",
+    "options": [
+      "Tying note issue strictly to gold reserves did not work: people invent substitutes",
+      "That the gold standard guarantees stable prices",
+      "That central banks should finance the Treasury",
+      "That bank money is outside money"
+    ],
+    "explain": "Strict quantity rules lose control of interest rates and trigger financial innovation ('if you need money, you invent something')."
+  },
+  {
+    "id": "money-05",
+    "topic": "money",
+    "session": "09_29",
+    "type": "mc",
+    "q": "With no commodity anchor, what guarantees money's value?",
+    "options": [
+      "The state, which defines the unit of account in which debts and taxes are discharged",
+      "Gold reserves at the central bank",
+      "Banks' willingness to accept it",
+      "Its cost of production"
+    ],
+    "explain": "Whether expressed in a commodity or fiat is secondary: the state's definition of the unit of account is the essential element."
+  },
+  {
+    "id": "money-06",
+    "topic": "money",
+    "session": "09_29",
+    "type": "mc",
+    "q": "In Keynes's Treatise, 'money proper' is…",
+    "options": [
+      "The thing that answers to the description given by the money of account",
+      "The description or title (e.g. 'the pound sterling')",
+      "Any asset that stores value",
+      "Only private bank deposits"
+    ],
+    "explain": "Money of account = description/title; money proper = the thing that answers to it. The state decides which thing does."
+  },
+  {
+    "id": "money-07",
+    "topic": "money",
+    "session": "09_29",
+    "type": "tf",
+    "q": "Bank money is fiduciary: it circulates only as long as people trust that the private debt will be honoured.",
+    "answer": true,
+    "explain": "This distinguishes it from legal tender, which only the state can issue."
+  },
+  {
+    "id": "money-08",
+    "topic": "money",
+    "session": "09_29",
+    "type": "mc",
+    "q": "Which of these is inside money?",
+    "options": [
+      "Bank deposits",
+      "Central bank banknotes",
+      "Gold coins",
+      "Reserves at the central bank"
+    ],
+    "explain": "A deposit is an asset for one private agent and a liability for another (the bank), so private net wealth is unchanged."
+  },
+  {
+    "id": "money-09",
+    "topic": "money",
+    "session": "09_29",
+    "type": "mc",
+    "q": "Outside money (state money) is…",
+    "options": [
+      "A liability of the state but a net asset for the private sector",
+      "A liability of banks and an asset of firms",
+      "Created entirely within the private sector",
+      "Money backed 100% by gold"
+    ],
+    "explain": "With it you can discharge debts to other people and to the state itself."
+  },
+  {
+    "id": "money-10",
+    "topic": "money",
+    "session": "09_29",
+    "type": "tf",
+    "q": "Creating inside money changes the net wealth of the private sector as a whole.",
+    "answer": false,
+    "explain": "Assets and liabilities are just reshuffled between private units. Keep apart the individual level and the system level."
+  },
+  {
+    "id": "money-11",
+    "topic": "money",
+    "session": "09_29",
+    "type": "match",
+    "q": "Match each author to their position on the quantity theory and money.",
+    "pairs": [
+      [
+        "Fisher",
+        "Key representative of the quantity theory (marginalist)"
+      ],
+      [
+        "Marx",
+        "Against the quantity theory (surplus approach)"
+      ],
+      [
+        "Wicksell",
+        "Against it: money endogenous, interest rate set by real factors"
+      ],
+      [
+        "Keynes (General Theory)",
+        "Interest rate is monetary, money treated as exogenous"
+      ]
+    ],
+    "explain": "Both approaches contain authors on each side of the quantity theory."
+  },
+  {
+    "id": "money-12",
+    "topic": "money",
+    "session": "09_29",
+    "type": "mc",
+    "q": "For Wicksell, the (natural) rate of interest is determined by…",
+    "options": [
+      "Real factors: thrift and productivity",
+      "The central bank alone",
+      "Liquidity preference",
+      "The quantity of money"
+    ],
+    "explain": "Money is endogenous in Wicksell, but the rate of interest is a real phenomenon."
+  },
+  {
+    "id": "money-13",
+    "topic": "money",
+    "session": "09_29",
+    "type": "tf",
+    "q": "Post-Keynesian and New Keynesian mean the same thing.",
+    "answer": false,
+    "explain": "Post-Keynesians are the economists closest to Keynes (the Cambridge Circus: Kaldor, Joan Robinson…)."
+  },
+  {
+    "id": "money-14",
+    "topic": "money",
+    "session": "09_29",
+    "type": "mc",
+    "q": "Post-Keynesians (Kaldor, Lavoie…) hold that money is…",
+    "options": [
+      "Endogenous",
+      "Exogenous",
+      "A veil",
+      "Commodity-backed"
+    ],
+    "explain": "Like Wicksell, and unlike Keynes in the General Theory, who treats money as exogenous."
+  },
+  {
+    "id": "money-15",
+    "topic": "money",
+    "session": "09_29",
+    "type": "mc",
+    "q": "At the most abstract level (value and distribution), the main divide in economic theory is between…",
+    "options": [
+      "The surplus (classical) and marginalist (neoclassical) approaches",
+      "Keynesians and monetarists",
+      "Micro and macro",
+      "Static and dynamic models"
+    ],
+    "explain": "Even economists within the same approach can disagree on money."
+  },
+  {
+    "id": "money-16",
+    "topic": "money",
+    "session": "09_29",
+    "type": "match",
+    "q": "What is the 'price of money' for each approach?",
+    "pairs": [
+      [
+        "Emphasis on medium of exchange (quantity theory; Friedman 1956)",
+        "1/P: how many goods one unit of money buys"
+      ],
+      [
+        "Emphasis on store of value (Keynes, General Theory)",
+        "The interest rate: the opportunity cost of holding wealth as money"
+      ]
+    ],
+    "explain": "The function you stress determines what you take the price of money to be."
+  },
+  {
+    "id": "money-16b",
+    "topic": "money",
+    "session": "09_29",
+    "type": "match",
+    "q": "What counts as 'money' for each approach?",
+    "pairs": [
+      [
+        "Emphasis on medium of exchange (quantity theory; Friedman 1956)",
+        "Something specific that yields services as a means of payment; everything else is 'other assets'"
+      ],
+      [
+        "Emphasis on store of value (Keynes, General Theory)",
+        "No sharp line: a spectrum of assets with different degrees of liquidity"
+      ]
+    ],
+    "explain": "For the Keynesians, liquidity becomes the central notion rather than a sharp definition of money."
+  },
+  {
+    "id": "money-17",
+    "topic": "money",
+    "session": "09_29",
+    "type": "mc",
+    "q": "Liquidity of an asset is…",
+    "options": [
+      "How readily it can be used for payments or converted into other assets, and at what cost",
+      "Its nominal return",
+      "Its maturity only",
+      "Whether the central bank issued it"
+    ],
+    "explain": "A short-term bond is more liquid than a long-term bond, and both more than a building."
+  },
+  {
+    "id": "money-18",
+    "topic": "money",
+    "session": "09_29",
+    "type": "mc",
+    "q": "What happened when central banks tried to control M1 in the early 1980s?",
+    "options": [
+      "M2 and M3 rose",
+      "Inflation fell immediately",
+      "Interest rates were stabilised",
+      "Bank money disappeared"
+    ],
+    "explain": "Controlling a quantity triggers substitution and financial innovation (compare Peel's Act)."
+  },
+  {
+    "id": "money-19",
+    "topic": "money",
+    "session": "09_29",
+    "type": "mc",
+    "q": "Controlling the quantity of money by strict legal rules tends to…",
+    "options": [
+      "Lose control of interest rates and trigger financial innovation",
+      "Stabilise prices permanently",
+      "Remove the need for a unit of account",
+      "Eliminate bank money"
+    ],
+    "explain": "The lecturer's reading of history: no strict commodity link is needed."
+  },
+  {
+    "id": "money-20",
+    "topic": "money",
+    "session": "09_29",
+    "type": "mc",
+    "q": "Why does the lecturer call central bank money a 'very peculiar' debt?",
+    "options": [
+      "The state gave the central bank the power to issue legal tender, so it cannot fail like a private bank",
+      "It is backed by gold",
+      "It pays interest",
+      "It does not appear on any balance sheet"
+    ],
+    "explain": "Notes still appear as a liability, a legacy of when gold was the asset."
+  },
+  {
+    "id": "money-21",
+    "topic": "money",
+    "session": "09_29",
+    "type": "mc",
+    "q": "Keynes's term for central bank notes that first circulated alongside commodity money, with some link to reserves:",
+    "options": [
+      "Representative money",
+      "Fiduciary money",
+      "Token commodity",
+      "Outside credit"
+    ],
+    "explain": "Commodity and representative money are the two forms of state money in Keynes."
+  },
+  {
+    "id": "money-22",
+    "topic": "money",
+    "session": "09_29",
+    "type": "mc",
+    "q": "Which is NOT one of the three functions of money?",
+    "options": [
+      "Means of deferred taxation",
+      "Unit of account",
+      "Medium of exchange",
+      "Store of value"
+    ],
+    "explain": "The three functions are interlinked, but different approaches emphasise different ones."
+  },
+  {
+    "id": "origin-01",
+    "topic": "origin",
+    "session": "10_01",
+    "type": "mc",
+    "q": "In the lecturer's reconstruction, bank money originates from…",
+    "options": [
+      "Private, transferable acknowledgments of debt",
+      "Gold deposits",
+      "The central bank's balance sheet",
+      "Barter chains"
+    ],
+    "explain": "As debt relations develop, acknowledgments of debt start to substitute for money."
+  },
+  {
+    "id": "origin-02",
+    "topic": "origin",
+    "session": "10_01",
+    "type": "mc",
+    "q": "Adam Smith's problem that money solves is…",
+    "options": [
+      "The double coincidence of wants",
+      "The lack of a unit of account",
+      "Tax payments to the sovereign",
+      "Debasement"
+    ],
+    "explain": "In Smith/Menger, money emerges spontaneously to reduce transaction costs; no unit of account and no state."
+  },
+  {
+    "id": "origin-03",
+    "topic": "origin",
+    "session": "10_01",
+    "type": "tf",
+    "q": "In the Smith–Menger account of the origin of money, the state and the unit of account play a central role.",
+    "answer": false,
+    "explain": "That is the credit/chartalist view (Keynes, Knapp, post-Keynesians)."
+  },
+  {
+    "id": "origin-04",
+    "topic": "origin",
+    "session": "10_01",
+    "type": "mc",
+    "q": "The earliest forms of writing emerged to record…",
+    "options": [
+      "Debts and credits (e.g. taxes due to the temple)",
+      "Poems and laws",
+      "Market prices",
+      "Coin weights"
+    ],
+    "explain": "Money predates writing; writing was developed to record debt."
+  },
+  {
+    "id": "origin-05",
+    "topic": "origin",
+    "session": "10_01",
+    "type": "mc",
+    "q": "According to Polanyi, debts originally arose from…",
+    "options": [
+      "Social events such as marriage, killing, coming of age",
+      "Commercial transactions",
+      "Loans between banks",
+      "Taxes on trade"
+    ],
+    "explain": "Economic transactions came later; early societies had gifts and debts."
+  },
+  {
+    "id": "origin-06",
+    "topic": "origin",
+    "session": "10_01",
+    "type": "mc",
+    "q": "Which German word is the standard example of the link between debt and guilt?",
+    "options": [
+      "Schuld",
+      "Geld",
+      "Kredit",
+      "Pflicht"
+    ],
+    "explain": "In some languages the word for debt is etymologically linked to sin or guilt."
+  },
+  {
+    "id": "origin-07",
+    "topic": "origin",
+    "session": "10_01",
+    "type": "mc",
+    "q": "Standardised coinage was introduced in Egypt only under…",
+    "options": [
+      "The Ptolemies (late 4th century BC)",
+      "The Pharaoh Ramses II",
+      "The Romans",
+      "The Persians"
+    ],
+    "explain": "Unit of account ≠ coins: the sovereign defines the unit without minting."
+  },
+  {
+    "id": "origin-08",
+    "topic": "origin",
+    "session": "10_01",
+    "type": "mc",
+    "q": "In China silver was first used as money in the form of…",
+    "options": [
+      "Ingots",
+      "Coins",
+      "Paper notes",
+      "Cowrie shells"
+    ],
+    "explain": "Silver coinage came later."
+  },
+  {
+    "id": "origin-09",
+    "topic": "origin",
+    "session": "10_01",
+    "type": "mc",
+    "q": "In a medieval tally stick, the creditor kept the longer piece, called the…",
+    "options": [
+      "Stock",
+      "Bond",
+      "Note",
+      "Share"
+    ],
+    "explain": "'Capital stock' and 'corporate stock' remind us of this. Tallies were transferable debt."
+  },
+  {
+    "id": "origin-10",
+    "topic": "origin",
+    "session": "10_01",
+    "type": "mc",
+    "q": "The English Exchequer used tally sticks to record loans and taxes until…",
+    "options": [
+      "The early 19th century",
+      "The 12th century",
+      "The 1700s",
+      "1914"
+    ],
+    "explain": "Tallies circulated alongside coins."
+  },
+  {
+    "id": "origin-11",
+    "topic": "origin",
+    "session": "10_01",
+    "type": "mc",
+    "q": "The first coins were made of electrum. What does this suggest?",
+    "options": [
+      "High purchasing power: payment tokens or evidence of debt, not everyday trade",
+      "They were for everyday market purchases",
+      "They were purely decorative",
+      "They were issued by private banks"
+    ],
+    "explain": "History highlights money's role as evidence of debt."
+  },
+  {
+    "id": "origin-12",
+    "topic": "origin",
+    "session": "10_01",
+    "type": "mc",
+    "q": "Knapp's 'The State Theory of Money' (1905) sees money as…",
+    "options": [
+      "Evidence of debt owed to the state, including taxes",
+      "A spontaneous market convention",
+      "A commodity with intrinsic value",
+      "A store of wealth only"
+    ],
+    "explain": "That explains why the state defines the unit of account."
+  },
+  {
+    "id": "origin-13",
+    "topic": "origin",
+    "session": "10_01",
+    "type": "mc",
+    "q": "In Keynes's chartalism, 'writing the dictionary' means…",
+    "options": [
+      "Specifying how much of a thing makes one unit of money",
+      "Enforcing that gold is money",
+      "Minting coins",
+      "Printing banknotes"
+    ],
+    "explain": "'Enforcing the dictionary' = enforcing that, say, gold is money. Together with minting, it completes state money."
+  },
+  {
+    "id": "origin-14",
+    "topic": "origin",
+    "session": "10_01",
+    "type": "match",
+    "q": "Match each economist to their view on the state's role in money.",
+    "pairs": [
+      [
+        "Hayek",
+        "No state needed; private sector issues, no central bank"
+      ],
+      [
+        "Keynes",
+        "Money too important to leave to the private sector"
+      ],
+      [
+        "Friedman",
+        "State must define money and regulate its quantity"
+      ]
+    ],
+    "explain": "Keynes and Friedman agree on this despite being theoretically far apart."
+  },
+  {
+    "id": "origin-15",
+    "topic": "origin",
+    "session": "10_01",
+    "type": "mc",
+    "q": "Seigniorage is…",
+    "options": [
+      "The profit from reducing metal content while keeping the coin's nominal value (earned by the state)",
+      "A tax on bank deposits",
+      "The interest on public debt",
+      "The cost of minting"
+    ],
+    "explain": "Today only the state or central bank can issue the monetary base."
+  },
+  {
+    "id": "origin-16",
+    "topic": "origin",
+    "session": "10_01",
+    "type": "mc",
+    "q": "Why did the state take direct control of minting?",
+    "options": [
+      "Private minters tended to debase the coinage",
+      "Coins were too heavy",
+      "Paper money was invented",
+      "Merchants asked for it"
+    ],
+    "explain": "Sequence: private minters paying a fee → debasement → state control → paper money → fiat."
+  },
+  {
+    "id": "origin-17",
+    "topic": "origin",
+    "session": "10_01",
+    "type": "tf",
+    "q": "The lecturer considers Bitcoin to be money.",
+    "answer": false,
+    "explain": "A speculative instrument. Many stablecoins are too: the issued amount should relate to the monetary base or backing assets, which often isn't so."
+  },
+  {
+    "id": "origin-18",
+    "topic": "origin",
+    "session": "10_01",
+    "type": "mc",
+    "q": "Which is a reason the lecturer gives for the digital euro?",
+    "options": [
+      "To cut the profits of private payment platforms and give the ECB some control",
+      "To abolish bank deposits",
+      "To replace the unit of account",
+      "To finance Eurozone deficits"
+    ],
+    "explain": "The holding limit exists so as not to crowd out the banking system, which finances investment and consumption."
+  },
+  {
+    "id": "origin-19",
+    "topic": "origin",
+    "session": "10_01",
+    "type": "mc",
+    "q": "The digital euro holding limit under discussion is about…",
+    "options": [
+      "€3,000",
+      "€300",
+      "€30,000",
+      "No limit"
+    ],
+    "verified": false,
+    "explain": "The lecturer said around €3,000, 'still under discussion'. Purpose: not to drain bank deposits."
+  },
+  {
+    "id": "origin-20",
+    "topic": "origin",
+    "session": "10_01",
+    "type": "mc",
+    "q": "Weimar Germany and Argentina show that…",
+    "options": [
+      "Money works as a medium of exchange only if the monetary standard is reasonably stable",
+      "Barter is more efficient than money",
+      "Gold standards cause inflation",
+      "Hyperinflation helps debtors permanently"
+    ],
+    "explain": "With continuous strong losses of value people go back to barter or hold dollars."
+  },
+  {
+    "id": "origin-21",
+    "topic": "origin",
+    "session": "10_01",
+    "type": "mc",
+    "q": "With n goods, a numéraire reduces the relative prices you need to know from n(n−1)/2 to…",
+    "options": [
+      "n − 1",
+      "n",
+      "n/2",
+      "2n − 1"
+    ],
+    "explain": "All prices are expressed in the numéraire."
+  },
+  {
+    "id": "origin-22",
+    "topic": "origin",
+    "session": "10_01",
+    "type": "tf",
+    "q": "Inflation favours debtors and deflation favours creditors.",
+    "answer": true,
+    "explain": "That's why the choice of numéraire is not neutral."
+  },
+  {
+    "id": "origin-23",
+    "topic": "origin",
+    "session": "10_01",
+    "type": "mc",
+    "q": "Cheaper production of the numéraire (e.g. Potosí silver in the 16th century) makes…",
+    "options": [
+      "All prices rise, favouring debtors",
+      "All prices fall, favouring creditors",
+      "Relative prices change but not the price level",
+      "Nothing: the numéraire is neutral"
+    ],
+    "explain": "The price level depends on the conditions of production of the numéraire relative to those of all other goods."
+  },
+  {
+    "id": "origin-24",
+    "topic": "origin",
+    "session": "10_01",
+    "type": "mc",
+    "q": "The interwar debate on the numéraire for international exchange rates proposed…",
+    "options": [
+      "A bundle of primary commodities",
+      "The dollar alone",
+      "Silver only",
+      "A world central bank"
+    ],
+    "explain": "But which goods enter the bundle changes relative prices between countries: real effects."
+  },
+  {
+    "id": "origin-25",
+    "topic": "origin",
+    "session": "10_01",
+    "type": "mc",
+    "q": "If Italy left the euro for a new lira expected to depreciate, who would lose?",
+    "options": [
+      "Those with net foreign liabilities",
+      "Those with net foreign assets",
+      "Everybody equally",
+      "Nobody"
+    ],
+    "explain": "Changing the unit of account redistributes."
+  },
+  {
+    "id": "origin-26",
+    "topic": "origin",
+    "session": "10_01",
+    "type": "mc",
+    "q": "Why hold wealth in money even though it pays no (or less) interest?",
+    "options": [
+      "It has the greatest liquidity and certainty of its nominal value",
+      "It keeps real value under inflation",
+      "It is risk-free in real terms",
+      "Banks require it"
+    ],
+    "explain": "Not certainty of real value: inflation erodes it, as for other assets."
+  },
+  {
+    "id": "origin-27",
+    "topic": "origin",
+    "session": "10_01",
+    "type": "mc",
+    "q": "Which great Mediterranean traders began minting coins relatively late?",
+    "options": [
+      "The Phoenicians",
+      "The Greeks",
+      "The Romans",
+      "The Lydians"
+    ],
+    "explain": "They didn't need coins, or even money, for their trade."
+  },
+  {
+    "id": "origin-28",
+    "topic": "origin",
+    "session": "10_01",
+    "type": "tf",
+    "q": "Money predates writing.",
+    "answer": true,
+    "explain": "Writing emerged to record debts and credits (e.g. Egyptian temple taxes)."
+  },
+  {
+    "id": "origin-29",
+    "topic": "origin",
+    "session": "10_01",
+    "type": "mc",
+    "q": "Which marginalist economist, with Adam Smith, locates money's origin in the medium-of-exchange function?",
+    "options": [
+      "Menger",
+      "Wicksell",
+      "Hicks",
+      "Tobin"
+    ],
+    "explain": "Different approaches, same view on origin."
+  },
+  {
+    "id": "origin-30",
+    "topic": "origin",
+    "session": "10_01",
+    "type": "mc",
+    "q": "In Argentina's high inflation (~120%), the lecturer says the wealthy hold their wealth in…",
+    "options": [
+      "Dollars",
+      "Gold",
+      "Pesos",
+      "Bonds"
+    ],
+    "explain": "Others spend wages on goods as soon as they receive them."
+  },
+  {
+    "id": "liq-01",
+    "topic": "liquidity",
+    "session": "10_01",
+    "type": "match",
+    "q": "Match the monetary aggregate to its content.",
+    "pairs": [
+      [
+        "M0",
+        "Monetary base"
+      ],
+      [
+        "M1",
+        "Currency + overnight deposits"
+      ],
+      [
+        "M2",
+        "M1 + deposits with agreed maturity up to 2 years"
+      ],
+      [
+        "M3",
+        "M2 + repos, money market fund shares, short-term debt securities"
+      ]
+    ],
+    "explain": "Each aggregate adds assets with lower liquidity."
+  },
+  {
+    "id": "liq-02",
+    "topic": "liquidity",
+    "session": "10_01",
+    "type": "mc",
+    "q": "A HIGH cross-elasticity of deposits with respect to the short-term interest rate implies…",
+    "options": [
+      "It's hard to draw the line: a spectrum of liquidity",
+      "Money is a well-defined thing",
+      "Money demand is zero",
+      "Base money is exogenous"
+    ],
+    "explain": "Low elasticity → treat base money + deposits as 'money'."
+  },
+  {
+    "id": "liq-03",
+    "topic": "liquidity",
+    "session": "10_01",
+    "type": "mc",
+    "q": "Why did the Bank of England need M4 and M5?",
+    "options": [
+      "After targeting M1/M2 (monetarism), other aggregates grew through financial innovation",
+      "Because the euro was introduced",
+      "Because M3 was abolished",
+      "To count foreign reserves"
+    ],
+    "explain": "Controlling base money and deposits triggered innovation and growth of other financial assets."
+  },
+  {
+    "id": "liq-04",
+    "topic": "liquidity",
+    "session": "10_01",
+    "type": "mc",
+    "q": "Why does the ECB not include short-term government bonds in M3, unlike the old Bank of Italy?",
+    "options": [
+      "Public bonds concern the public sector and say nothing about private-sector liquidity",
+      "They are illiquid",
+      "They pay too much interest",
+      "Treaties forbid it"
+    ],
+    "explain": "Italian households held BOTs as close substitutes for deposits (high cross-elasticity)."
+  },
+  {
+    "id": "liq-05",
+    "topic": "liquidity",
+    "session": "10_02",
+    "type": "mc",
+    "q": "Which repos are excluded from M3?",
+    "options": [
+      "Repos between banks",
+      "Repos between a money market fund and a bank",
+      "Central bank repos with banks",
+      "All repos"
+    ],
+    "explain": "Within the banking sector they cancel out when you consolidate its balance sheet."
+  },
+  {
+    "id": "liq-06",
+    "topic": "liquidity",
+    "session": "10_02",
+    "type": "mc",
+    "q": "Why are repos between a non-bank (e.g. money market fund) and a bank counted in M3?",
+    "options": [
+      "The fund's deposits fall (M2 falls) but total money hasn't changed: liquidity took another form",
+      "They create new base money",
+      "They are riskier",
+      "They pay higher interest"
+    ],
+    "explain": "Counting them in M3 captures the shift."
+  },
+  {
+    "id": "liq-07",
+    "topic": "liquidity",
+    "session": "10_02",
+    "type": "mc",
+    "q": "Reusing the same collateral for several operations is called…",
+    "options": [
+      "Rehypothecation",
+      "Haircutting",
+      "Sterilisation",
+      "Securitisation"
+    ],
+    "explain": "It raises system liquidity speculatively, adding risk, so central banks regulate it."
+  },
+  {
+    "id": "liq-08",
+    "topic": "liquidity",
+    "session": "10_02",
+    "type": "mc",
+    "q": "A haircut means that against a bond worth 100 the lender lends, say…",
+    "options": [
+      "80",
+      "100",
+      "120",
+      "20"
+    ],
+    "explain": "The 20 margin protects against risk."
+  },
+  {
+    "id": "liq-09",
+    "topic": "liquidity",
+    "session": "10_02",
+    "type": "mc",
+    "q": "Why does the central bank's list of eligible collateral and haircuts matter?",
+    "options": [
+      "It signals monetary policy: e.g. removing Greek bonds starves Greek banks of central bank funding",
+      "It sets the corridor width",
+      "It determines the unit of account",
+      "It fixes bond prices"
+    ],
+    "explain": "Collateral policy is a policy signal."
+  },
+  {
+    "id": "liq-10",
+    "topic": "liquidity",
+    "session": "10_01",
+    "type": "tf",
+    "q": "Neither Friedman nor Keynes ever precisely defined money.",
+    "answer": true,
+    "explain": "It becomes important for policy: 'if you say you must control money, which aggregate?'"
+  },
+  {
+    "id": "liq-11",
+    "topic": "liquidity",
+    "session": "10_01",
+    "type": "mc",
+    "q": "A 'run towards liquidity' typically happens…",
+    "options": [
+      "In crises",
+      "In booms",
+      "When rates are negative",
+      "After a rise in M1"
+    ],
+    "explain": "Everyone sells less liquid assets to buy more liquid ones; money demand becomes very strong."
+  },
+  {
+    "id": "liq-12",
+    "topic": "liquidity",
+    "session": "10_01",
+    "type": "mc",
+    "q": "The monetarist idea of money is something specific that yields…",
+    "options": [
+      "Services (indirect utility) because it lets you buy goods",
+      "Interest",
+      "Collateral value",
+      "Seigniorage"
+    ],
+    "explain": "Lecturer's counterpoint: short-term bonds can be accepted in payment too; what matters is liquidity."
+  },
+  {
+    "id": "liq-13",
+    "topic": "liquidity",
+    "session": "10_01",
+    "type": "mc",
+    "q": "Why do central banks track several aggregates?",
+    "options": [
+      "It is hard to say what money is, and to control it",
+      "Statistical convention",
+      "EU law",
+      "To measure exchange rates"
+    ],
+    "explain": "Strong substitutability between base money/deposits and short-term assets."
+  },
+  {
+    "id": "cb-01",
+    "topic": "cb",
+    "session": "10_02",
+    "type": "mc",
+    "q": "The first central banks (17th century) were…",
+    "options": [
+      "The Riksbank (Sweden) and the Bank of England",
+      "The Bank of France and Reichsbank",
+      "The Fed and Bank of Japan",
+      "Bank of Italy and Bundesbank"
+    ],
+    "explain": "They arose as financial markets needed regulating."
+  },
+  {
+    "id": "cb-02",
+    "topic": "cb",
+    "session": "10_02",
+    "type": "mc",
+    "q": "Which 'forgotten' central bank function does the lecturer mention?",
+    "options": [
+      "Financing investment projects (e.g. Bank of France and infrastructure)",
+      "Setting wages",
+      "Collecting taxes",
+      "Regulating stock exchanges"
+    ],
+    "explain": "Other historical functions: financing the state, regulating money and credit, lender of last resort, managing the exchange rate."
+  },
+  {
+    "id": "cb-03",
+    "topic": "cb",
+    "session": "10_02",
+    "type": "mc",
+    "q": "A currency appreciation tends to…",
+    "options": [
+      "Reduce imported inflation",
+      "Raise imported inflation",
+      "Raise net exports",
+      "Raise public debt"
+    ],
+    "explain": "The exchange rate affects capital flows, net exports and the price level."
+  },
+  {
+    "id": "cb-04",
+    "topic": "cb",
+    "session": "10_02",
+    "type": "mc",
+    "q": "Which central banks also aim to keep the economy near full employment?",
+    "options": [
+      "The Fed and the Bank of Japan",
+      "The ECB only",
+      "The Bundesbank",
+      "The Riksbank in the 17th century"
+    ],
+    "explain": "Price stability as the main goal is a modern view, not always historical."
+  },
+  {
+    "id": "cb-05",
+    "topic": "cb",
+    "session": "10_02",
+    "type": "tf",
+    "q": "Central bank goals (price stability, employment) can conflict.",
+    "answer": true,
+    "explain": "Raising the rate to bring inflation down hurts output and employment."
+  },
+  {
+    "id": "cb-06",
+    "topic": "cb",
+    "session": "10_02",
+    "type": "mc",
+    "q": "Harrod's [?] view of the 'optimal' policy:",
+    "options": [
+      "Set the interest rate as low as possible",
+      "Target inflation relative to the natural rate",
+      "Control M1",
+      "Keep a fixed exchange rate"
+    ],
+    "verified": false,
+    "explain": "Minimises debt-servicing cost and leaves room for expansionary fiscal policy. Name uncertain: check slides."
+  },
+  {
+    "id": "cb-07",
+    "topic": "cb",
+    "session": "10_02",
+    "type": "mc",
+    "q": "Today's dominant view of optimal monetary policy:",
+    "options": [
+      "Target an inflation rate, setting the policy rate relative to the natural rate (sometimes by rules)",
+      "Always keep rates at zero",
+      "Peg the money supply",
+      "Finance the Treasury"
+    ],
+    "explain": "A low rate is not necessarily best; price stability may require a higher one."
+  },
+  {
+    "id": "cb-08",
+    "topic": "cb",
+    "session": "10_02",
+    "type": "mc",
+    "q": "The monetary base is…",
+    "options": [
+      "MB = CU + RE",
+      "MB = M1 + RE",
+      "MB = CU + D",
+      "MB = RE − CU"
+    ],
+    "explain": "CU = banknotes and coins in circulation (including cash held by banks); RE = banks' deposits at the central bank."
+  },
+  {
+    "id": "cb-09",
+    "topic": "cb",
+    "session": "10_02",
+    "type": "tf",
+    "q": "RE (reserves) in the monetary base are the public's deposits at commercial banks.",
+    "answer": false,
+    "explain": "They are banks' deposits at the central bank."
+  },
+  {
+    "id": "cb-10",
+    "topic": "cb",
+    "session": "10_02",
+    "type": "mc",
+    "q": "Who demands base money?",
+    "options": [
+      "The public (cash) and banks (compulsory and discretionary reserves)",
+      "Only banks",
+      "Only the Treasury",
+      "Only foreigners"
+    ],
+    "explain": "Banks hold discretionary reserves against risk or liquidity needs."
+  },
+  {
+    "id": "cb-11",
+    "topic": "cb",
+    "session": "10_02",
+    "type": "mc",
+    "q": "Which is the MAIN channel of base-money creation?",
+    "options": [
+      "Refinancing the banking sector",
+      "The Treasury channel",
+      "The foreign channel",
+      "Seigniorage on coins"
+    ],
+    "explain": "Banks structurally need base money for reserve requirements; the central bank exploits that to steer aggregates and rates."
+  },
+  {
+    "id": "cb-12",
+    "topic": "cb",
+    "session": "10_02",
+    "type": "mc",
+    "q": "Article 123 TFEU prohibits…",
+    "options": [
+      "Overdrafts/credit to governments and direct (primary market) purchase of their debt",
+      "Secondary market purchases",
+      "Lending to banks",
+      "Foreign exchange intervention"
+    ],
+    "explain": "The Treasury channel is closed in the euro area."
+  },
+  {
+    "id": "cb-13",
+    "topic": "cb",
+    "session": "10_02",
+    "type": "mc",
+    "q": "The Italian 'divorce' between the Bank of Italy and the Treasury was done by…",
+    "options": [
+      "A letter from Governor Ciampi to the Treasury Minister (Andreatta)",
+      "An act of Parliament",
+      "The Maastricht Treaty",
+      "A referendum"
+    ],
+    "explain": "Early 1980s; not a decision of Parliament."
+  },
+  {
+    "id": "cb-14",
+    "topic": "cb",
+    "session": "10_02",
+    "type": "mc",
+    "q": "Ciampi's stated aim with the divorce:",
+    "options": [
+      "A change of monetary regime to bring inflation down",
+      "Joining the euro",
+      "Financing industry",
+      "Devaluing the lira"
+    ],
+    "explain": "'Monetary dominance' over fiscal policy: monetary policy must not finance fiscal policy directly."
+  },
+  {
+    "id": "cb-15",
+    "topic": "cb",
+    "session": "10_02",
+    "type": "mc",
+    "q": "The euro is described as…",
+    "options": [
+      "A unit of account before having a state",
+      "A state without a unit of account",
+      "A commodity money",
+      "A fixed exchange rate"
+    ],
+    "explain": "Perhaps the first case in history; this caused problems."
+  },
+  {
+    "id": "cb-16",
+    "topic": "cb",
+    "session": "10_02",
+    "type": "mc",
+    "q": "Draghi's 'whatever it takes' was in…",
+    "options": [
+      "2012",
+      "2008",
+      "2015",
+      "2020"
+    ],
+    "explain": "With 3% in Germany and 15% in Italy 'no monetary union can survive'. Words alone narrowed spreads."
+  },
+  {
+    "id": "cb-17",
+    "topic": "cb",
+    "session": "10_02",
+    "type": "mc",
+    "q": "The 'capital key' rule says ECB holdings of each country's public debt should be proportional to…",
+    "options": [
+      "That country's national central bank's share of ECB capital",
+      "GDP of the country",
+      "The country's debt-to-GDP ratio",
+      "Its inflation rate"
+    ],
+    "explain": "It was respected at least on average, which helped the European Court rule QE legitimate."
+  },
+  {
+    "id": "cb-18",
+    "topic": "cb",
+    "session": "10_02",
+    "type": "mc",
+    "q": "A balance-of-payments surplus (foreign channel) leads to…",
+    "options": [
+      "Base money created",
+      "Base money destroyed",
+      "No change",
+      "Higher reserve requirements"
+    ],
+    "explain": "Foreigners exchange dollars for euros: reserves up, euros in circulation up. Deficit → destroyed."
+  },
+  {
+    "id": "cb-19",
+    "topic": "cb",
+    "session": "10_02",
+    "type": "mc",
+    "q": "ECB reserve requirements are around…",
+    "options": [
+      "1%, met on average over a maintenance period",
+      "10%, met daily",
+      "0%",
+      "5%, met weekly"
+    ],
+    "explain": "Banks can use reserves day to day; the requirement applies to the most liquid deposits."
+  },
+  {
+    "id": "cb-20",
+    "topic": "cb",
+    "session": "10_02",
+    "type": "mc",
+    "q": "The MAIN reason to keep the reserve ratio low:",
+    "options": [
+      "The interbank market becomes a sensitive indicator of system liquidity",
+      "To reduce inflation",
+      "To raise seigniorage",
+      "To discourage lending"
+    ],
+    "explain": "Other reasons: lower opportunity cost for banks, and flexibility."
+  },
+  {
+    "id": "cb-21",
+    "topic": "cb",
+    "session": "10_02",
+    "type": "tf",
+    "q": "If banks can count on the central bank for liquidity, they don't need large reserves; the question is the price, not availability.",
+    "answer": true,
+    "explain": "The marginal lending facility is the old discount window."
+  },
+  {
+    "id": "cb-22",
+    "topic": "cb",
+    "session": "10_02",
+    "type": "tf",
+    "q": "A central bank can let a very big financial institution fail without systemic risk.",
+    "answer": false,
+    "explain": "Banks are interconnected: one failure can bring down others. Smaller banks can fail; deposits are insured up to a limit."
+  },
+  {
+    "id": "cb-23",
+    "topic": "cb",
+    "session": "10_02",
+    "type": "mc",
+    "q": "QE purchases of government bonds by the ECB were made in the…",
+    "options": [
+      "Secondary market",
+      "Primary market",
+      "Foreign exchange market",
+      "Interbank market only"
+    ],
+    "explain": "The justification was the ECB mandate to ensure the survival and stability of the euro."
+  },
+  {
+    "id": "cb-24",
+    "topic": "cb",
+    "session": "10_02",
+    "type": "mc",
+    "q": "On financing governments, the Fed…",
+    "options": [
+      "Doesn't finance individual states but supports federal bonds indirectly",
+      "Finances California and Texas directly",
+      "Is forbidden to buy any bonds",
+      "Only buys foreign bonds"
+    ],
+    "explain": "It buys in the secondary market and gives banks liquidity to buy federal bonds."
+  },
+  {
+    "id": "cb-25",
+    "topic": "cb",
+    "session": "10_02",
+    "type": "mc",
+    "q": "During COVID, the Fed and the Bank of England…",
+    "options": [
+      "Again financed their treasuries",
+      "Stopped all purchases",
+      "Raised rates",
+      "Sold their bond holdings"
+    ],
+    "explain": "The Bank of Japan doesn't follow the 'closed channel' rule either."
+  },
+  {
+    "id": "cb-26",
+    "topic": "cb",
+    "session": "10_02",
+    "type": "mc",
+    "q": "The old debate 'does the central bank set the money supply or the interest rate?' has a shared answer today:",
+    "options": [
+      "It sets the interest rate",
+      "It sets the money supply",
+      "It sets the exchange rate",
+      "Neither"
+    ],
+    "explain": "This comes back with the endogeneity of money."
+  },
+  {
+    "id": "pol-01",
+    "topic": "policy",
+    "session": "10_02",
+    "type": "match",
+    "q": "Match each instrument to its description.",
+    "pairs": [
+      [
+        "MRO",
+        "Temporary (reverse) operation: repo/collateralised loan"
+      ],
+      [
+        "Outright operation",
+        "Buying/selling securities with no agreement to reverse: structural"
+      ],
+      [
+        "Marginal lending facility",
+        "Standing facility: the old discount window, rate above MRO"
+      ],
+      [
+        "Deposit facility",
+        "Standing facility: overnight deposits at a very low rate"
+      ]
+    ],
+    "explain": "All operations are against collateral."
+  },
+  {
+    "id": "pol-02",
+    "topic": "policy",
+    "session": "10_02",
+    "type": "mc",
+    "q": "Open market operations are initiated by…, standing facilities by…",
+    "options": [
+      "The central bank / the counterparty bank",
+      "The counterparty bank / the central bank",
+      "The Treasury / the central bank",
+      "The ECB / the Commission"
+    ],
+    "explain": "Standing facilities are at the counterparty's initiative."
+  },
+  {
+    "id": "pol-03",
+    "topic": "policy",
+    "session": "10_02",
+    "type": "mc",
+    "q": "Bagehot (Lombard Street, 1873): lend to a bank in trouble…",
+    "options": [
+      "But at a penalty rate",
+      "At zero rate",
+      "Only against gold",
+      "Never"
+    ],
+    "explain": "A bank needing such liquidity probably took on high risk, but you still help it to protect the whole system."
+  },
+  {
+    "id": "pol-04",
+    "topic": "policy",
+    "session": "10_02",
+    "type": "mc",
+    "q": "Why does the lecturer call negative rates on excess reserves 'not a brilliant idea'?",
+    "options": [
+      "Reserves piled up not because banks misbehaved but because there was little loan demand with acceptable risk",
+      "They caused inflation",
+      "They violated the Treaty",
+      "They raised long rates"
+    ],
+    "explain": "Reserves stay at the central bank or are used to buy government bonds."
+  },
+  {
+    "id": "pol-05",
+    "topic": "policy",
+    "session": "10_02",
+    "type": "mc",
+    "q": "In the corridor, the ceiling is the … rate and the floor is the … rate.",
+    "options": [
+      "Marginal lending facility / deposit facility",
+      "MRO / marginal lending",
+      "Deposit facility / MRO",
+      "Discount / repo"
+    ],
+    "explain": "The MRO rate sits in the middle; the interbank overnight rate oscillates around it."
+  },
+  {
+    "id": "pol-06",
+    "topic": "policy",
+    "session": "10_02",
+    "type": "mc",
+    "q": "The corridor as a signal: all three rates going UP means…",
+    "options": [
+      "More restrictive policy",
+      "More expansionary policy",
+      "Wider corridor",
+      "Floor system"
+    ],
+    "explain": "A narrow corridor means the central bank tolerates less fluctuation in the interbank rate."
+  },
+  {
+    "id": "pol-07",
+    "topic": "policy",
+    "session": "10_06",
+    "type": "mc",
+    "q": "What defines a floor system?",
+    "options": [
+      "The policy (MRO) rate coincides with the deposit rate",
+      "The policy rate equals the ceiling",
+      "Reserve requirements of 100%",
+      "No standing facilities"
+    ],
+    "explain": "Banks are indifferent between lending reserves and holding them at the central bank."
+  },
+  {
+    "id": "pol-08",
+    "topic": "policy",
+    "session": "10_06",
+    "type": "mc",
+    "q": "The floor system was adopted by England from…, the US from…, the ECB from…",
+    "options": [
+      "2008 / 2009 / 2015",
+      "2015 / 2008 / 2009",
+      "2009 / 2008 / 2012",
+      "2008 / 2008 / 2008"
+    ],
+    "explain": "The ECB moved more slowly (Trichet even raised rates in 2011); the Fed was the most innovative."
+  },
+  {
+    "id": "pol-09",
+    "topic": "policy",
+    "session": "10_06",
+    "type": "mc",
+    "q": "The advantage of a floor system for QE:",
+    "options": [
+      "The central bank can inject large liquidity without having to withdraw it or change the policy rate",
+      "It lowers reserve requirements",
+      "It raises the ceiling",
+      "It fixes the exchange rate"
+    ],
+    "explain": "Excess reserves are simply held at the central bank."
+  },
+  {
+    "id": "pol-10",
+    "topic": "policy",
+    "session": "10_02",
+    "type": "mc",
+    "q": "Strategy at the zero lower bound:",
+    "options": [
+      "Set the nominal rate at zero and raise inflation expectations, so the real rate falls below a negative natural rate",
+      "Raise the nominal rate",
+      "Cut reserve requirements",
+      "Sell bonds"
+    ],
+    "explain": "The worry in those years was deflation, not inflation."
+  },
+  {
+    "id": "pol-11",
+    "topic": "policy",
+    "session": "10_06",
+    "type": "mc",
+    "q": "In a fixed-rate tender, allotment is…, and the problem is…",
+    "options": [
+      "Pro rata / overbidding",
+      "Highest bid first / underbidding",
+      "Random / collusion",
+      "By collateral / fraud"
+    ],
+    "explain": "A bank can borrow at, say, 3% and lend at 4% in the interbank market, so it asks for more than it needs."
+  },
+  {
+    "id": "pol-12",
+    "topic": "policy",
+    "session": "10_06",
+    "type": "mc",
+    "q": "In a variable-rate tender…",
+    "options": [
+      "Bids are filled from the highest rate down, above a minimum bid rate; the marginal rate is allotted pro rata",
+      "All banks pay the same rate",
+      "Allotment is by lottery",
+      "Rates are set by the Treasury"
+    ],
+    "explain": "This discourages overbidding: cheap liquidity is no longer guaranteed."
+  },
+  {
+    "id": "pol-13",
+    "topic": "policy",
+    "session": "10_06",
+    "type": "mc",
+    "q": "The 'discount window stigma' is that…",
+    "options": [
+      "Banks in stress avoid it for fear of damaging their reputation",
+      "The window is too expensive",
+      "It's illegal in Europe",
+      "It only lends to governments"
+    ],
+    "explain": "But if it really needs liquidity, a bank goes anyway: 'sometimes you prefer a bad reputation to failing'."
+  },
+  {
+    "id": "pol-14",
+    "topic": "policy",
+    "session": "10_06",
+    "type": "mc",
+    "q": "Fed practice at the discount window:",
+    "options": [
+      "First time above the usual rate, second time higher, eventually 'stop'",
+      "Always lends at the same rate",
+      "Never lends twice",
+      "Lends only to big banks"
+    ],
+    "explain": "The central bank usually provides liquidity to avoid failures, especially of big banks."
+  },
+  {
+    "id": "pol-15",
+    "topic": "policy",
+    "session": "10_02",
+    "type": "mc",
+    "q": "Real short-term rates in the 1970s were…",
+    "options": [
+      "Negative for several years",
+      "Very high",
+      "Zero",
+      "Equal to nominal rates"
+    ],
+    "explain": "Inflation was very high even though nominal rates weren't zero. Late 1970s: very restrictive monetary and fiscal policy."
+  },
+  {
+    "id": "pol-16",
+    "topic": "policy",
+    "session": "10_02",
+    "type": "tf",
+    "q": "In the 1980s the central banks ran a floor system.",
+    "answer": false,
+    "explain": "The floor system came with QE after 2007–08."
+  },
+  {
+    "id": "pol-17",
+    "topic": "policy",
+    "session": "10_02",
+    "type": "mc",
+    "q": "On the 'conflict' view of inflation, the early-1980s restrictive policy worked by…",
+    "options": [
+      "Raising unemployment and weakening workers' bargaining power",
+      "Cutting the money supply directly",
+      "Raising productivity",
+      "Devaluing the currency"
+    ],
+    "explain": "Together with labour market reforms in Italy, the US and the UK (Thatcher)."
+  },
+  {
+    "id": "pol-18",
+    "topic": "policy",
+    "session": "10_02",
+    "type": "mc",
+    "q": "Compared with the 1970s, in the recent imported-inflation episode in Italy…",
+    "options": [
+      "The cost fell on wages and real wages fell",
+      "Real wages grew fastest in history",
+      "Profits collapsed",
+      "Workers won full indexation"
+    ],
+    "explain": "1970s: highest real wage growth despite oil and lira depreciation (strong bargaining power)."
+  },
+  {
+    "id": "pol-19",
+    "topic": "policy",
+    "session": "10_02",
+    "type": "mc",
+    "q": "The suggested short essay on inflation compares the 1970s and today through…",
+    "options": [
+      "Conflict inflation",
+      "The quantity theory",
+      "The Fisher effect",
+      "Cost of capital"
+    ],
+    "explain": "Who bears the burden of a worsening of the terms of trade?"
+  },
+  {
+    "id": "rates-01",
+    "topic": "rates",
+    "session": "10_06",
+    "type": "mc",
+    "q": "'Short-term' vs 'short run': which is correct?",
+    "options": [
+      "Short-term = maturity of an asset; short run = period with given productive capacity",
+      "They mean the same",
+      "Short-term = period of analysis",
+      "Short run = maturity"
+    ],
+    "explain": "A referee once caught the lecturer writing 'short-run interest rate' for 'short-term'."
+  },
+  {
+    "id": "rates-02",
+    "topic": "rates",
+    "session": "10_06",
+    "type": "mc",
+    "q": "Transmission chain of policy:",
+    "options": [
+      "Central bank → overnight interbank → savings deposits → short-term bonds → long-term bonds",
+      "Long bonds → short bonds → interbank → central bank",
+      "Central bank → long bonds → deposits",
+      "Treasury → central bank → banks"
+    ],
+    "explain": "Linked by no-arbitrage conditions."
+  },
+  {
+    "id": "rates-03",
+    "topic": "rates",
+    "session": "10_06",
+    "type": "mc",
+    "q": "In crises, short and long rates…",
+    "options": [
+      "Can diverge, so the central bank intervenes in specific market segments",
+      "Always move together",
+      "Both fall to zero",
+      "Are fixed by law"
+    ],
+    "explain": "The central bank's goal is a certain structure of rates (2% short with 20% long would conflict with its goals)."
+  },
+  {
+    "id": "rates-04",
+    "topic": "rates",
+    "session": "10_06",
+    "type": "mc",
+    "q": "Approximately, nominal rate i =",
+    "options": [
+      "r + expected inflation",
+      "r − expected inflation",
+      "r × expected inflation",
+      "r / expected inflation"
+    ],
+    "explain": "(1+i) = (1+r)(1+π^e); r·π^e is negligible. E.g. nominal 5%, expected inflation 2% → real ≈ 3%."
+  },
+  {
+    "id": "rates-05",
+    "topic": "rates",
+    "session": "10_06",
+    "type": "mc",
+    "q": "A 'Fisher effect' can be spoken of only if…",
+    "options": [
+      "The real rate is determined by real factors (e.g. productivity)",
+      "The central bank targets inflation",
+      "Money is endogenous",
+      "Rates are negative"
+    ],
+    "explain": "Causality then runs from real rate and inflation to the nominal rate (marginalist models)."
+  },
+  {
+    "id": "rates-06",
+    "topic": "rates",
+    "session": "10_06",
+    "type": "mc",
+    "q": "If the interest rate is a monetary phenomenon and the central bank keeps the nominal rate fixed, a rise in inflation…",
+    "options": [
+      "Lowers the real rate",
+      "Raises the nominal rate automatically",
+      "Leaves the real rate unchanged",
+      "Raises the real rate"
+    ],
+    "explain": "Expected inflation can still matter if the central bank reacts, but as a policy choice, not a mechanical adjustment."
+  },
+  {
+    "id": "rates-07",
+    "topic": "rates",
+    "session": "10_06",
+    "type": "mc",
+    "q": "The three theories of the term structure are…",
+    "options": [
+      "Expectations, preferred habitat, liquidity premium",
+      "Expectations, Fisher, Wicksell",
+      "Marginalist, classical, Keynesian",
+      "Structural, reduced, mixed"
+    ],
+    "explain": "The expectations theory is the basis for the other two."
+  },
+  {
+    "id": "rates-08",
+    "topic": "rates",
+    "session": "10_06",
+    "type": "mc",
+    "q": "The 'structural' approach to the yield curve (rates from supply and demand for each asset) is associated with…",
+    "options": [
+      "Tobin",
+      "Meiselman",
+      "Hicks",
+      "Friedman"
+    ],
+    "explain": "Usually a reduced form (long rate as function of the short rate) is used instead."
+  },
+  {
+    "id": "rates-09",
+    "topic": "rates",
+    "session": "10_06",
+    "type": "mc",
+    "q": "The expectations theory says the expected return of the strategies must be the same…",
+    "options": [
+      "For any horizon",
+      "Only for short horizons",
+      "Only in equilibrium with forward markets",
+      "Only for risk-neutral banks"
+    ],
+    "explain": "Long horizon: buy long or roll over short. Short horizon: buy short or buy long and sell before maturity."
+  },
+  {
+    "id": "rates-10",
+    "topic": "rates",
+    "session": "10_06",
+    "type": "mc",
+    "q": "If expected short rates are constant (no premium), the yield curve is…",
+    "options": [
+      "Flat",
+      "Upward-sloping",
+      "Inverted",
+      "Undefined"
+    ],
+    "explain": "Expected to rise → R > r (upward); expected to fall → R < r (downward)."
+  },
+  {
+    "id": "rates-11",
+    "topic": "rates",
+    "session": "10_06",
+    "type": "mc",
+    "q": "What can pure expectations theory NOT explain?",
+    "options": [
+      "Why the yield curve is usually upward-sloping",
+      "Why the curve can be flat",
+      "Why long rates depend on short rates",
+      "Why inverted curves exist"
+    ],
+    "explain": "It would need short rates to be expected to rise most of the time."
+  },
+  {
+    "id": "rates-12",
+    "topic": "rates",
+    "session": "10_06",
+    "type": "match",
+    "q": "Match the author to their contribution to the term structure.",
+    "pairs": [
+      [
+        "Meiselman",
+        "Error-learning and a risk element rising with maturity"
+      ],
+      [
+        "Modigliani and Sutch",
+        "Preferred habitat theory"
+      ],
+      [
+        "Hicks",
+        "Liquidity premium (Value and Capital, 1939)"
+      ],
+      [
+        "Tobin",
+        "Structural portfolio approach"
+      ]
+    ],
+    "explain": "The risk element and the liquidity premium usually put together explain the upward slope."
+  },
+  {
+    "id": "rates-13",
+    "topic": "rates",
+    "session": "10_06",
+    "type": "mc",
+    "q": "In Meiselman's model the risk element z is…",
+    "options": [
+      "Positive and rising with maturity",
+      "Negative and constant",
+      "Zero",
+      "Positive but falling with maturity"
+    ],
+    "explain": "Long-term asset prices are more variable → bigger capital-loss risk. Even with constant expected short rates, R > r."
+  },
+  {
+    "id": "rates-14",
+    "topic": "rates",
+    "session": "10_06",
+    "type": "mc",
+    "q": "Meiselman's 'error-learning' mechanism has expectations revised after…",
+    "options": [
+      "A forecast error on the current rate, applied to all future expected rates",
+      "Each central bank meeting",
+      "A change in the exchange rate",
+      "A change in reserve requirements"
+    ],
+    "verified": false,
+    "explain": "The lecturer finds it 'very strange', but it was the first explicit mechanism. Check the formula against the slides."
+  },
+  {
+    "id": "rates-15",
+    "topic": "rates",
+    "session": "10_06",
+    "type": "mc",
+    "q": "In preferred habitat, if the majority of investors is risk-averse, the curve is…",
+    "options": [
+      "Upward-sloping",
+      "Downward-sloping",
+      "Flat",
+      "Undefined"
+    ],
+    "explain": "Moving out of your habitat requires a premium. With risk-lovers you could get the opposite."
+  },
+  {
+    "id": "rates-16",
+    "topic": "rates",
+    "session": "10_06",
+    "type": "mc",
+    "q": "Hicks's liquidity premium: borrowers prefer to borrow…, lenders prefer to lend…",
+    "options": [
+      "Long / short",
+      "Short / long",
+      "Long / long",
+      "Short / short"
+    ],
+    "explain": "So lenders need a premium to lend long; otherwise they'd hold money or very short assets."
+  },
+  {
+    "id": "rates-17",
+    "topic": "rates",
+    "session": "10_06",
+    "type": "mc",
+    "q": "The US 10-year minus 3-month Treasury spread was negative (an inverted curve) around…",
+    "options": [
+      "2005–2007 and 2019",
+      "1971 and 1980",
+      "2012 and 2015",
+      "2020 only"
+    ],
+    "explain": "Some economists read an inverted curve as the market expecting a crisis, with short rates expected to be cut."
+  },
+  {
+    "id": "rates-18",
+    "topic": "rates",
+    "session": "10_06",
+    "type": "mc",
+    "q": "For Keynes, the central bank can influence long rates by…",
+    "options": [
+      "Shaping expectations of future short rates (needing consistent policy)",
+      "Fixing the exchange rate",
+      "Raising reserve requirements",
+      "Financing the Treasury"
+    ],
+    "explain": "The rate is highly conventional: any level accepted with conviction as durable will be durable."
+  },
+  {
+    "id": "rates-19",
+    "topic": "rates",
+    "session": "10_06",
+    "type": "mc",
+    "q": "For the marginalist (Wicksellian) view, the central bank can influence long rates…",
+    "options": [
+      "Only temporarily: the market rate adjusts to the natural rate (productivity and thrift)",
+      "Permanently",
+      "Never in the short run",
+      "Only through reserve requirements"
+    ],
+    "explain": "Productivity is behind the demand for capital, thrift behind its supply."
+  },
+  {
+    "id": "rates-20",
+    "topic": "rates",
+    "session": "10_06",
+    "type": "mc",
+    "q": "Keynes's idea that the interest rate is conventional comes from which text?",
+    "options": [
+      "The General Theory, ch. 15",
+      "Treatise on Money, ch. 1",
+      "Value and Capital",
+      "Lombard Street"
+    ],
+    "verified": false,
+    "explain": "Quote reconstructed from the notes; check wording against the slides."
+  },
+  {
+    "id": "rates-21",
+    "topic": "rates",
+    "session": "10_06",
+    "type": "mc",
+    "q": "In some post-Keynesian strands, monetary authorities can set the real interest rate and thereby affect…",
+    "options": [
+      "The rate of profit (capital profitability)",
+      "The exchange rate only",
+      "The velocity of money",
+      "The monetary base only"
+    ],
+    "explain": "Both Keynes and post-Keynesians share the idea; the adjustment mechanism differs (not via investment and output in the post-Keynesian case)."
+  },
+  {
+    "id": "rates-22",
+    "topic": "rates",
+    "session": "10_06",
+    "type": "mc",
+    "q": "Keynes (General Theory) suggested that the central bank might…",
+    "options": [
+      "Buy and sell gilt-edged bonds of all maturities at stated prices",
+      "Only set Bank Rate",
+      "Peg the exchange rate",
+      "Abolish reserves"
+    ],
+    "verified": false,
+    "explain": "So 'unconventional' policy is not new. Wording reconstructed: check slides."
+  },
+  {
+    "id": "rates-23",
+    "topic": "rates",
+    "session": "10_08",
+    "type": "mc",
+    "q": "The two routes by which the central bank steers the long rate:",
+    "options": [
+      "Expectations (consistent announcements) and risk (purchases in specific markets)",
+      "Taxes and spending",
+      "Reserves and the exchange rate",
+      "Haircuts and collateral"
+    ],
+    "explain": "Matching the two components: average expected short rates, and the risk element."
+  },
+  {
+    "id": "rates-24",
+    "topic": "rates",
+    "session": "10_08",
+    "type": "mc",
+    "q": "When is route 2 (purchases acting on the risk element) needed?",
+    "options": [
+      "When the central bank cuts the short rate and promises an accommodative policy but the long rate rises anyway",
+      "In normal times",
+      "When inflation is above target",
+      "When the exchange rate depreciates"
+    ],
+    "explain": "Expectations alone have failed: typically in a crisis."
+  },
+  {
+    "id": "rates-25",
+    "topic": "rates",
+    "session": "10_06",
+    "type": "mc",
+    "q": "A long-term bond is e.g. a…, short-term assets are e.g. …",
+    "options": [
+      "10-year bond / BOTs of 3–6 months",
+      "10-year bond / 5-year bonds",
+      "1-year bill / 10-year bond",
+      "Share / bond"
+    ],
+    "explain": "Short-term: 3 months to a year, traditionally held by Italian households."
+  },
+  {
+    "id": "rates-26",
+    "topic": "rates",
+    "session": "10_06",
+    "type": "mc",
+    "q": "Meiselman's formulation for the real yield curve: R ≈ avg real expected short rates + avg expected inflation + …",
+    "options": [
+      "Z (risk element)",
+      "L (liquidity)",
+      "k",
+      "V"
+    ],
+    "explain": "Even without believing in the Fisher effect, inflation can pass into nominal rates."
+  },
+  {
+    "id": "rates-27",
+    "topic": "rates",
+    "session": "10_06",
+    "type": "mc",
+    "q": "Under perfect certainty, the compounded long-rate return over n periods equals…",
+    "options": [
+      "(1+r₁)(1+r₂)…(1+r_n)",
+      "(1+r₁) + … + (1+r_n)",
+      "n·(1+r)",
+      "(1+r₁)^n"
+    ],
+    "explain": "No-arbitrage: borrow short and invest long (or vice versa) until equality holds."
+  },
+  {
+    "id": "sfc-01",
+    "topic": "sfc",
+    "session": "10_08",
+    "type": "mc",
+    "q": "Stock vs flow:",
+    "options": [
+      "A flow occurs over a period; a stock is measured at a point in time",
+      "A stock occurs over a period; a flow at a point in time",
+      "Both are measured at a point in time",
+      "They are the same"
+    ],
+    "explain": "Investment (flow) changes the capital stock."
+  },
+  {
+    "id": "sfc-02",
+    "topic": "sfc",
+    "session": "10_08",
+    "type": "mc",
+    "q": "Final stock =",
+    "options": [
+      "Initial stock + revaluations + net acquisitions",
+      "Initial stock − net acquisitions",
+      "Flows only",
+      "Initial stock × growth"
+    ],
+    "explain": "Revaluations (price changes) are ignored in the simple model."
+  },
+  {
+    "id": "sfc-03",
+    "topic": "sfc",
+    "session": "10_08",
+    "type": "tf",
+    "q": "The sectoral balances identity is a causal relationship.",
+    "answer": false,
+    "explain": "Ex post identity: whether G crowds out I or C depends on whether output can change."
+  },
+  {
+    "id": "sfc-04",
+    "topic": "sfc",
+    "session": "10_08",
+    "type": "mc",
+    "q": "Private + government + rest-of-world financial balances =",
+    "options": [
+      "0",
+      "1",
+      "GDP",
+      "Public debt"
+    ],
+    "explain": "One sector's net lending is another's net borrowing."
+  },
+  {
+    "id": "sfc-05",
+    "topic": "sfc",
+    "session": "10_08",
+    "type": "mc",
+    "q": "If output can rise, a rise in G…",
+    "options": [
+      "Raises Y and hence S, with no necessary crowding out",
+      "Must reduce C or I",
+      "Lowers Y",
+      "Has no effect"
+    ],
+    "explain": "If output is given at potential, G ↑ must reduce C or I."
+  },
+  {
+    "id": "sfc-06",
+    "topic": "sfc",
+    "session": "10_08",
+    "type": "mc",
+    "q": "Stock-flow consistent (SFC) models are mainly associated with…",
+    "options": [
+      "Post-Keynesians (Godley and Lavoie)",
+      "Monetarists",
+      "New classicals",
+      "Austrians"
+    ],
+    "explain": "All stocks and flows are made explicit; a full model = accounting framework + behavioural equations."
+  },
+  {
+    "id": "sfc-07",
+    "topic": "sfc",
+    "session": "10_08",
+    "type": "mc",
+    "q": "In the simple closed-economy model, households hold deposits and bills only, no cash. So the monetary base is…",
+    "options": [
+      "Bank reserves (H)",
+      "Zero",
+      "Currency only",
+      "Government bills"
+    ],
+    "explain": "Four sectors: households, firms, banks, consolidated public sector."
+  },
+  {
+    "id": "sfc-08",
+    "topic": "sfc",
+    "session": "10_08",
+    "type": "mc",
+    "q": "Retained (non-distributed) profits are…",
+    "options": [
+      "Firm saving, which can finance investment without bank loans",
+      "Bank profits",
+      "Household saving",
+      "Government revenue"
+    ],
+    "explain": "Excluded from the simple model by assuming all profits are distributed."
+  },
+  {
+    "id": "sfc-09",
+    "topic": "sfc",
+    "session": "10_08",
+    "type": "mc",
+    "q": "In the balance sheet matrix, only … has no counterpart liability.",
+    "options": [
+      "Real capital K",
+      "Deposits",
+      "Loans",
+      "Reserves"
+    ],
+    "explain": "Financial rows sum to zero; K is 'by definition the wealth of a nation'."
+  },
+  {
+    "id": "sfc-10",
+    "topic": "sfc",
+    "session": "10_08",
+    "type": "mc",
+    "q": "Who denies that public debt is part of private wealth?",
+    "options": [
+      "Ricardian equivalence (Barro 1974)",
+      "Keynes",
+      "Tobin",
+      "Friedman"
+    ],
+    "explain": "Households anticipate future taxes to service the debt."
+  },
+  {
+    "id": "sfc-11",
+    "topic": "sfc",
+    "session": "10_08",
+    "type": "mc",
+    "q": "Sign convention in the transactions-flow matrix:",
+    "options": [
+      "Receipts and sources of funds +; expenditures and acquisitions of financial assets −",
+      "The reverse",
+      "All positive",
+      "Assets +, liabilities +"
+    ],
+    "verified": false,
+    "explain": "Convention as described in class; matrices were reconstructed. Check the slides."
+  },
+  {
+    "id": "sfc-12",
+    "topic": "sfc",
+    "session": "10_08",
+    "type": "mc",
+    "q": "A subscript −1 in the transactions matrix (e.g. r·B₋₁) refers to…",
+    "options": [
+      "The stock at the end of the previous period",
+      "Next period's flow",
+      "A negative interest rate",
+      "A change"
+    ],
+    "verified": false,
+    "explain": "Interest this period is paid on the stock held at the start."
+  },
+  {
+    "id": "sfc-13",
+    "topic": "sfc",
+    "session": "10_08",
+    "type": "mc",
+    "q": "Stocks feed back on flows because…",
+    "options": [
+      "Debts generate interest flows and wealth affects consumption and portfolio decisions",
+      "Flows never change",
+      "Interest is a stock",
+      "Wealth is ignored"
+    ],
+    "explain": "Tobin: agents want certain proportions of assets in total wealth."
+  },
+  {
+    "id": "sfc-14",
+    "topic": "sfc",
+    "session": "10_08",
+    "type": "mc",
+    "q": "Net private saving must materialise as…",
+    "options": [
+      "Real capital (ΔK) or claims on the public sector (ΔB, ΔH)",
+      "Private claims",
+      "Foreign claims only",
+      "Cash"
+    ],
+    "explain": "Private claims net out within the private sector."
+  },
+  {
+    "id": "sfc-15",
+    "topic": "sfc",
+    "session": "10_08",
+    "type": "mc",
+    "q": "A sector's financial balance over a period is positive when it is a net…",
+    "options": [
+      "Lender, increasing its financial assets",
+      "Borrower, increasing its liabilities",
+      "Exporter",
+      "Saver of real capital"
+    ],
+    "explain": "Net borrowing (−) increases liabilities relative to assets."
+  },
+  {
+    "id": "qt-01",
+    "topic": "qt",
+    "session": "10_08",
+    "type": "mc",
+    "q": "The first clear statement of the quantity theory was by…",
+    "options": [
+      "Jean Bodin (16th century), after the Potosí silver",
+      "David Hume (18th century)",
+      "Irving Fisher (1911)",
+      "Milton Friedman (1956)"
+    ],
+    "explain": "It is usually ascribed to Hume."
+  },
+  {
+    "id": "qt-02",
+    "topic": "qt",
+    "session": "10_08",
+    "type": "tf",
+    "q": "MV = PT is an accounting identity that all economists accept.",
+    "answer": true,
+    "explain": "It becomes a theory only with assumptions on which variables are given and the direction of causality."
+  },
+  {
+    "id": "qt-03",
+    "topic": "qt",
+    "session": "10_08",
+    "type": "mc",
+    "q": "Which is NOT an assumption of the quantity theory?",
+    "options": [
+      "V depends on income",
+      "T (or Y) is given",
+      "V is given",
+      "M is exogenous"
+    ],
+    "explain": "V and T independent; in Keynes's General Theory a change in income can change V."
+  },
+  {
+    "id": "qt-04",
+    "topic": "qt",
+    "session": "10_08",
+    "type": "mc",
+    "q": "In the quantity theory causality runs from… to …; with endogenous money it reverses.",
+    "options": [
+      "M to P",
+      "P to M",
+      "V to M",
+      "Y to M"
+    ],
+    "explain": "A rise in the general price level requires a change in M; otherwise only relative prices change."
+  },
+  {
+    "id": "qt-05",
+    "topic": "qt",
+    "session": "10_08",
+    "type": "mc",
+    "q": "Why is V taken as given?",
+    "options": [
+      "Institutional factors (payment arrangements, vertical integration, synchronisation of receipts and payments)",
+      "The central bank fixes it",
+      "It's always 1",
+      "Interest rates fix it"
+    ],
+    "explain": "The more vertically integrated production, the lower V."
+  },
+  {
+    "id": "qt-06",
+    "topic": "qt",
+    "session": "10_08",
+    "type": "match",
+    "q": "Why is output (T or Y) taken as given?",
+    "pairs": [
+      [
+        "Classical (Ricardo)",
+        "Say's law: saving becomes investment, capacity used at the desired degree (not full employment)"
+      ],
+      [
+        "Marginalists",
+        "Full employment through wage flexibility and factor substitution"
+      ]
+    ],
+    "explain": "Compare Stirati 10_07."
+  },
+  {
+    "id": "qt-07",
+    "topic": "qt",
+    "session": "10_08",
+    "type": "mc",
+    "q": "In the Cambridge version M_d = kPY, k equals…",
+    "options": [
+      "1/V",
+      "V",
+      "P/Y",
+      "M/P"
+    ],
+    "explain": "The public holds balances in proportion to income, to plan transactions (transactions demand, also in Keynes)."
+  },
+  {
+    "id": "qt-08",
+    "topic": "qt",
+    "session": "10_08",
+    "type": "mc",
+    "q": "The quantity theory implies money is…",
+    "options": [
+      "Neutral: a veil that doesn't affect real variables",
+      "Non-neutral in the long run",
+      "Endogenous",
+      "Only a store of value"
+    ],
+    "explain": "Classical dichotomy: real sector determines quantities and relative prices; monetary sector the general price level."
+  },
+  {
+    "id": "qt-09",
+    "topic": "qt",
+    "session": "10_08",
+    "type": "mc",
+    "q": "Sidrauski's model features…",
+    "options": [
+      "Money in the utility function, no dichotomy, yet super-neutrality",
+      "Money as a veil with dichotomy",
+      "Overlapping generations",
+      "Cash-in-advance only"
+    ],
+    "explain": "Super-neutrality: even the growth rate of money doesn't affect real steady-state variables. Equilibrium conditions: not covered yet."
+  },
+  {
+    "id": "qt-10",
+    "topic": "qt",
+    "session": "10_08",
+    "type": "mc",
+    "q": "Friedman's 1956 restatement is titled…",
+    "options": [
+      "The Quantity Theory of Money: A Restatement",
+      "A Monetary History of the US",
+      "Money and Prices",
+      "The Role of Monetary Policy"
+    ],
+    "explain": "It treats money as an asset demanded for its services."
+  },
+  {
+    "id": "qt-11",
+    "topic": "qt",
+    "session": "10_08",
+    "type": "mc",
+    "q": "Friedman's main thesis on money demand:",
+    "options": [
+      "A stable function of real (permanent) income, with the interest rate not the main determinant",
+      "Very sensitive to the interest rate",
+      "Dependent on liquidity preference",
+      "Equal to M_s always"
+    ],
+    "explain": "The econometric literature concludes that money demand is sensitive to the interest rate (not exam material)."
+  },
+  {
+    "id": "qt-12",
+    "topic": "qt",
+    "session": "10_08",
+    "type": "mc",
+    "q": "Which is NOT in Friedman's list of determinants of money demand?",
+    "options": [
+      "The central bank's reserve ratio",
+      "Total wealth (incl. human capital)",
+      "Share of non-human capital in total wealth",
+      "Returns on alternative assets and 1/P"
+    ],
+    "explain": "Human capital is measured by capitalising labour income."
+  },
+  {
+    "id": "qt-13",
+    "topic": "qt",
+    "session": "10_08",
+    "type": "mc",
+    "q": "Permanent income comes from Friedman's analysis of … and implies … multiplier than Keynes supposed.",
+    "options": [
+      "Consumption / a smaller",
+      "Investment / a larger",
+      "Money demand / a larger",
+      "Exports / a smaller"
+    ],
+    "explain": "Consumption depends on average income; a transitory rise in income need not raise consumption."
+  },
+  {
+    "id": "qt-14",
+    "topic": "qt",
+    "session": "10_08",
+    "type": "mc",
+    "q": "Friedman makes wealth operational by replacing it with…",
+    "options": [
+      "Permanent income, whose present value is wealth",
+      "Current income",
+      "Consumption",
+      "Capital stock"
+    ],
+    "explain": "Permanent income = average income, excluding transitory components."
+  },
+  {
+    "id": "qt-15",
+    "topic": "qt",
+    "session": "10_02",
+    "type": "mc",
+    "q": "The intermediate exam (beginning of November) covers…",
+    "options": [
+      "Institutional part + money demand (Friedman, Tobin) + endogeneity/exogeneity of money supply",
+      "Everything including Sidrauski",
+      "Only the term structure",
+      "Only money supply"
+    ],
+    "explain": "Study 'lecture 1.5' slides plus those being uploaded. The lecturer will email the exam structure."
+  },
+  {
+    "id": "qt-16",
+    "topic": "qt",
+    "session": "10_08",
+    "type": "mc",
+    "q": "Which is NOT required for the exam?",
+    "options": [
+      "Econometric estimates of money demand",
+      "Friedman's restatement",
+      "Tobin's portfolio approach",
+      "Endogeneity vs exogeneity debate"
+    ],
+    "explain": "Also not required: slides 67–70 on unconventional monetary policy."
+  },
+  {
+    "id": "qt-17",
+    "topic": "qt",
+    "session": "10_08",
+    "type": "mc",
+    "q": "The lecturer's anecdote about the quantity theory:",
+    "options": [
+      "The money injected after 2007–08 produced no inflation, and the reply was 'there are lags'",
+      "Inflation followed immediately",
+      "Velocity doubled",
+      "Gold prices fell"
+    ],
+    "explain": "'Lags of how long? One year, two, ten?'"
+  },
+  {
+    "id": "qt-18",
+    "topic": "qt",
+    "session": "10_08",
+    "type": "mc",
+    "q": "Next, the course will cover demand for money through…",
+    "options": [
+      "The quantity theory and liquidity preference (Friedman and Tobin)",
+      "Only Keynes",
+      "Only Friedman",
+      "Econometrics only"
+    ],
+    "explain": "Tobin rationalised Keynes's liquidity preference in portfolio language."
+  },
+  {
+    "id": "qt-19",
+    "topic": "qt",
+    "session": "10_01",
+    "type": "mc",
+    "q": "Price of money: for quantity theory economists it is…, for Keynesians…",
+    "options": [
+      "1/P / the interest rate",
+      "The interest rate / 1/P",
+      "P / the interest rate",
+      "1/P / 1/P"
+    ],
+    "explain": "Medium-of-exchange emphasis vs store-of-value emphasis."
+  },
+  {
+    "id": "gen-fisher",
+    "topic": "rates",
+    "session": "10_06",
+    "type": "gen",
+    "gen": "fisher"
+  },
+  {
+    "id": "gen-fisher-infl",
+    "topic": "rates",
+    "session": "10_06",
+    "type": "gen",
+    "gen": "fisherInflation"
+  },
+  {
+    "id": "gen-avg",
+    "topic": "rates",
+    "session": "10_06",
+    "type": "gen",
+    "gen": "avgShortRates"
+  },
+  {
+    "id": "gen-premium",
+    "topic": "rates",
+    "session": "10_06",
+    "type": "gen",
+    "gen": "liquidityPremium"
+  },
+  {
+    "id": "gen-velocity",
+    "topic": "qt",
+    "session": "10_08",
+    "type": "gen",
+    "gen": "velocity"
+  },
+  {
+    "id": "gen-cambridge",
+    "topic": "qt",
+    "session": "10_08",
+    "type": "gen",
+    "gen": "cambridgeDemand"
+  },
+  {
+    "id": "gen-newprice",
+    "topic": "qt",
+    "session": "10_08",
+    "type": "gen",
+    "gen": "newPriceLevel"
+  },
+  {
+    "id": "gen-numprices",
+    "topic": "origin",
+    "session": "10_01",
+    "type": "gen",
+    "gen": "numPrices"
+  },
+  {
+    "id": "gen-haircut",
+    "topic": "liquidity",
+    "session": "10_02",
+    "type": "gen",
+    "gen": "haircut"
+  },
+  {
+    "id": "gen-sectoral",
+    "topic": "sfc",
+    "session": "10_08",
+    "type": "gen",
+    "gen": "sectoral"
+  },
+  {
+    "id": "fried-01",
+    "topic": "qt",
+    "session": "10_09",
+    "type": "mc",
+    "q": "Why does Friedman replace total wealth with permanent income in the demand for money?",
+    "options": [
+      "Wealth, especially human wealth, is hard to measure, so he needs an operational concept",
+      "Because permanent income is more volatile than wealth",
+      "Because money demand depends only on current income",
+      "Because interest rates do not enter the wealth measure"
+    ],
+    "explain": "Wealth W = Y_p / r (present value of expected labour and non-labour income); Y_p is the operational stand-in."
+  },
+  {
+    "id": "fried-02",
+    "topic": "qt",
+    "session": "10_09",
+    "type": "tf",
+    "q": "Permanent income is the constant income flow equivalent to total wealth that would let consumption stay constant over time.",
+    "answer": true,
+    "explain": "A discounted 'average' of actual income; above-average income is saved (consumption smoothing)."
+  },
+  {
+    "id": "fried-03",
+    "topic": "qt",
+    "session": "10_09",
+    "type": "mc",
+    "q": "What does 'no money illusion' mean in Friedman's demand function?",
+    "options": [
+      "Real money demand is unchanged by a once-and-for-all rise in the price level (homogeneity of degree one in prices and nominal income)",
+      "Nominal money demand never changes",
+      "People ignore inflation expectations",
+      "Velocity is always constant"
+    ],
+    "explain": "Multiplying P and nominal Y_p by λ multiplies nominal money demand by λ; real demand is unchanged. Hyperinflation is the exception."
+  },
+  {
+    "id": "fried-04",
+    "topic": "qt",
+    "session": "10_09",
+    "type": "mc",
+    "q": "What is Friedman's second step, after no money illusion?",
+    "options": [
+      "Observed velocity is stable, so interest rates and other variables cannot matter much; real money demand is a stable function of real permanent income",
+      "Money demand is perfectly interest-elastic",
+      "Velocity falls whenever M rises",
+      "Output adjusts to changes in M"
+    ],
+    "explain": "Homogeneity again with λ = 1/Y_p gives M_d · V = Y_p; V is empirically stable, hence k = 1/V is stable."
+  },
+  {
+    "id": "fried-05",
+    "topic": "qt",
+    "session": "10_09",
+    "type": "mc",
+    "q": "Friedman's evidence for a stable velocity comes mainly from...",
+    "options": [
+      "The monetary history of the United States and the United Kingdom (with Schwartz)",
+      "Hyperinflation episodes",
+      "Cross-section household surveys",
+      "Post-2008 QE"
+    ],
+    "explain": "Stable on average in the long run for a given country; it can change secularly or in hyperinflation."
+  },
+  {
+    "id": "fried-06",
+    "topic": "qt",
+    "session": "10_09",
+    "type": "tf",
+    "q": "For Friedman, a rise in M with income at full employment can only raise the price level.",
+    "answer": true,
+    "explain": "Y_p is the income corresponding on average to full use of resources; excess money is spent on goods whose supply cannot adapt."
+  },
+  {
+    "id": "fried-07",
+    "topic": "qt",
+    "session": "10_09",
+    "type": "mc",
+    "q": "Why is 'helicopter money' Friedman's image of monetary policy?",
+    "options": [
+      "Money demand does not respond to the interest rate, so the usual bond-purchase channel does not work: money enters 'as manna from heaven'",
+      "Because the central bank sets taxes",
+      "Because money supply is endogenous",
+      "Because velocity is infinite"
+    ],
+    "explain": "The usual story (buy bonds → r falls → money demand rises) needs interest-sensitive demand."
+  },
+  {
+    "id": "fried-08",
+    "topic": "qt",
+    "session": "10_09",
+    "type": "tf",
+    "q": "For Friedman, velocity can change in the cycle but not on average.",
+    "answer": true,
+    "explain": "Given Y_r, a rise in M can lower V for a while; given M, a temporary rise in Y_r raises V. Both are temporary."
+  },
+  {
+    "id": "fried-09",
+    "topic": "qt",
+    "session": "10_09",
+    "type": "mc",
+    "q": "Kaldor's reply to the stability of velocity argument was that...",
+    "options": [
+      "A stable V proves nothing for the quantity theory: if money is endogenous, M adapts to nominal income and V needn't change",
+      "V is actually highly unstable",
+      "Money is exogenous but neutral",
+      "Income is always at full employment"
+    ],
+    "explain": "Often summarised as 'V is stable because M is endogenous'. Wording reconstructed from a garbled stretch.",
+    "verified": false
+  },
+  {
+    "id": "fried-10",
+    "topic": "qt",
+    "session": "10_09",
+    "type": "mc",
+    "q": "What is the real battleground between Keynesians and monetarists on money demand, according to the lecturer?",
+    "options": [
+      "Whether money demand is sensitive to the interest rate",
+      "Whether money is a unit of account",
+      "Whether prices are flexible",
+      "Whether money has a store-of-value function"
+    ],
+    "explain": "Empirical issues: which aggregate (M1, M2, M3) and which rate (short or long). Some monetarists admit short-run sensitivity."
+  },
+  {
+    "id": "liqp-01",
+    "topic": "qt",
+    "session": "10_09",
+    "type": "mc",
+    "q": "A perpetuity (consol) with constant coupon R̄ has price...",
+    "options": [
+      "P_b = R̄ / r, so it falls when r rises",
+      "P_b = R̄ · r",
+      "P_b = r / R̄",
+      "P_b = R̄ (independent of r)"
+    ],
+    "explain": "Example: issued at 100 with coupon 5; if the market rate becomes 10% the price is 50."
+  },
+  {
+    "id": "liqp-02",
+    "topic": "qt",
+    "session": "10_09",
+    "type": "mc",
+    "q": "Keynes's speculative motive for holding money rests on...",
+    "options": [
+      "Possible capital losses on bonds and other securities",
+      "The cost of making payments",
+      "Uncertainty about income",
+      "Legal-tender laws"
+    ],
+    "explain": "The novelty of the General Theory: money as a way to hold wealth over time."
+  },
+  {
+    "id": "liqp-03",
+    "topic": "qt",
+    "session": "10_09",
+    "type": "mc",
+    "q": "Why does Keynes need expectations to be dispersed across agents?",
+    "options": [
+      "Otherwise all would hold money (rate expected to rise) or nobody would (expected to fall): no inverse r–money-demand relation",
+      "To make the transactions demand depend on r",
+      "To get a vertical LM",
+      "To rule out the liquidity trap"
+    ],
+    "explain": "Each agent has a definite point expectation; dispersion aggregates into a downward-sloping demand."
+  },
+  {
+    "id": "liqp-04",
+    "topic": "qt",
+    "session": "10_09",
+    "type": "mc",
+    "q": "Tobin's critical interest rate (consol with coupon 1) is...",
+    "options": [
+      "r_c = r_e / (1 + r_e)",
+      "r_c = r_e (1 + r_e)",
+      "r_c = 1 / r_e",
+      "r_c = r_e − 1"
+    ],
+    "explain": "From r₀ + g = 0 with g = r₀/r_e − 1. Above r_c: all in bonds; below r_c: all in money."
+  },
+  {
+    "id": "liqp-05",
+    "topic": "qt",
+    "session": "10_09",
+    "type": "mc",
+    "q": "In Keynes's liquidity preference, an investor with current rate r₀ > r_c holds...",
+    "options": [
+      "All wealth in bonds",
+      "All wealth in money",
+      "A mix of the two",
+      "Nothing"
+    ],
+    "explain": "r₀ > r_c means a fall in r (capital gain) is expected enough to prefer bonds; an all-or-nothing step function for the single investor."
+  },
+  {
+    "id": "liqp-06",
+    "topic": "qt",
+    "session": "10_09",
+    "type": "tf",
+    "q": "For Keynes the liquidity trap can only occur when the interest rate is close to zero.",
+    "answer": false,
+    "explain": "It depends on market opinion: with unanimity that rates will rise, it can occur at 3–4%."
+  },
+  {
+    "id": "liqp-07",
+    "topic": "qt",
+    "session": "10_09",
+    "type": "mc",
+    "q": "Which variable ensures money supply = money demand in each approach?",
+    "options": [
+      "Quantity theory: the price level; Keynes: the interest rate",
+      "Quantity theory: the interest rate; Keynes: the price level",
+      "Both: the price level",
+      "Both: the interest rate"
+    ],
+    "explain": "Hence direct transmission (excess money buys goods) vs indirect (buys financial assets → r changes → effect on demand)."
+  },
+  {
+    "id": "liqp-08",
+    "topic": "qt",
+    "session": "10_09",
+    "type": "mc",
+    "q": "A problem the lecturer notes in Keynes's speculative demand is...",
+    "options": [
+      "Expectations must be relatively stable (not tied to the money supply) or money demand and supply stop being independent",
+      "It ignores the transactions motive",
+      "It assumes full employment",
+      "It requires perfect foresight"
+    ],
+    "explain": "Plus: no analysis of how expectations are formed."
+  },
+  {
+    "id": "baum-01",
+    "topic": "qt",
+    "session": "10_13",
+    "type": "mc",
+    "q": "In Baumol's inventory model, the opportunity cost of holding money is computed on...",
+    "options": [
+      "The average balance C/2",
+      "The initial amount C",
+      "The total sum T",
+      "The number of disinvestments"
+    ],
+    "explain": "You spend linearly from C to 0, so the average is C/2; a sum you must spend anyway gives no forgone interest."
+  },
+  {
+    "id": "baum-02",
+    "topic": "qt",
+    "session": "10_13",
+    "type": "mc",
+    "q": "Baumol's optimal conversion size is...",
+    "options": [
+      "C = √(2bT / r)",
+      "C = 2bT / r",
+      "C = √(bT · r)",
+      "C = bT / 2r"
+    ],
+    "explain": "Minimise b·T/C + r·C/2 (+ kT, which drops out)."
+  },
+  {
+    "id": "baum-03",
+    "topic": "qt",
+    "session": "10_13",
+    "type": "mc",
+    "q": "Two implications of Baumol's model:",
+    "options": [
+      "Transactions demand falls when r rises, and money balances are economised as the scale of transactions grows",
+      "Transactions demand is independent of r, and rises proportionally with income",
+      "Demand rises with r and with scale",
+      "Demand is unrelated to payment costs"
+    ],
+    "explain": "C rises less than proportionally with T because of the square root."
+  },
+  {
+    "id": "baum-04",
+    "topic": "qt",
+    "session": "10_13",
+    "type": "tf",
+    "q": "Because transactions demand also depends on r, total money demand is more interest-elastic than with the speculative motive alone.",
+    "answer": true,
+    "explain": "On the (Y, L₁) graph the transactions line rotates upward as r falls."
+  },
+  {
+    "id": "tob-01",
+    "topic": "qt",
+    "session": "10_13",
+    "type": "mc",
+    "q": "What changes in Tobin's treatment of expectations relative to Keynes?",
+    "options": [
+      "Investors have no definite expectation; they give the highest probability to r_e = r₀ and the same probability to rises and falls",
+      "Investors know the future rate with certainty",
+      "Investors expect the rate always to fall",
+      "Expectations are fully elastic to the current rate"
+    ],
+    "explain": "So E[G] = 0 and risk is the dispersion σ_g."
+  },
+  {
+    "id": "tob-02",
+    "topic": "qt",
+    "session": "10_13",
+    "type": "mc",
+    "q": "In Tobin's two-asset model, expected portfolio return with E[G] = 0 is...",
+    "options": [
+      "a₂ · r (a₂ = share in the risky asset)",
+      "a₁ · r (a₁ = money share)",
+      "r + G",
+      "a₂ · σ_g"
+    ],
+    "explain": "Money earns nothing; the security earns r plus capital gain G, which is expected to be zero."
+  },
+  {
+    "id": "tob-03",
+    "topic": "qt",
+    "session": "10_13",
+    "type": "mc",
+    "q": "Portfolio risk σ_R equals...",
+    "options": [
+      "a₂ · σ_g",
+      "a₁ · σ_g",
+      "σ_g / a₂",
+      "r · σ_g"
+    ],
+    "explain": "Only the risky share carries risk; highest at a₂ = 1."
+  },
+  {
+    "id": "tob-04",
+    "topic": "qt",
+    "session": "10_13",
+    "type": "mc",
+    "q": "The risk–return profile is...",
+    "options": [
+      "E(R) = (r / σ_g) · σ_R, a straight line from the origin",
+      "E(R) = r · σ_g, a point",
+      "A convex curve from the origin",
+      "A horizontal line at r"
+    ],
+    "explain": "Obtained by substituting a₂ = σ_R/σ_g into a₂·r. EXAM-FLAGGED: be able to derive it."
+  },
+  {
+    "id": "tob-05",
+    "topic": "qt",
+    "session": "10_13",
+    "type": "mc",
+    "q": "What happens to the risk–return profile when r rises (σ_g unchanged)?",
+    "options": [
+      "It rotates upward: same risk, higher expected return",
+      "It rotates downward",
+      "It shifts parallel",
+      "It disappears"
+    ],
+    "explain": "A stabilisation of security prices (lower σ_g) would also steepen it: another monetary instrument."
+  },
+  {
+    "id": "tob-06",
+    "topic": "qt",
+    "session": "10_13",
+    "type": "mc",
+    "q": "The investor's optimal portfolio is found at...",
+    "options": [
+      "The tangency between the risk–return profile and the highest attainable (convex) indifference curve",
+      "The origin",
+      "The intersection with the axis",
+      "The point of maximum risk"
+    ],
+    "explain": "Then a₂ = σ_R/σ_g gives the risky share and 1 − a₂ the money share."
+  },
+  {
+    "id": "tob-07",
+    "topic": "qt",
+    "session": "10_13",
+    "type": "tf",
+    "q": "If the substitution effect dominates the income effect, a rise in r lowers the share of money in the portfolio.",
+    "answer": true,
+    "explain": "This recovers Keynes's inverse r–speculative demand relation without corner solutions; if the income effect dominated, the share of money could rise."
+  },
+  {
+    "id": "tob-08",
+    "topic": "qt",
+    "session": "10_13",
+    "type": "mc",
+    "q": "With a risk-lover or a concave-indifference investor, Tobin's model gives...",
+    "options": [
+      "A corner solution (all in one asset)",
+      "An interior solution",
+      "No equilibrium",
+      "Perfect diversification"
+    ],
+    "explain": "Tobin's names for these types are garbled in the audio.",
+    "verified": false
+  },
+  {
+    "id": "tob-09",
+    "topic": "qt",
+    "session": "10_13",
+    "type": "mc",
+    "q": "With two risky assets, why does correlation matter for portfolio risk?",
+    "options": [
+      "Negative correlation offsets losses on one with gains on the other, lowering total risk below the sum",
+      "Correlation only affects returns",
+      "It does not matter",
+      "Only positive correlation reduces risk"
+    ],
+    "explain": "At ρ = 1 risk is highest; investors end up on the Markowitz efficient frontier."
+  },
+  {
+    "id": "tob-10",
+    "topic": "qt",
+    "session": "10_13",
+    "type": "tf",
+    "q": "In Modigliani-type portfolio models, a liquidity trap arises only at interest rates very close to zero.",
+    "answer": true,
+    "explain": "Unlike Keynes, where changing expectations can trigger a rush to cash; the lecturer notes we lose something of Keynes's argument."
+  },
+  {
+    "id": "endo-01",
+    "topic": "endo",
+    "session": "10_13",
+    "type": "mc",
+    "q": "What does 'endogenous money' mean?",
+    "options": [
+      "The money supply is determined by the needs of trade (demand for money) rather than fixed by the authorities",
+      "The central bank fixes the quantity",
+      "Money is a commodity",
+      "Money has no price"
+    ],
+    "explain": "Phrase attributed to Marshall."
+  },
+  {
+    "id": "endo-02",
+    "topic": "endo",
+    "session": "10_13",
+    "type": "tf",
+    "q": "Friedman and Keynes's General Theory both treat money as exogenous.",
+    "answer": true,
+    "explain": "While Marx, Wicksell and New Keynesian models treat it as endogenous; approaches do not map neatly onto one side."
+  },
+  {
+    "id": "endo-03",
+    "topic": "endo",
+    "session": "10_13",
+    "type": "mc",
+    "q": "Why can banks be a source of elasticity of the money supply even with a given monetary base?",
+    "options": [
+      "They hold spare reserves that they can use when loan demand rises, without more base from the central bank",
+      "They can print banknotes",
+      "Reserves are irrelevant",
+      "The central bank always refuses"
+    ],
+    "explain": "Potential deposits are not always fully created."
+  },
+  {
+    "id": "endo-04",
+    "topic": "endo",
+    "session": "10_13",
+    "type": "mc",
+    "q": "Why does the lecturer analyse the demand for money before the supply?",
+    "options": [
+      "If money supply is endogenous it is determined by money demand",
+      "It is the usual textbook order",
+      "Because supply is simpler",
+      "Because demand is exogenous"
+    ],
+    "explain": "Usually courses go supply first."
+  },
+  {
+    "id": "endo-05",
+    "topic": "endo",
+    "session": "10_13",
+    "type": "tf",
+    "q": "Central banks today acknowledge that money is endogenous: they set the interest rate and accommodate the banking system's needs.",
+    "answer": true,
+    "explain": "Bank of England, Fed and Bundesbank publications; the bank chooses not to target aggregates to keep control of the rate."
+  },
+  {
+    "id": "endo-06",
+    "topic": "endo",
+    "session": "10_13",
+    "type": "mc",
+    "q": "In the simple deposit-multiplier set-up, how do deposits change?",
+    "options": [
+      "Banks create or destroy credit: a loan creates a deposit",
+      "Only when the central bank prints notes",
+      "Only when households save",
+      "Deposits are fixed"
+    ],
+    "explain": "Simplification: base created only through financing banks (foreign and Treasury channels sterilised)."
+  },
+  {
+    "id": "ms-01",
+    "topic": "endo",
+    "session": "10_15",
+    "type": "mc",
+    "q": "In the traditional multiplier, the money supply (M1) is...",
+    "options": [
+      "M = (1+γ)/(α+β+γ) · MB",
+      "M = (1+γ)/(α+β) · MB",
+      "M = 1/(α+β+γ) · MB",
+      "M = (1−α−β)/(α+β+γ) · MB"
+    ],
+    "explain": "M = CIRC + BD = γ·BD + BD = (1+γ)·BD, and BD = MB/(α+β+γ). (1+γ)/(α+β) is the multiplier with respect to bank reserves MBB, not MB."
+  },
+  {
+    "id": "ms-02",
+    "topic": "endo",
+    "session": "10_15",
+    "type": "match",
+    "q": "Match each coefficient of the multiplier to its meaning:",
+    "pairs": [
+      [
+        "α",
+        "Voluntary (free) reserves / deposits"
+      ],
+      [
+        "β",
+        "Required reserve coefficient"
+      ],
+      [
+        "γ",
+        "Currency held by the public / deposits"
+      ],
+      [
+        "δ = 1−α−β−γ",
+        "Share of each round that comes back as a new deposit"
+      ]
+    ],
+    "explain": "The rounds form a geometric progression with ratio δ; summing gives BD = MB/(α+β+γ)."
+  },
+  {
+    "id": "ms-03",
+    "topic": "endo",
+    "session": "10_15",
+    "type": "match",
+    "q": "Match each multiplier to its formula:",
+    "pairs": [
+      [
+        "Bank deposit multiplier",
+        "1/(α+β+γ)"
+      ],
+      [
+        "Credit multiplier",
+        "(1−α−β)/(α+β+γ)"
+      ],
+      [
+        "Money multiplier",
+        "(1+γ)/(α+β+γ)"
+      ]
+    ],
+    "explain": "Checks: CR = BD − MBB, and MB = MBB + MBP at the end of the process."
+  },
+  {
+    "id": "ms-04",
+    "topic": "endo",
+    "session": "10_15",
+    "type": "mc",
+    "q": "Which comparative-statics result of the traditional multiplier is correct?",
+    "options": [
+      "dM/dH > 0, and M falls when α, β or γ rise",
+      "M rises when γ rises, because currency is part of M",
+      "M rises when β rises, because reserves are part of the base",
+      "M is independent of α, which is set by law"
+    ],
+    "explain": "α, β and γ all sit in the denominator, so a rise in any of them lowers the multiplier. β (not α) is the coefficient set by law."
+  },
+  {
+    "id": "ms-05",
+    "topic": "endo",
+    "session": "10_15",
+    "type": "mc",
+    "q": "The two assumptions the exogenous-money (monetarist) school needs to say the central bank controls M by setting H:",
+    "options": [
+      "The multiplier is given or predictable, and credit actually disbursed equals potential credit",
+      "Money demand is unstable, and banks hold large excess reserves",
+      "Interest rates are set by the central bank, and loans create deposits",
+      "Prices are rigid, and the public holds no currency"
+    ],
+    "explain": "Banks have no incentive to hold excess reserves (a loan earns the spread) and there is always a queue of unsatisfied borrowers."
+  },
+  {
+    "id": "ms-06",
+    "topic": "endo",
+    "session": "10_15",
+    "type": "mc",
+    "q": "In the multiplier model with interest rates, a rise in the central bank's marginal lending rate r_of...",
+    "options": [
+      "Lowers M: banks hold more free reserves because borrowing from the central bank costs more",
+      "Raises M: banks lend more to compensate",
+      "Raises M through higher deposit rates",
+      "Leaves M unchanged, since only MB matters"
+    ],
+    "explain": "M = Φ(MB⁺, r_bd⁺, r_cr⁺, r_of⁻, β⁻). Higher deposit rate → less cash → M up; higher lending rate → fewer idle reserves → M up."
+  },
+  {
+    "id": "ms-07",
+    "topic": "endo",
+    "session": "10_15",
+    "type": "tf",
+    "q": "In the interest-rate version of the multiplier, deposits can no longer be regarded as rigidly determined by the monetary base.",
+    "answer": true,
+    "explain": "The denominator looks like the old multiplier, but the numerator now contains r_bd, r_cr and r_of: portfolios adjust to relative returns."
+  },
+  {
+    "id": "ms-08",
+    "topic": "endo",
+    "session": "10_15",
+    "type": "mc",
+    "q": "The monetarist reply that the multiplier is predictable 'on average' rests on evidence by...",
+    "options": [
+      "Friedman, Schwartz and Cagan: changes in H explain about 90% of changes in M",
+      "Goodhart: the authorities must adapt H to the private sector",
+      "Kaldor: V is stable because M is unstable",
+      "Tooke and Fullarton: money follows the needs of trade"
+    ],
+    "explain": "Counter-evidence: in the 1980s central banks couldn't predict the multiplier and moved to setting interest rates."
+  },
+  {
+    "id": "ms-09",
+    "topic": "endo",
+    "session": "10_15",
+    "type": "mc",
+    "q": "Goodhart's (1982) point about the multiplier:",
+    "options": [
+      "Even with a predictable multiplier, the authorities would be forced to adapt the base to changes in m determined by the private sector",
+      "The multiplier is constant in the long run, so base control works",
+      "Banks never hold excess reserves",
+      "Central banks should target M3 instead of M1"
+    ],
+    "explain": "Offsetting unforeseen changes in m is impossible; offsetting foreseen ones means H follows private behaviour anyway."
+  },
+  {
+    "id": "ms-10",
+    "topic": "endo",
+    "session": "10_15",
+    "type": "mc",
+    "q": "In the modern endogenous-money view, causality runs...",
+    "options": [
+      "From loans to deposits to the monetary base",
+      "From the monetary base to reserves to loans",
+      "From money to prices to output",
+      "From saving to deposits to loans"
+    ],
+    "explain": "Banks lend first; if they need liquidity they ask the central bank, which accommodates to keep control of the interest rate."
+  },
+  {
+    "id": "ms-11",
+    "topic": "endo",
+    "session": "10_15",
+    "type": "match",
+    "q": "Match the authors to their place in the endogenous-money story:",
+    "pairs": [
+      [
+        "Tooke and Fullarton",
+        "19th-century English banking school"
+      ],
+      [
+        "Wicksell",
+        "Neoclassical tradition: money follows the needs of trade"
+      ],
+      [
+        "Kaldor, Moore, Goodhart",
+        "Modern revival: the central bank controls rates, not quantity"
+      ],
+      [
+        "Radcliffe Report",
+        "Defensive operations to regulate the structure of rates"
+      ]
+    ],
+    "explain": "Mill and Marx are also cited among the 19th-century sources; Woodford among the modern names."
+  },
+  {
+    "id": "ms-12",
+    "topic": "endo",
+    "session": "10_15",
+    "type": "mc",
+    "q": "Why is it hard for the central bank to cut credit in the short run? Pick the reason the lecturer gave.",
+    "options": [
+      "Bank loans are non-marketable and credit lines already granted can't readily be withdrawn",
+      "Banks are legally obliged to lend to all applicants",
+      "The central bank cannot change interest rates",
+      "Required reserves are too high to change"
+    ],
+    "explain": "Also: no definite relation between r and loan demand. Anecdote: the lecturer refused to give up a €20,000 credit line."
+  },
+  {
+    "id": "ms-13",
+    "topic": "endo",
+    "session": "10_15",
+    "type": "mc",
+    "q": "If the central bank raises required reserves, why might credit not change?",
+    "options": [
+      "Because it supplies the extra liquidity through refinancing, to keep its chosen interest rate",
+      "Because banks ignore reserve requirements",
+      "Because required reserves don't count as base money",
+      "Because the public holds more currency"
+    ],
+    "explain": "If it didn't accommodate, loan supply would fall and the rate would rise: usually not what the central bank wants. Indirect effect: banks may widen the spread."
+  },
+  {
+    "id": "ms-14",
+    "topic": "endo",
+    "session": "10_15",
+    "type": "mc",
+    "q": "What happened in the early-1980s 'monetarist experiments' of controlling the money supply?",
+    "options": [
+      "Very high and volatile interest rates and a strong crisis (US, UK, Italy)",
+      "Stable rates and fast disinflation with no output cost",
+      "The money multiplier became perfectly predictable",
+      "Central banks closed the discount window permanently"
+    ],
+    "explain": "Unexpected and unwanted fluctuations in rates; one reason central banks moved to rate-setting."
+  },
+  {
+    "id": "ms-15",
+    "topic": "endo",
+    "session": "10_15",
+    "type": "tf",
+    "q": "Even monetarists admit that under fixed exchange rates money is endogenous.",
+    "answer": true,
+    "explain": "Reserve inflows and outflows through the balance of payments change the base."
+  },
+  {
+    "id": "ms-16",
+    "topic": "endo",
+    "session": "10_15",
+    "type": "mc",
+    "q": "Why does the digital-euro debate insist that holdings must be capped?",
+    "options": [
+      "If the public held all base money at the central bank, banks could create no bank money",
+      "Because digital euros pay a higher interest rate than deposits",
+      "Because the ECB cannot legally issue digital money",
+      "To keep seigniorage with commercial banks"
+    ],
+    "explain": "With 100% of the base outside banks, the central bank itself would have to lend to households and firms."
+  },
+  {
+    "id": "ms-17",
+    "topic": "endo",
+    "session": "10_16",
+    "type": "mc",
+    "q": "With endogenous money, a rise in money demand (e.g. higher nominal income) leads to...",
+    "options": [
+      "Higher M at the same r, with V unchanged",
+      "A higher r with M fixed, so V rises",
+      "A lower price level",
+      "No change in M or r"
+    ],
+    "explain": "The money supply is horizontal at the central bank's rate r*. The second option is the exogenous (Keynes / IS-LM) case."
+  },
+  {
+    "id": "ms-18",
+    "topic": "endo",
+    "session": "10_16",
+    "type": "mc",
+    "q": "Kaldor's famous answer to Friedman's stable velocity:",
+    "options": [
+      "V is stable only because M is 'unstable': M adjusts to money demand",
+      "V is stable, which proves the quantity theory",
+      "V is unstable, which proves liquidity preference",
+      "V depends only on payment habits"
+    ],
+    "explain": "A stable V proves nothing about the quantity theory. Keynes and the monetarists both assumed M exogenous; the lecturer said this can be a question."
+  },
+  {
+    "id": "ms-19",
+    "topic": "endo",
+    "session": "10_16",
+    "type": "mc",
+    "q": "According to Kaldor, why did Keynes treat money as exogenous in the General Theory?",
+    "options": [
+      "He was still thinking of commodity money (gold), whose supply can't adapt to demand",
+      "He believed the central bank controls the money multiplier exactly",
+      "He followed Friedman's empirical results",
+      "He thought credit lines could be cancelled at will"
+    ],
+    "explain": "In a credit economy, excess balances are extinguished by repaying debt or buying interest-bearing assets. Exogenous M gave Friedman the V-stability test."
+  },
+  {
+    "id": "ms-20",
+    "topic": "endo",
+    "session": "10_16",
+    "type": "match",
+    "q": "Match the school to its loan / money supply curve:",
+    "pairs": [
+      [
+        "Horizontalists (Kaldor, Moore, Lavoie)",
+        "Horizontal at the central bank rate + mark-up"
+      ],
+      [
+        "Structuralists (Davidson, Minsky-inspired)",
+        "Upward-sloping: more credit only at higher rates (increasing risk)"
+      ],
+      [
+        "Exogenous money (IS-LM)",
+        "Vertical: M fixed by the central bank"
+      ]
+    ],
+    "explain": "For both post-Keynesian schools money is endogenous; they differ on whether more money comes with higher rates."
+  },
+  {
+    "id": "ms-21",
+    "topic": "endo",
+    "session": "10_16",
+    "type": "mc",
+    "q": "Lavoie's reconciliation of horizontalists and structuralists:",
+    "options": [
+      "One horizontal supply curve per risk class, plus rationing between classes (notional vs actual demand)",
+      "A single upward-sloping curve for all borrowers",
+      "A vertical money supply in crises, horizontal otherwise",
+      "Interest rates set by the market, not the central bank"
+    ],
+    "explain": "Within each risk class banks meet requests at that class's rate; riskier classes are rationed or charged more."
+  },
+  {
+    "id": "ms-22",
+    "topic": "endo",
+    "session": "10_16",
+    "type": "tf",
+    "q": "Lavoie argues that more lending with unused resources need not raise the private debt/GDP ratio, since income rises too.",
+    "answer": true,
+    "explain": "What holds for one bank needn't hold for the economy. Conversely, cutting credit can raise the ratio as income falls (same logic as austerity)."
+  },
+  {
+    "id": "ms-23",
+    "topic": "endo",
+    "session": "10_16",
+    "type": "mc",
+    "q": "In the New Keynesian model, why do Lavoie and others say money is not truly endogenous?",
+    "options": [
+      "The policy rule makes the market rate converge to the natural rate in the long run",
+      "The LM curve is vertical",
+      "Banks hold 100% reserves",
+      "The central bank sets the money supply, not a rate"
+    ],
+    "explain": "The LM curve is replaced by a Taylor-type rule, but the long-run anchor is still the natural rate."
+  },
+  {
+    "id": "ms-24",
+    "topic": "endo",
+    "session": "10_16",
+    "type": "tf",
+    "q": "For the lecturer, a fall in the interest rate raises loan demand as strongly as a rise lowers it.",
+    "answer": false,
+    "explain": "The rate–loan demand link is weaker than assumed and asymmetric: a rise can bite, a fall doesn't necessarily raise loans."
+  },
+  {
+    "id": "ms-25",
+    "topic": "endo",
+    "session": "10_16",
+    "type": "mc",
+    "q": "Why are the central bank's operations called 'defensive'?",
+    "options": [
+      "Restrictive operations push banks to the discount window at the central bank's rate, which stays open to avoid sharp rate swings",
+      "They defend the exchange rate only",
+      "They defend banks from all losses",
+      "They target a fixed quantity of base money"
+    ],
+    "explain": "Closing the window would make interbank rates fluctuate sharply, against the goal of controlling the term structure."
+  },
+  {
+    "id": "lr-01",
+    "topic": "longrun",
+    "session": "10_20",
+    "type": "match",
+    "q": "For each comparison of monetary models, what must you check? Match:",
+    "pairs": [
+      [
+        "First",
+        "How the interest rate is determined"
+      ],
+      [
+        "Second",
+        "How that rate relates to the other variables"
+      ],
+      [
+        "Third",
+        "Whether money's effects last only in the short run or also in the long run"
+      ]
+    ],
+    "explain": "Different models imply different policy prescriptions and a different relation between monetary and fiscal policy."
+  },
+  {
+    "id": "lr-02",
+    "topic": "longrun",
+    "session": "10_20",
+    "type": "mc",
+    "q": "In the dominant (marginalist) theory, the equilibrium interest rate is...",
+    "options": [
+      "The price balancing saving and investment, reflecting productivity and thrift",
+      "Set by the central bank in the money market",
+      "Determined by liquidity preference",
+      "A conventional rate set by expectations"
+    ],
+    "explain": "It is a real phenomenon, the reward for abstaining from current consumption; in the long run it can't transmit monetary impulses."
+  },
+  {
+    "id": "lr-03",
+    "topic": "longrun",
+    "session": "10_20",
+    "type": "mc",
+    "q": "In the simple neoclassical model, how many equations, and how are they split?",
+    "options": [
+      "Nine: seven for the real sector, two for the money market",
+      "Seven: five real, two monetary",
+      "Nine: five real, four monetary",
+      "Five: all real"
+    ],
+    "explain": "Labour demand, labour supply, labour clearing, production function, saving, investment, S = I; then the quantity theory side."
+  },
+  {
+    "id": "lr-04",
+    "topic": "longrun",
+    "session": "10_20",
+    "type": "mc",
+    "q": "Why does the simple model assume a single commodity physically homogeneous with capital?",
+    "options": [
+      "To avoid the problem of measuring capital",
+      "Because the labour supply is fixed",
+      "To make money neutral",
+      "To allow multiple equilibria"
+    ],
+    "explain": "'Corn with corn': capital can be measured in physical units, avoiding the capital-measurement problems."
+  },
+  {
+    "id": "lr-05",
+    "topic": "longrun",
+    "session": "10_20",
+    "type": "mc",
+    "q": "What lies behind the decreasing labour demand curve in a one-good model?",
+    "options": [
+      "Substitution between factors: when w rises relative to r, firms use techniques with less labour per unit of capital",
+      "Substitution between goods in consumption",
+      "Fixed proportions in production",
+      "The quantity theory of money"
+    ],
+    "explain": "With one good there is no substitution between goods. Profit maximisation gives MPL = real wage."
+  },
+  {
+    "id": "lr-06",
+    "topic": "longrun",
+    "session": "10_20",
+    "type": "tf",
+    "q": "In this model, 'the saver is the friend of labour' because saving raises the capital stock and so the real wage.",
+    "answer": true,
+    "explain": "More K shifts the MPL curve up and right; with a given labour supply, labour is scarcer and w rises."
+  },
+  {
+    "id": "lr-07",
+    "topic": "longrun",
+    "session": "10_20",
+    "type": "mc",
+    "q": "Starting from unemployment, which sequence brings the economy to full employment in this model?",
+    "options": [
+      "w falls → N and Y rise → S shifts right → r falls → I rises … until potential output",
+      "w rises → C rises → Y rises → r rises",
+      "M rises → P rises → real wage falls → N rises",
+      "r rises → S rises → I rises → Y rises"
+    ],
+    "explain": "Repeated until output is at potential; the r reached then is the natural rate."
+  },
+  {
+    "id": "lr-08",
+    "topic": "longrun",
+    "session": "10_20",
+    "type": "mc",
+    "q": "The natural interest rate in marginalist theory is...",
+    "options": [
+      "The rate that equalises saving and investment when output equals potential output",
+      "The central bank's policy rate",
+      "The rate at which money demand becomes infinite",
+      "The long-term bond rate"
+    ],
+    "explain": "Behind I: productivity (MPK). Behind S: thrift (time preference)."
+  },
+  {
+    "id": "lr-09",
+    "topic": "longrun",
+    "session": "10_20",
+    "type": "mc",
+    "q": "The optimal saving choice is reached when...",
+    "options": [
+      "The marginal rate of time preference ρ equals the interest rate r",
+      "ρ = 0",
+      "Saving equals income",
+      "The marginal utility of present consumption is zero"
+    ],
+    "explain": "U′(C₀)/U′(C₁) = 1 + ρ = 1 + r: the subjective price of waiting equals the objective return (MPK)."
+  },
+  {
+    "id": "lr-10",
+    "topic": "longrun",
+    "session": "10_20",
+    "type": "mc",
+    "q": "If ρ < r, the agent...",
+    "options": [
+      "Cuts current consumption and raises future consumption until ρ rises to r",
+      "Raises current consumption",
+      "Holds more money",
+      "Stops saving altogether"
+    ],
+    "explain": "Less C₀ raises its marginal utility and lowers that of C₁, so ρ rises until it equals r."
+  },
+  {
+    "id": "lr-11",
+    "topic": "longrun",
+    "session": "10_20",
+    "type": "tf",
+    "q": "The marginal rate of time preference is usually assumed positive and decreasing as present consumption rises.",
+    "answer": true,
+    "explain": "Impatience: one unit today only for more than one tomorrow. Decreasing because of diminishing marginal utility."
+  },
+  {
+    "id": "lr-12",
+    "topic": "longrun",
+    "session": "10_20",
+    "type": "mc",
+    "q": "Why is money neutral in the simple neoclassical model?",
+    "options": [
+      "The real side is a self-contained subsystem; money only fixes the absolute price level",
+      "Money enters the utility function",
+      "Prices are rigid",
+      "The central bank sets the real interest rate"
+    ],
+    "explain": "The classical dichotomy: seven real equations fix all real variables; the quantity theory fixes P."
+  },
+  {
+    "id": "lr-13",
+    "topic": "longrun",
+    "session": "10_20",
+    "type": "match",
+    "q": "Match the approach to putting money into general equilibrium with its idea:",
+    "pairs": [
+      [
+        "Money in the utility function (Patinkin, Sidrauski)",
+        "Money gives direct utility"
+      ],
+      [
+        "Transaction costs",
+        "Buying with other assets is costly, with money it isn't"
+      ],
+      [
+        "Overlapping generations (Samuelson 1958)",
+        "Money transfers wealth over time"
+      ]
+    ],
+    "explain": "Hahn: without uncertainty there is no reason to hold money in long-run general equilibrium. The course studies MIU in depth."
+  },
+  {
+    "id": "lr-14",
+    "topic": "longrun",
+    "session": "10_20",
+    "type": "mc",
+    "q": "The final message of the Sidrauski model:",
+    "options": [
+      "No dichotomy, but neutrality and even super-neutrality: money growth (inflation) doesn't affect real variables",
+      "Dichotomy and non-neutrality",
+      "Money growth raises the capital–labour ratio",
+      "Inflation lowers steady-state output"
+    ],
+    "explain": "Super-neutrality is stronger than neutrality: even the growth rate of money doesn't matter for real variables."
+  },
+  {
+    "id": "lr-15",
+    "topic": "longrun",
+    "session": "10_20",
+    "type": "mc",
+    "q": "Why does the version of Sidrauski studied in class exclude a labour–leisure choice?",
+    "options": [
+      "With it, labour supply could bend backwards, giving several equilibria and possibly losing super-neutrality",
+      "Because labour supply doesn't exist in the model",
+      "Because leisure enters the production function",
+      "To make money non-neutral"
+    ],
+    "explain": "Several intersections with labour demand mean you must study which equilibria are stable."
+  },
+  {
+    "id": "lr-16",
+    "topic": "longrun",
+    "session": "10_20",
+    "type": "mc",
+    "q": "Why assume that the marginal utility of money tends to infinity as real balances tend to zero?",
+    "options": [
+      "To ensure some money is held in equilibrium",
+      "To ensure money is never held",
+      "To make the utility function linear",
+      "To rule out inflation"
+    ],
+    "explain": "Together with a finite satiation level m̄ (u_m ≤ 0 beyond it), money demand is positive but bounded."
+  },
+  {
+    "id": "lr-17",
+    "topic": "longrun",
+    "session": "10_20",
+    "type": "tf",
+    "q": "In Sidrauski, the agent's utility rises with money balances for given consumption even if the money is never spent.",
+    "answer": true,
+    "explain": "Money gives direct utility, not just indirect utility through the goods it buys: a 'very strong' property."
+  },
+  {
+    "id": "lr-18",
+    "topic": "longrun",
+    "session": "10_20",
+    "type": "mc",
+    "q": "Per capita output at t, with K_{t−1} and N_t and growth rate of labour n, is written...",
+    "options": [
+      "y_t = f( k_{t−1} / (1 + n) )",
+      "y_t = f( k_{t−1} · (1 + n) )",
+      "y_t = f( k_t )",
+      "y_t = f( k_{t−1} ) / (1 + π)"
+    ],
+    "explain": "Lowercase is per worker of its own period: K_{t−1}/N_t = (K_{t−1}/N_{t−1}) / (N_t/N_{t−1}) = k_{t−1}/(1+n)."
+  },
+  {
+    "id": "lr-19",
+    "topic": "longrun",
+    "session": "10_20",
+    "type": "match",
+    "q": "Match the Inada conditions:",
+    "pairs": [
+      [
+        "k → 0",
+        "f′(k) → ∞"
+      ],
+      [
+        "k → ∞",
+        "f′(k) → 0"
+      ]
+    ],
+    "explain": "Plus f′ > 0 and f″ < 0. They avoid corner solutions."
+  },
+  {
+    "id": "lr-20",
+    "topic": "longrun",
+    "session": "10_20",
+    "type": "mc",
+    "q": "In the budget constraint, inherited nominal bonds B_{t−1} in real per capita terms of period t become...",
+    "options": [
+      "b_{t−1} / [(1 + π_t)(1 + n)]",
+      "b_{t−1} · (1 + π_t)(1 + n)",
+      "b_{t−1} / (1 + n)",
+      "b_{t−1} / (1 + π_t)"
+    ],
+    "explain": "Divide by P_{t−1} and N_{t−1}: P_t/P_{t−1} = 1+π, N_t/N_{t−1} = 1+n. Interest i_{t−1} is added on bonds, not on money.",
+    "verified": false
+  },
+  {
+    "id": "lr-21",
+    "topic": "longrun",
+    "session": "10_20",
+    "type": "tf",
+    "q": "The Sidrauski material from 10_20 is part of the midterm exam.",
+    "answer": false,
+    "explain": "The lecturer said it is not part of the midterm, and will say what you must know of it for the final."
+  }
 ]

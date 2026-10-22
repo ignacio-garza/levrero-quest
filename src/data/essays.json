@@ -68,14 +68,49 @@
     "title": "Sidrauski: equilibrium conditions and their meaning",
     "prompt": "Present the Sidrauski model: its equilibrium conditions and their economic meaning.",
     "quote": "When we do the Sidrauski model, there are some equilibrium conditions that I would like you to know, because they have a precise economic meaning.",
-    "where": "10_06 §13, 10_08 §9 · theoretical part (final exam). NOT COVERED IN CLASS YET: add the conditions after the lecture.",
+    "where": "10_06 §13, 10_08 §9, 10_20 §§7–9 · final exam only (not the midterm). Equilibrium conditions still to come: add them after the next lectures.",
     "pending": true,
     "keyPoints": [
-      "Money enters the utility function, so money affects the real equilibrium: no classical dichotomy",
-      "Yet it yields neutrality, and even super-neutrality: the growth rate of money doesn't affect real steady-state variables",
-      "Its structure underlies DSGE models used at central banks (New Keynesian models add imperfections)",
-      "Needs dynamic optimisation; the lecturer explains solutions intuitively",
+      "Why it exists: in long-run GE there is no reason to hold money (Hahn); Sidrauski puts money in the utility function (after Patinkin)",
+      "Money in the utility function removes the dichotomy, yet yields neutrality and even super-neutrality: money growth (inflation) doesn't affect real steady-state variables",
+      "Assumptions: infinite horizon, no uncertainty, no labour–leisure choice (else backward-bending supply, multiple equilibria), services of money proportional to m",
+      "u(c, m) increasing, strictly concave, separable over time; u_m → ∞ as m → 0 (some money held) and a finite satiation level m̄ (not too much)",
+      "Production y_t = f(k_{t−1}/(1+n)), constant returns, Inada conditions; the agent maximises Σ βᵗ u(c_t, m_t)",
+      "Budget constraint: income + transfers + undepreciated capital + [(1+i)b + m]/((1+π)(1+n)) = c + k + b + m",
+      "Its structure underlies the models used at central banks (New Keynesian models add rigidities)",
       "[Add after class] the equilibrium conditions and what each one means economically"
+    ]
+  },
+  {
+    "id": "tobin",
+    "title": "Tobin's portfolio choice: derive the risk–return profile",
+    "prompt": "Present Tobin's portfolio choice between money and a risky asset. Derive the risk–return profile and show how a rise in the interest rate affects the demand for money.",
+    "quote": "I can ask you to derive the risk–return profile. It is very simple. But you must do something else.",
+    "where": "10_13 §§3–7, [1:22:00] · intermediate exam flag",
+    "keyPoints": [
+      "Tobin drops Keynes's definite expectation: the highest probability goes to r_e = r₀, so expected capital gain is 0 and risk is σ_g",
+      "Portfolio of money (share a₁, no return, no risk) and a risky security (share a₂ = 1 − a₁)",
+      "Expected return = a₂·r; risk σ_R = a₂·σ_g",
+      "Substituting a₂ = σ_R/σ_g: risk–return profile E(R) = (r/σ_g)·σ_R, a straight line",
+      "Risk-averse investor with convex indifference curves chooses the tangency point; a₂ = σ_R/σ_g gives the risky share",
+      "A rise in r rotates the profile up; if substitution beats income effect, the money share falls: inverse r–money-demand relation without corner solutions",
+      "Limits: lose Keynes's changing expectations; liquidity trap only in special cases (Modigliani: r near zero)"
+    ]
+  },
+  {
+    "id": "kaldor",
+    "title": "Kaldor vs Friedman: is a stable V proof of the quantity theory?",
+    "prompt": "Friedman takes the stability of velocity as evidence for the quantity theory. Explain Kaldor's answer, and his criticism of Keynes.",
+    "quote": "V is constant or stable only because M is 'unstable'. … This can be a question on the slides.",
+    "where": "10_16 §§4–5 (D2 79–81); background 10_08, 10_09 §8, 10_15",
+    "keyPoints": [
+      "With endogenous money the central bank sets r*; the money supply is horizontal at r*",
+      "A rise in money demand (nominal income) raises M at the same r, so V stays unchanged",
+      "With exogenous M (Keynes's liquidity preference, IS-LM), higher income raises r and so V: velocity is not stable",
+      "Kaldor: V is stable only because M is 'unstable', i.e. M adapts to the demand for money; a stable V proves nothing about the quantity theory",
+      "Keynes and the monetarists both assume M exogenous; Keynes's exogenous M gave Friedman the V-stability test",
+      "Keynes erred by thinking in terms of commodity money (gold), whose supply can't adapt; in a credit economy excess balances are extinguished (repaying debt, buying interest-bearing assets)",
+      "Worked contrast with M·V(r) = Y: Friedman, M changes → nominal Y changes; Kaldor, Y changes → M adjusts at the given rate"
     ]
   }
 ]

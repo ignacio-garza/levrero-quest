@@ -58,5 +58,8 @@ export function topicMastery(pool: Question[], cards: Record<string, CardState>,
   const qs = pool.filter((q) => q.topic === topic)
   const mastered = qs.filter((q) => isMastered(cards[q.id])).length
   const seen = qs.filter((q) => (cards[q.id]?.seen ?? 0) > 0).length
-  return { total: qs.length, mastered, seen }
+  // Partial credit for every box climbed, so the bar moves after each round, not only on mastery.
+  const climbed = qs.reduce((a, q) => a + Math.min(cards[q.id]?.box ?? 0, MASTERED_BOX), 0)
+  const score = qs.length ? climbed / (qs.length * MASTERED_BOX) : 0
+  return { total: qs.length, mastered, seen, score }
 }

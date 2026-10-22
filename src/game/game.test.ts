@@ -2,9 +2,9 @@ import { describe, expect, it } from 'vitest'
 import { QUESTIONS } from '../data'
 import { GENERATORS } from './generators'
 import { forwardRate, makeForwardDrill } from './forward'
-import { applyAnswer, pickRound, weakSpots } from './scheduler'
+import { applyAnswer, pickRound, topicMastery, weakSpots } from './scheduler'
 import { gradeNumber, parseNumber, prepare } from './prepare'
-import { touchDay, emptyProgress } from './store'
+import { touchDay, emptyProgress, parseBackup } from './store'
 import { levelFor, xpForLevel } from './xp'
 
 // deterministic rng
@@ -127,5 +127,29 @@ describe('xp and streak', () => {
     expect(p.dayStreak).toBe(2)
     p = touchDay(p, new Date(2026, 9, 13))
     expect(p.dayStreak).toBe(1)
+  })
+})
+
+describe('topic progress', () => {
+  it('moves after a single correct answer, before anything is mastered', () => {
+    const q = QUESTIONS.find((x) => x.topic === 'endo')!
+    const cards = { [q.id]: applyAnswer(undefined, true) }
+    const m = topicMastery(QUESTIONS, cards, 'endo')
+    expect(m.mastered).toBe(0)
+    expect(m.seen).toBe(1)
+    expect(m.score).toBeGreaterThan(0)
+  })
+
+  it('reaches 100% only when every question is mastered', () => {
+    const qs = QUESTIONS.filter((x) => x.topic === 'longrun')
+    const cards = Object.fromEntries(qs.map((x) => [x.id, { box: 5, seen: 5, correct: 5, wrong: 0 }]))
+    expect(topicMastery(QUESTIONS, cards, 'longrun').score).toBe(1)
+  })
+
+  it('round-trips a backup and rejects foreign files', () => {
+    const p = { ...emptyProgress(), xp: 42, cards: { a: { box: 2, seen: 2, correct: 2, wrong: 0 } } }
+    expect(parseBackup(JSON.stringify(p))).toEqual(p)
+    expect(parseBackup('{"foo":1}')).toBeNull()
+    expect(parseBackup('not json')).toBeNull()
   })
 })

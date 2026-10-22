@@ -82,6 +82,8 @@ button.primary { background: var(--accent); color: var(--accent-text); border-co
 button.big { padding: 14px 18px; font-size: 1.05rem; }
 button.ghost { background: transparent; border-color: transparent; color: var(--muted); }
 button.ghost.danger:hover { color: var(--bad); }
+.file-btn { cursor: pointer; padding: 8px 12px; color: var(--muted); }
+.file-btn:hover { color: var(--text, inherit); }
 
 .card {
   background: var(--surface);

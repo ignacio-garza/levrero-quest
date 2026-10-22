@@ -7,6 +7,8 @@ export type TopicId =
   | 'rates'
   | 'sfc'
   | 'qt'
+  | 'endo'
+  | 'longrun'
 
 interface Base {
   id: string
