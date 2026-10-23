@@ -68,8 +68,7 @@
     "title": "Sidrauski: equilibrium conditions and their meaning",
     "prompt": "Present the Sidrauski model: its equilibrium conditions and their economic meaning.",
     "quote": "When we do the Sidrauski model, there are some equilibrium conditions that I would like you to know, because they have a precise economic meaning.",
-    "where": "10_06 §13, 10_08 §9, 10_20 §§7–9 · final exam only (not the midterm). Equilibrium conditions still to come: add them after the next lectures.",
-    "pending": true,
+    "where": "10_06 §13, 10_08 §9, 10_20 §§7–9, 10_22 §§1–13, 10_23 §§1–3 (D3 15–39) · final exam only (not the midterm)",
     "keyPoints": [
       "Why it exists: in long-run GE there is no reason to hold money (Hahn); Sidrauski puts money in the utility function (after Patinkin)",
       "Money in the utility function removes the dichotomy, yet yields neutrality and even super-neutrality: money growth (inflation) doesn't affect real steady-state variables",
@@ -78,7 +77,13 @@
       "Production y_t = f(k_{t−1}/(1+n)), constant returns, Inada conditions; the agent maximises Σ βᵗ u(c_t, m_t)",
       "Budget constraint: income + transfers + undepreciated capital + [(1+i)b + m]/((1+π)(1+n)) = c + k + b + m",
       "Its structure underlies the models used at central banks (New Keynesian models add rigidities)",
-      "[Add after class] the equilibrium conditions and what each one means economically"
+      "Bellman: max u(c,m) + βV(ω_{t+1}), substituting k = ω − c − m − b; transversality: no gain in postponing consumption forever",
+      "Condition 1 (bonds): (1+i)/(1+π) = f_k + 1 − δ, the Fisher equation; r is fixed by the net MPK, so i absorbs inflation",
+      "Condition 2 (money): u_m + βu_c(t+1)/[(1+π)(1+n)] = u_c; direct + inflation- and population-eroded indirect benefit = marginal utility of consumption",
+      "Condition 3: u_m/u_c = i/(1+i), MRS = opportunity cost of money; higher π → higher i → less m relative to c",
+      "Stationary state (n = 0, π = ϑ): only real m = M/P appears → neutrality; f_k(k_ss) − δ = 1/β − 1, no ϑ → super-neutrality of k (Cobb-Douglas: k_ss depends on α, β, δ)",
+      "c_ss = f(k_ss) − δk_ss: helicopter transfers cancel in the budget constraint, so consumption is super-neutral too",
+      "ϑ still changes π, i and m, hence utility: the starting point for the optimum quantity of money (Friedman rule)"
     ]
   },
   {

@@ -9,6 +9,7 @@ export type TopicId =
   | 'qt'
   | 'endo'
   | 'longrun'
+  | 'optimum'
 
 interface Base {
   id: string

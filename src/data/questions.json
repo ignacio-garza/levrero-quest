@@ -3630,5 +3630,557 @@
     "q": "The Sidrauski material from 10_20 is part of the midterm exam.",
     "answer": false,
     "explain": "The lecturer said it is not part of the midterm, and will say what you must know of it for the final."
+  },
+  {
+    "id": "sid-01",
+    "topic": "longrun",
+    "session": "10_22",
+    "type": "mc",
+    "q": "In the Bellman approach to Sidrauski's problem, what does the continuation value V_{t+1}(ω_{t+1}) summarise?",
+    "options": [
+      "The discounted value of future utility, assuming all future choices are optimal",
+      "Future consumption only",
+      "The present value of future taxes",
+      "The stock of money inherited from the past"
+    ],
+    "explain": "Bellman turns the dynamic problem into a sequence of static ones: current utility + βV of next period's resources."
+  },
+  {
+    "id": "sid-02",
+    "topic": "longrun",
+    "session": "10_22",
+    "type": "mc",
+    "q": "How does the budget constraint disappear from the Bellman problem?",
+    "options": [
+      "Substitute k_t = ω_t − c_t − m_t − b_t into next period's resources, leaving an unconstrained problem in c, b, m",
+      "Set the Lagrange multiplier to zero",
+      "Assume money is not held in equilibrium",
+      "Drop the capital stock from the model"
+    ],
+    "explain": "With k substituted, the choice variables are c, b and m; k is not a separate choice."
+  },
+  {
+    "id": "sid-03",
+    "topic": "longrun",
+    "session": "10_22",
+    "type": "mc",
+    "q": "What does the transversality condition say, in the lecturer's words?",
+    "options": [
+      "Roughly, there is no benefit in postponing consumption indefinitely merely to leave wealth unused",
+      "Consumption must be constant over time",
+      "Money growth equals inflation",
+      "The real rate equals time preference in every period"
+    ],
+    "explain": "lim β^t λ_t x_t = 0 for x = k, b, m: no over-saving along the optimal path."
+  },
+  {
+    "id": "sid-04",
+    "topic": "longrun",
+    "session": "10_22",
+    "type": "match",
+    "q": "Match each Sidrauski optimality condition with its meaning:",
+    "pairs": [
+      [
+        "(1+i)/(1+π) = f_k + 1 − δ",
+        "Fisher equation: the real rate equals the net MPK"
+      ],
+      [
+        "u_m + βu_c(t+1)/[(1+π)(1+n)] = u_c",
+        "Direct + indirect benefit of money = marginal utility of consumption"
+      ],
+      [
+        "u_m/u_c = i/(1+i)",
+        "MRS money–consumption = opportunity cost of money"
+      ]
+    ],
+    "explain": "The lecturer wants you to know these three conditions and their economic meaning, not the Box 2 derivation."
+  },
+  {
+    "id": "sid-05",
+    "topic": "longrun",
+    "session": "10_22",
+    "type": "mc",
+    "q": "From which choice variable does the Fisher equation come?",
+    "options": [
+      "Bonds b: b is not in u, so only the continuation term matters, and it must be zero",
+      "Consumption c",
+      "Money m",
+      "Leisure"
+    ],
+    "explain": "Raising b lowers k (lost output + undepreciated capital) and adds (1+i)/[(1+n)(1+π)] at t+1; the net effect must be zero."
+  },
+  {
+    "id": "sid-06",
+    "topic": "longrun",
+    "session": "10_22",
+    "type": "mc",
+    "q": "In the Sidrauski model, if expected inflation rises, what happens to the nominal rate?",
+    "options": [
+      "It rises one-for-one (approximately), because the real rate is fixed by the net marginal product of capital",
+      "It falls, since money becomes cheaper",
+      "Nothing: the central bank fixes it",
+      "The real rate falls instead"
+    ],
+    "explain": "r = f_k − δ is set on the real side; i ≈ r + π^e absorbs inflation."
+  },
+  {
+    "id": "sid-07",
+    "topic": "longrun",
+    "session": "10_22",
+    "type": "mc",
+    "q": "The marginal benefit of an extra unit of real balances has an indirect part. Why is it divided by (1+π)(1+n)?",
+    "options": [
+      "At t+1 inflation cuts its purchasing power and population growth reduces it per capita",
+      "Because money pays interest i",
+      "Because of depreciation δ",
+      "Because utility is discounted twice"
+    ],
+    "explain": "One unit at t = 1/[(1+π)(1+n)] real per capita units at t+1, spent on consumption and discounted by β."
+  },
+  {
+    "id": "sid-08",
+    "topic": "longrun",
+    "session": "10_22",
+    "type": "mc",
+    "q": "Why is the opportunity cost of money i/(1+i) rather than i?",
+    "options": [
+      "The interest i is received next period; in real terms it is i/(1+π), discounted at 1+r, giving i/[(1+r)(1+π)] = i/(1+i)",
+      "Because money pays a small interest",
+      "Because of population growth",
+      "Because the Fisher equation is only an approximation"
+    ],
+    "explain": "(1+r)(1+π) = 1+i, so the present value of the forgone interest is i/(1+i)."
+  },
+  {
+    "id": "sid-09",
+    "topic": "longrun",
+    "session": "10_22",
+    "type": "mc",
+    "q": "If the opportunity cost i/(1+i) rises, how do agents adjust to restore u_m/u_c = i/(1+i)?",
+    "options": [
+      "Hold less money (u_m rises) and consume more (u_c falls)",
+      "Hold more money and consume less",
+      "Raise both money and consumption",
+      "Nothing changes: money is neutral"
+    ],
+    "explain": "A change in i changes the stock of money relative to consumption."
+  },
+  {
+    "id": "sid-10",
+    "topic": "longrun",
+    "session": "10_22",
+    "type": "tf",
+    "q": "Sidrauski's model removes the classical dichotomy, yet money remains neutral.",
+    "answer": true,
+    "explain": "Money is in u, so the sectors are not separate; but only real balances M/P appear, so a once-for-all change in M only changes P."
+  },
+  {
+    "id": "sid-11",
+    "topic": "longrun",
+    "session": "10_22",
+    "type": "mc",
+    "q": "What does super-neutrality mean?",
+    "options": [
+      "A change in the growth rate of money supply does not affect the real equilibrium (k, c, y)",
+      "A once-and-for-all change in M only changes P",
+      "Money does not enter the utility function",
+      "Inflation is always zero"
+    ],
+    "explain": "Neutrality concerns the level of M; super-neutrality its growth rate ϑ."
+  },
+  {
+    "id": "sid-12",
+    "topic": "longrun",
+    "session": "10_22",
+    "type": "mc",
+    "q": "Sidrauski's model is best described as...",
+    "options": [
+      "A Ramsey–Cass–Koopmans model with money in the utility function",
+      "A Solow model with a fixed saving rate",
+      "An overlapping generations model",
+      "A Keynesian IS-LM model"
+    ],
+    "explain": "In RCK the saving rate results from intertemporal utility maximisation by a representative agent."
+  },
+  {
+    "id": "sid-13",
+    "topic": "longrun",
+    "session": "10_22",
+    "type": "mc",
+    "q": "In the neoclassical (Solow) model, which variable adjusts to make the warranted rate s/v equal the natural rate?",
+    "options": [
+      "v, the capital–output ratio, via the real wage and choice of technique",
+      "s, the propensity to save",
+      "n, population growth",
+      "The money supply"
+    ],
+    "explain": "g < g_n → unemployment → real wage falls → more labour-intensive technique → v falls. Some post-Keynesians adjust s instead."
+  },
+  {
+    "id": "sid-14",
+    "topic": "longrun",
+    "session": "10_22",
+    "type": "mc",
+    "q": "In the stationary state with n = 0, what does the quantity theory imply for inflation?",
+    "options": [
+      "π = ϑ, the money growth rate",
+      "π = 0 always",
+      "π = r",
+      "π = n"
+    ],
+    "explain": "With constant real output and velocity, MV = PY gives π_ss = ϑ (with n > 0, (1+π) = (1+ϑ)/(1+n))."
+  },
+  {
+    "id": "sid-15",
+    "topic": "longrun",
+    "session": "10_22",
+    "type": "mc",
+    "q": "Which condition shows super-neutrality of the capital–labour ratio?",
+    "options": [
+      "f_k(k_ss) − δ = 1/β − 1: ϑ does not appear",
+      "u_m/u_c = i/(1+i)",
+      "(1+i)/(1+ϑ) = f_k + 1 − δ",
+      "M V = P Y"
+    ],
+    "explain": "From the c-condition divided by u_c: the net MPK equals the rate of time preference."
+  },
+  {
+    "id": "sid-16",
+    "topic": "longrun",
+    "session": "10_22",
+    "type": "mc",
+    "q": "Why does the rate of time preference reduce to 1/β − 1 in the stationary state?",
+    "options": [
+      "Consumption is constant, so the marginal utilities of present and future consumption are equal and only β is left",
+      "Because β = 1",
+      "Because money is neutral",
+      "Because δ = 0"
+    ],
+    "explain": "ρ compares marginal utilities today and tomorrow; with c_t = c_{t+1} their ratio is 1."
+  },
+  {
+    "id": "sid-17",
+    "topic": "longrun",
+    "session": "10_22",
+    "type": "mc",
+    "q": "With y = k^α, on which parameters does k_ss depend?",
+    "options": [
+      "Only α, β and δ",
+      "α, β, δ and ϑ",
+      "The parameters of u(c, m)",
+      "Only ϑ"
+    ],
+    "explain": "k_ss = [αβ/(1 + β(δ−1))]^(1/(1−α)): independent of ϑ and of the utility function."
+  },
+  {
+    "id": "sid-18",
+    "topic": "longrun",
+    "session": "10_22",
+    "type": "match",
+    "q": "What does the lecturer want you to know about Sidrauski for the final? Match:",
+    "pairs": [
+      [
+        "Assumptions",
+        "Infinite horizon, additive intertemporal utility, constrained maximisation"
+      ],
+      [
+        "Conditions",
+        "The three optimality conditions and their economic meaning"
+      ],
+      [
+        "Result",
+        "Super-neutrality, shown with a specific production function"
+      ],
+      [
+        "Not required",
+        "The Box 2 derivations"
+      ]
+    ],
+    "explain": "10_22 §11."
+  },
+  {
+    "id": "sid-19",
+    "topic": "longrun",
+    "session": "10_22",
+    "type": "tf",
+    "q": "According to the lecturer, in the neoclassical literature super-neutrality matters more than neutrality.",
+    "answer": false,
+    "explain": "Neutrality is the very important thing; several neoclassicals (Barro, some monetarists) admit that ϑ, especially near hyperinflation, has real effects."
+  },
+  {
+    "id": "opt-01",
+    "topic": "longrun",
+    "session": "10_23",
+    "type": "mc",
+    "q": "In the MIU model, how does newly issued money reach agents?",
+    "options": [
+      "As lump-sum transfers, a kind of helicopter money: τ = ϑm/(1+ϑ)",
+      "Through open market purchases of bonds",
+      "Through bank loans",
+      "Through government purchases of goods"
+    ],
+    "explain": "τ_t = (M_t − M_{t−1})/(P_tN) = ϑm_{t−1}/(1+π); with π = ϑ and constant m, τ_ss = ϑm_ss/(1+ϑ)."
+  },
+  {
+    "id": "opt-02",
+    "topic": "longrun",
+    "session": "10_23",
+    "type": "mc",
+    "q": "In the stationary state (n = 0, b = 0), what is per capita consumption?",
+    "options": [
+      "c_ss = f(k_ss) − δk_ss: net output, since there is no net saving",
+      "c_ss = f(k_ss)",
+      "c_ss = f(k_ss) − δk_ss − ϑm_ss",
+      "c_ss = m_ss/(1+ϑ)"
+    ],
+    "explain": "Substituting τ, the money terms cancel; gross saving only replaces depreciation."
+  },
+  {
+    "id": "opt-03",
+    "topic": "longrun",
+    "session": "10_23",
+    "type": "tf",
+    "q": "In the MIU stationary state, per capita consumption depends on the money growth rate ϑ through the transfer τ.",
+    "answer": false,
+    "explain": "ϑm/(1+ϑ) + m/(1+ϑ) − m = 0: the money terms cancel, so c_ss depends only on α, β, δ."
+  },
+  {
+    "id": "opt-04",
+    "topic": "longrun",
+    "session": "10_23",
+    "type": "mc",
+    "q": "If capital per worker is below k*, what happens?",
+    "options": [
+      "The net MPK exceeds time preference, so consumption is postponed, capital accumulates and its MPK falls back",
+      "Households consume more",
+      "The central bank raises ϑ",
+      "Prices fall"
+    ],
+    "explain": "Conversely, if k > k*, the net MPK is below time preference and households consume more."
+  },
+  {
+    "id": "opt-05",
+    "topic": "longrun",
+    "session": "10_23",
+    "type": "mc",
+    "q": "In the MIU model, what does a higher money growth rate change in the stationary state?",
+    "options": [
+      "Inflation, the nominal interest rate and the opportunity cost of money (and so real balances)",
+      "Capital per worker",
+      "Consumption per worker",
+      "The real interest rate"
+    ],
+    "explain": "Fisher: r is fixed by the MPK, so higher ϑ → higher π → higher i → higher i/(1+i)."
+  },
+  {
+    "id": "opt-06",
+    "topic": "optimum",
+    "session": "10_23",
+    "type": "mc",
+    "q": "Existence of equilibrium m_ss with u = v(c) + h(m): why must a positive, finite level exist?",
+    "options": [
+      "h′ → ∞ as m → 0 and h′ ≤ 0 beyond satiation, while the RHS [i/(1+i)]v′(c) is a non-negative constant; by continuity they cross",
+      "Because money is neutral",
+      "Because the transversality condition holds",
+      "Because i = 0"
+    ],
+    "explain": "Uniqueness needs h′ strictly decreasing (no flat pieces or jumps)."
+  },
+  {
+    "id": "opt-07",
+    "topic": "optimum",
+    "session": "10_23",
+    "type": "mc",
+    "q": "When can the MIU model have multiple equilibria?",
+    "options": [
+      "When u is not separable and the marginal utility of consumption falls as money rises (u_cm < 0)",
+      "When u_cm > 0",
+      "When i = 0",
+      "When n = 0"
+    ],
+    "explain": "Money and consumption are usually assumed complementary (u_cm > 0), which supports uniqueness."
+  },
+  {
+    "id": "opt-08",
+    "topic": "optimum",
+    "session": "10_23",
+    "type": "tf",
+    "q": "The transversality condition by itself guarantees stability in dynamic general equilibrium models.",
+    "answer": false,
+    "explain": "It selects admissible optimal paths (no over-saving); only under this model's assumptions does it select the stable path (Walsh)."
+  },
+  {
+    "id": "opt-09",
+    "topic": "optimum",
+    "session": "10_23",
+    "type": "mc",
+    "q": "How can super-neutrality fail in an MIU model?",
+    "options": [
+      "Add a labour–leisure choice: ϑ changes m, which changes the marginal utility of leisure, labour supply and output",
+      "Make money pay interest",
+      "Set n = 0",
+      "Assume separable utility"
+    ],
+    "explain": "Barro (1995) finds a negative inflation–growth relation. With leisure you keep neutrality but lose super-neutrality, and may get multiple equilibria (backward-bending labour supply)."
+  },
+  {
+    "id": "opt-10",
+    "topic": "optimum",
+    "session": "10_23",
+    "type": "mc",
+    "q": "Why ask about an optimum quantity of money if money is super-neutral?",
+    "options": [
+      "Because ϑ changes real balances, and real balances are in the utility function, so ϑ affects welfare even without changing c or k",
+      "Because ϑ changes capital per worker",
+      "Because the central bank must fix output",
+      "It makes no sense in this model"
+    ],
+    "explain": "Two distinct problems: effects of ϑ on m (yes) and on c and k (not under these assumptions)."
+  },
+  {
+    "id": "opt-11",
+    "topic": "optimum",
+    "session": "10_23",
+    "type": "mc",
+    "q": "Friedman (1969): what is the inefficiency when i > 0?",
+    "options": [
+      "The private cost of holding money (i) exceeds its social marginal cost of production (≈ 0 for fiat money)",
+      "Banks create too much money",
+      "Inflation redistributes wealth",
+      "The real rate exceeds time preference"
+    ],
+    "explain": "People economise on something that costs society nothing; the inefficiency disappears only at i = 0."
+  },
+  {
+    "id": "opt-12",
+    "topic": "optimum",
+    "session": "10_23",
+    "type": "mc",
+    "q": "Why does Friedman's rule (i = 0) imply deflation?",
+    "options": [
+      "r is fixed by the positive net MPK, so with (1+i) = (1+r)(1+π), i = 0 requires π ≈ −r",
+      "Because the central bank sets a negative real rate",
+      "Because output falls",
+      "Because money demand falls"
+    ],
+    "explain": "π = 1/(1+r) − 1 = −r/(1+r) ≈ −r: deflation at about the rate of profit, so money's real return (−π) equals capital's."
+  },
+  {
+    "id": "opt-13",
+    "topic": "optimum",
+    "session": "10_23",
+    "type": "gen",
+    "gen": "friedmanRule"
+  },
+  {
+    "id": "opt-14",
+    "topic": "optimum",
+    "session": "10_23",
+    "type": "mc",
+    "q": "MIU version of Friedman's rule: which condition defines the optimum ϑ?",
+    "options": [
+      "u_m = 0 (satiation), which with u_m/u_c = i/(1+i) and u_c > 0 means i = 0",
+      "u_c = 0",
+      "f_k = 0",
+      "ϑ = n"
+    ],
+    "explain": "c doesn't depend on ϑ, so du/dϑ = u_m·∂m/∂ϑ = 0; with ∂m/∂ϑ ≠ 0, u_m = 0."
+  },
+  {
+    "id": "opt-15",
+    "topic": "optimum",
+    "session": "10_23",
+    "type": "match",
+    "q": "Match each criticism of Friedman's rule with its argument:",
+    "pairs": [
+      [
+        "Phelps (1973)",
+        "Inflation is a tax (seigniorage); compare its cost with other taxes"
+      ],
+      [
+        "Price adjustment (accepted by Friedman)",
+        "Low positive inflation eases relative-price and real-wage adjustment"
+      ]
+    ],
+    "explain": "A lower real wage is easier with rising prices and stable money wages than with money-wage cuts against the unions."
+  },
+  {
+    "id": "opt-16",
+    "topic": "optimum",
+    "session": "10_23",
+    "type": "tf",
+    "q": "The question of an optimum quantity of money was first addressed by Bailey (1956) and Friedman (1969).",
+    "answer": true,
+    "explain": "D3 42."
+  },
+  {
+    "id": "opt-17",
+    "topic": "optimum",
+    "session": "10_23",
+    "type": "mc",
+    "q": "In hyperinflation, what happens to Cambridge k (desired real balances relative to income)?",
+    "options": [
+      "It tends to zero: people spend wages immediately or switch to foreign currency",
+      "It rises",
+      "It stays constant",
+      "It becomes negative"
+    ],
+    "explain": "The lecturer's Argentina example: wages spent within days; pesos exchanged for dollars."
+  },
+  {
+    "id": "opt-18",
+    "topic": "optimum",
+    "session": "10_23",
+    "type": "mc",
+    "q": "Samuelson's OLG model: without money or storable assets, what is the market equilibrium?",
+    "options": [
+      "Autarky: the young consume their endowment and the old consume nothing, which is not Pareto optimal",
+      "The biological solution: half to each generation",
+      "Full employment growth",
+      "A positive interest rate equal to n"
+    ],
+    "explain": "The young give goods today but the old can't give anything back tomorrow, and tomorrow's young aren't born yet."
+  },
+  {
+    "id": "opt-19",
+    "topic": "optimum",
+    "session": "10_23",
+    "type": "mc",
+    "q": "In the OLG model, why do the young accept money from the old?",
+    "options": [
+      "They expect to use it to buy goods when they are old",
+      "The state forces them",
+      "Money pays interest",
+      "They are altruistic"
+    ],
+    "explain": "Money is both means of exchange and store of value; its value rests on expectations (a 'bubble')."
+  },
+  {
+    "id": "opt-20",
+    "topic": "optimum",
+    "session": "10_23",
+    "type": "mc",
+    "q": "OLG balanced path: the real return on money is 1 + r = (1+n)/(1+ϑ). If ϑ < n...",
+    "options": [
+      "Prices fall and the real return on money is positive",
+      "Prices rise and the return is negative",
+      "r = 0",
+      "Money is not valued"
+    ],
+    "explain": "ϑ > n → prices rise, negative return; ϑ = n → r = 0."
+  },
+  {
+    "id": "opt-21",
+    "topic": "optimum",
+    "session": "10_23",
+    "type": "mc",
+    "q": "Samuelson's 'biological' solution with n > 0: why do the old get back more than they gave?",
+    "options": [
+      "The young outnumber the old, so half of a growing endowment is more per old person: like a positive return",
+      "Because of interest on money",
+      "Because of capital accumulation",
+      "Because of inflation"
+    ],
+    "explain": "Samuelson himself says it is not convincing: 'cold and selfish' competitive markets don't support the old merely because they need it."
   }
 ]

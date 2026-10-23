@@ -8,6 +8,13 @@ export const MASTERED_BOX = 4
 /** Leitner-style weights: unseen and low boxes come up far more often than mastered cards. */
 const BOX_WEIGHT = [3, 4, 3, 2, 1.2, 0.5]
 
+/** Sessions up to this one are midterm material (Nov 10: D1 + D2); later ones are final only. */
+export const LAST_MIDTERM_SESSION = '10_16'
+/** Final-only questions come up this many times less often, so mixed rounds focus on the midterm. */
+export const FINAL_ONLY_FACTOR = 0.25
+
+export const isMidterm = (q: Question) => q.session <= LAST_MIDTERM_SESSION
+
 export function weight(c?: CardState): number {
   if (!c || c.seen === 0) return BOX_WEIGHT[0]
   return BOX_WEIGHT[Math.min(c.box, MAX_BOX)]
@@ -35,7 +42,7 @@ export function pickRound(
   const left = [...pool]
   const out: Question[] = []
   while (out.length < size && left.length) {
-    const ws = left.map((q) => weight(cards[q.id]))
+    const ws = left.map((q) => weight(cards[q.id]) * (isMidterm(q) ? 1 : FINAL_ONLY_FACTOR))
     let t = rng() * ws.reduce((a, b) => a + b, 0)
     let idx = 0
     for (; idx < ws.length - 1; idx++) {

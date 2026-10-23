@@ -5,11 +5,11 @@ const read = (p) => JSON.parse(readFileSync(new URL(p, import.meta.url), 'utf8')
 const questions = read('../src/data/questions.json')
 const essays = read('../src/data/essays.json')
 
-const TOPICS = ['money', 'origin', 'liquidity', 'cb', 'policy', 'rates', 'sfc', 'qt', 'endo', 'longrun']
-const SESSIONS = ['09_29', '10_01', '10_02', '10_06', '10_08', '10_09', '10_13', '10_15', '10_16', '10_20']
+const TOPICS = ['money', 'origin', 'liquidity', 'cb', 'policy', 'rates', 'sfc', 'qt', 'endo', 'longrun', 'optimum']
+const SESSIONS = ['09_29', '10_01', '10_02', '10_06', '10_08', '10_09', '10_13', '10_15', '10_16', '10_20', '10_22', '10_23']
 const GENS = [
   'fisher', 'fisherInflation', 'avgShortRates', 'liquidityPremium', 'velocity',
-  'cambridgeDemand', 'newPriceLevel', 'numPrices', 'haircut', 'sectoral',
+  'cambridgeDemand', 'newPriceLevel', 'numPrices', 'haircut', 'sectoral', 'friedmanRule',
 ]
 
 const errors = []

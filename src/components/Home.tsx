@@ -58,6 +58,8 @@ export default function Home({ progress, pool, onQuick, onWeak, onTopic, onEssay
         </button>
       </div>
 
+      <p className="muted small">Rounds favour midterm material: final-only questions (from 10_20 on) come up 4× less often.</p>
+
       <h2>Topics</h2>
       <div className="topics">
         {TOPICS.map((t) => {

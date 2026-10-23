@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest'
 import { QUESTIONS } from '../data'
 import { GENERATORS } from './generators'
 import { forwardRate, makeForwardDrill } from './forward'
-import { applyAnswer, pickRound, topicMastery, weakSpots } from './scheduler'
+import { applyAnswer, isMidterm, pickRound, topicMastery, weakSpots } from './scheduler'
 import { gradeNumber, parseNumber, prepare } from './prepare'
 import { touchDay, emptyProgress, parseBackup } from './store'
 import { levelFor, xpForLevel } from './xp'
@@ -48,6 +48,23 @@ describe('scheduler', () => {
     // a box-1 card should appear several times more often than a mastered one
     expect(hits).toBeGreaterThan(controlHits * 4)
     expect(weakSpots(QUESTIONS, cards).map((q) => q.id)).toEqual([weak])
+  })
+})
+
+describe('midterm weighting', () => {
+  it('picks midterm questions more often than final-only ones in the same box', () => {
+    const mid = QUESTIONS.find(isMidterm)!
+    const fin = QUESTIONS.find((q) => !isMidterm(q))!
+    const pool = [mid, fin, ...QUESTIONS.filter((q) => q !== mid && q !== fin).slice(0, 18)]
+    const rng = seeded(11)
+    let midHits = 0
+    let finHits = 0
+    for (let i = 0; i < 2000; i++) {
+      const round = pickRound(pool, {}, 1, rng)
+      if (round[0] === mid) midHits++
+      if (round[0] === fin) finHits++
+    }
+    expect(midHits).toBeGreaterThan(finHits * 2.5)
   })
 })
 

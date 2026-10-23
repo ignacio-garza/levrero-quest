@@ -146,4 +146,15 @@ export const GENERATORS: Record<string, (r: Rng) => GenResult> = {
       explain: `S = I + (G − T) + (X − M) = ${I} + ${G - T} + ${X - M} = ${S}. An ex post identity, not a causal relationship.`,
     }
   },
+  friedmanRule(r) {
+    const rp = int(r, 1, 5)
+    const n = int(r, 0, 5)
+    return {
+      q: `Friedman rule: net MPK r = ${rp}%, natural growth rate n = ${n}%, constant velocity. What money growth rate ϑ is optimal (approximately)?`,
+      answer: n - rp,
+      tolerance: 0.15,
+      unit: '%',
+      explain: `i = 0 ⟹ π ≈ −r = −${rp}%; quantity theory: ϑ − n ≈ π ⟹ ϑ ≈ ${n} − ${rp} = ${n - rp}%. Prices fall at ${rp}%, so money earns the same real return as capital.`,
+    }
+  },
 }

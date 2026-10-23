@@ -17,7 +17,8 @@ export const TOPICS: Topic[] = [
   { id: 'sfc', name: 'Stock–flow accounting', emoji: '🧮', blurb: 'Stocks, flows, sectoral balances, SFC' },
   { id: 'qt', name: 'Quantity theory & money demand', emoji: '🔢', blurb: 'MV = PT, Cambridge, Friedman, Baumol, Tobin, exam scope' },
   { id: 'endo', name: 'Money supply & endogeneity', emoji: '🏦', blurb: 'Multiplier, rates in the multiplier, accommodation, Kaldor, horizontalists vs structuralists' },
-  { id: 'longrun', name: 'Neoclassical long run & Sidrauski', emoji: '⏳', blurb: 'Loanable funds, natural rate, time preference, dichotomy, MIU assumptions' },
+  { id: 'longrun', name: 'Neoclassical long run & Sidrauski', emoji: '⏳', blurb: 'Loanable funds, natural rate, dichotomy, Sidrauski conditions, super-neutrality · final only' },
+  { id: 'optimum', name: 'Optimum money & OLG', emoji: '🎯', blurb: 'Existence and stability, Friedman rule and deflation, Phelps, Samuelson OLG · final only' },
 ]
 
 export const TOPIC_BY_ID = Object.fromEntries(TOPICS.map((t) => [t.id, t])) as Record<TopicId, Topic>
